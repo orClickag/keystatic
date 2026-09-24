@@ -6,7 +6,7 @@ category: Introduction
 
 ## Router
 
-Please note that the `@keystar/ui/next` package only works with the Next.js
+Please note that the `@orclickag/keystatic-ui/next` package only works with the Next.js
 ["app" router](https://nextjs.org/docs/app). It does not work with the “pages”
 router. We apologise for any inconvenience.
 
@@ -21,7 +21,7 @@ which is exported from the [core package](/package/core).
 
 ```tsx
 // app/layout.tsx
-import { NextRootProvider } from '@keystar/ui/next';
+import { NextRootProvider } from '@orclickag/keystatic-ui/next';
 
 export default function Layout(props) {
   return (
@@ -39,7 +39,7 @@ both headings and body text. Next.js applications must provide the
 `fontClassName` prop to ensure that the font is optimised correctly.
 
 ```tsx
-import { NextRootProvider } from '@keystar/ui/next';
+import { NextRootProvider } from '@orclickag/keystatic-ui/next';
 import { Inter } from 'next/font/google';
 
 // define your font preferences
@@ -65,7 +65,7 @@ client-side JavaScript loads. The script checks for preferences in `localStorage
 adjusts the document’s `classList` accordingly.
 
 ```tsx
-import { NextRootProvider, nextRootScript } from '@keystar/ui/next';
+import { NextRootProvider, nextRootScript } from '@orclickag/keystatic-ui/next';
 
 export default function Layout() {
   return (

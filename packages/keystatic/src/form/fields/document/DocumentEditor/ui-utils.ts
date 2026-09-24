@@ -1,4 +1,4 @@
-import { css } from '@keystar/ui/style';
+import { css } from '@orclickag/keystatic-ui/style';
 import React, {
   useContext,
   useState,

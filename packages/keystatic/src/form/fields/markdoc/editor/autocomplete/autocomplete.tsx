@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { EditorPopover } from '@keystar/ui/editor';
+import { EditorPopover } from '@orclickag/keystatic-ui/editor';
 
 import { useEditorViewRef } from '../editor-view';
 import { useEditorKeydownListener } from '../keydown';

@@ -1,4 +1,4 @@
-import { css, tokenSchema } from '@keystar/ui/style';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
 
 export const listStyles = css({
   borderRadius: 'inherit',

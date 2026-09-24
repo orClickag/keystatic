@@ -4,7 +4,7 @@ import { Mark, Node } from 'prosemirror-model';
 import { EditorState, Selection } from 'prosemirror-state';
 import { tableEditing } from 'prosemirror-tables';
 
-import { tokenSchema } from '@keystar/ui/style';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
 
 import { autocompleteDecoration } from './autocomplete/decoration';
 import { codeBlockSyntaxHighlighting } from './code-block-highlighting';

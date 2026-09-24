@@ -1,6 +1,6 @@
 import { FormFieldInputProps } from '../../api';
-import { Checkbox } from '@keystar/ui/checkbox';
-import { Text } from '@keystar/ui/typography';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 export function CheckboxFieldInput(
   props: FormFieldInputProps<boolean> & {

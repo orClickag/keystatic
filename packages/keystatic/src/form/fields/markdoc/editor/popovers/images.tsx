@@ -1,24 +1,24 @@
-import { ButtonGroup, Button, ActionButton } from '@keystar/ui/button';
+import { ButtonGroup, Button, ActionButton } from '@orclickag/keystatic-ui/button';
 import {
   useDialogContainer,
   Dialog,
   DialogContainer,
-} from '@keystar/ui/dialog';
-import { Divider, Flex } from '@keystar/ui/layout';
-import { Content } from '@keystar/ui/slots';
-import { TextField } from '@keystar/ui/text-field';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/dialog';
+import { Divider, Flex } from '@orclickag/keystatic-ui/layout';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { useMemo, useState } from 'react';
 import { clientSideValidateProp } from '../../../../errors';
 import { FormValueContentFromPreviewProps } from '../../../../form-from-preview';
 import { createGetPreviewProps } from '../../../../preview-props';
 import l10nMessages from '../../../../../app/l10n';
-import { Icon } from '@keystar/ui/icon';
-import { editIcon } from '@keystar/ui/icon/icons/editIcon';
-import { fileUpIcon } from '@keystar/ui/icon/icons/fileUpIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { editIcon } from '@orclickag/keystatic-ui/icon/icons/editIcon';
+import { fileUpIcon } from '@orclickag/keystatic-ui/icon/icons/fileUpIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
 import { getUploadedFileObject } from '../../../image/ui';
 import { EditorState, NodeSelection } from 'prosemirror-state';
 import { useEditorDispatchCommand, useEditorSchema } from '../editor-view';

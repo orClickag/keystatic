@@ -1,5 +1,5 @@
-import { ActionButton } from '@keystar/ui/button';
-import { action } from '@keystar/ui-storybook';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { action } from '@orclickag/keystatic-ui-storybook';
 
 import { AlertDialog, AlertDialogProps, DialogTrigger } from '..';
 import { getParagraph } from './common';

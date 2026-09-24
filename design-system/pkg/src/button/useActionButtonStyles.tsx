@@ -6,7 +6,7 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { ActionButtonProps } from './types';
 

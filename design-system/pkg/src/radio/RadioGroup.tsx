@@ -6,14 +6,14 @@ import React, {
   forwardRef,
 } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive, validateFieldProps } from '@keystar/ui/field';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive, validateFieldProps } from '@orclickag/keystatic-ui/field';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { RadioContext } from './context';
 import { RadioGroupProps } from './types';

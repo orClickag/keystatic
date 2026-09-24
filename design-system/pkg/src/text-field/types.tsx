@@ -7,8 +7,8 @@ import {
 } from 'react';
 import type { AriaTextFieldProps } from 'react-aria/useTextField';
 
-import { FieldProps } from '@keystar/ui/field';
-import { Conditional } from '@keystar/ui/types';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
+import { Conditional } from '@orclickag/keystatic-ui/types';
 
 export type TextFieldProps<
   T extends HTMLInputElement | HTMLTextAreaElement = HTMLInputElement,

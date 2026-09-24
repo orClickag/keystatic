@@ -1,15 +1,15 @@
 import { useAsyncList } from 'react-stately/useAsyncList';
-import { Meta, action } from '@keystar/ui-storybook';
-import { alignCenterVerticalIcon } from '@keystar/ui/icon/icons/alignCenterVerticalIcon';
-import { alignStartVerticalIcon } from '@keystar/ui/icon/icons/alignStartVerticalIcon';
-import { alignEndVerticalIcon } from '@keystar/ui/icon/icons/alignEndVerticalIcon';
-import { copyIcon } from '@keystar/ui/icon/icons/copyIcon';
-import { clipboardCopyIcon } from '@keystar/ui/icon/icons/clipboardCopyIcon';
-import { scissorsIcon } from '@keystar/ui/icon/icons/scissorsIcon';
-import { Icon } from '@keystar/ui/icon';
+import { Meta, action } from '@orclickag/keystatic-ui-storybook';
+import { alignCenterVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignCenterVerticalIcon';
+import { alignStartVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignStartVerticalIcon';
+import { alignEndVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignEndVerticalIcon';
+import { copyIcon } from '@orclickag/keystatic-ui/icon/icons/copyIcon';
+import { clipboardCopyIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardCopyIcon';
+import { scissorsIcon } from '@orclickag/keystatic-ui/icon/icons/scissorsIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 
-import { Flex } from '@keystar/ui/layout';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Item, ListBox, Section } from '..';
 

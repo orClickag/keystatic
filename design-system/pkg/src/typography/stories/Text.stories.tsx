@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Grid } from '@keystar/ui/layout';
+import { Box, Divider, Flex, Grid } from '@orclickag/keystatic-ui/layout';
 
 import { Text } from '../text';
 

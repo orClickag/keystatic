@@ -1,4 +1,4 @@
-import { toDataAttributes } from '@keystar/ui/style';
+import { toDataAttributes } from '@orclickag/keystatic-ui/style';
 import { expect, describe, it } from 'vitest';
 
 describe('utils/toDataAttributes', () => {

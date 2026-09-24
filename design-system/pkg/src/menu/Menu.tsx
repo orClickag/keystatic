@@ -5,8 +5,8 @@ import { useSyncRef } from 'react-aria/private/utils/useSyncRef';
 import { useTreeState } from 'react-stately/useTreeState';
 import React, { RefObject, ReactElement, useContext } from 'react';
 
-import { listStyles } from '@keystar/ui/listbox';
-import { classNames, useStyleProps } from '@keystar/ui/style';
+import { listStyles } from '@orclickag/keystatic-ui/listbox';
+import { classNames, useStyleProps } from '@orclickag/keystatic-ui/style';
 
 import { MenuContext } from './context';
 import { MenuItem } from './MenuItem';

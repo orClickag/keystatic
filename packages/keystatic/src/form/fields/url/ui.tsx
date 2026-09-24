@@ -1,4 +1,4 @@
-import { TextField } from '@keystar/ui/text-field';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
 import { useReducer } from 'react';
 import { FormFieldInputProps } from '../../api';
 import { validateUrl } from './validateUrl';

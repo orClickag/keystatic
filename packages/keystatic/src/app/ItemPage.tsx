@@ -15,30 +15,30 @@ import {
 import * as Y from 'yjs';
 import * as s from 'superstruct';
 
-import { ActionGroup, Item } from '@keystar/ui/action-group';
-import { Badge } from '@keystar/ui/badge';
-import { Button, ButtonGroup } from '@keystar/ui/button';
-import { AlertDialog, Dialog, DialogContainer } from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { copyPlusIcon } from '@keystar/ui/icon/icons/copyPlusIcon';
-import { clipboardCopyIcon } from '@keystar/ui/icon/icons/clipboardCopyIcon';
-import { clipboardPasteIcon } from '@keystar/ui/icon/icons/clipboardPasteIcon';
-import { externalLinkIcon } from '@keystar/ui/icon/icons/externalLinkIcon';
-import { githubIcon } from '@keystar/ui/icon/icons/githubIcon';
-import { historyIcon } from '@keystar/ui/icon/icons/historyIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Box, Flex } from '@keystar/ui/layout';
-import { Notice } from '@keystar/ui/notice';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { Content } from '@keystar/ui/slots';
+import { ActionGroup, Item } from '@orclickag/keystatic-ui/action-group';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { AlertDialog, Dialog, DialogContainer } from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { copyPlusIcon } from '@orclickag/keystatic-ui/icon/icons/copyPlusIcon';
+import { clipboardCopyIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardCopyIcon';
+import { clipboardPasteIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardPasteIcon';
+import { externalLinkIcon } from '@orclickag/keystatic-ui/icon/icons/externalLinkIcon';
+import { githubIcon } from '@orclickag/keystatic-ui/icon/icons/githubIcon';
+import { historyIcon } from '@orclickag/keystatic-ui/icon/icons/historyIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { Notice } from '@orclickag/keystatic-ui/notice';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { Content } from '@orclickag/keystatic-ui/slots';
 import {
   breakpointQueries,
   css,
   tokenSchema,
   useMediaQuery,
-} from '@keystar/ui/style';
-import { TextField } from '@keystar/ui/text-field';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Config } from '../config';
 import { ComponentSchema, GenericPreviewProps, ObjectField } from '../form/api';
@@ -91,7 +91,7 @@ import {
 import { ErrorBoundary } from './error-boundary';
 import { copyEntryToClipboard, getPastedEntry } from './entry-clipboard';
 import { setValueToPreviewProps } from '../form/get-value';
-import { toastQueue } from '@keystar/ui/toast';
+import { toastQueue } from '@orclickag/keystatic-ui/toast';
 
 type ItemPageProps = {
   collection: string;

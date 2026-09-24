@@ -2,10 +2,10 @@ import { Fragment, Slice } from 'prosemirror-model';
 import { Plugin } from 'prosemirror-state';
 import { dropPoint } from 'prosemirror-transform';
 
-import { Icon } from '@keystar/ui/icon';
-import { imageIcon } from '@keystar/ui/icon/icons/imageIcon';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { imageIcon } from '@orclickag/keystatic-ui/icon/icons/imageIcon';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { getUploadedFileObject } from '../../image/ui';
 import { EditorSchema, getEditorSchema } from './schema';

@@ -1,16 +1,16 @@
 import { Transforms } from 'slate';
 import { ReactEditor } from 'slate-react';
 
-import { Item } from '@keystar/ui/action-group';
-import { ActionButton } from '@keystar/ui/button';
-import { alignLeftIcon } from '@keystar/ui/icon/icons/alignLeftIcon';
-import { alignRightIcon } from '@keystar/ui/icon/icons/alignRightIcon';
-import { alignCenterIcon } from '@keystar/ui/icon/icons/alignCenterIcon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Menu, MenuTrigger } from '@keystar/ui/menu';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { Text } from '@keystar/ui/typography';
+import { Item } from '@orclickag/keystatic-ui/action-group';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { alignLeftIcon } from '@orclickag/keystatic-ui/icon/icons/alignLeftIcon';
+import { alignRightIcon } from '@orclickag/keystatic-ui/icon/icons/alignRightIcon';
+import { alignCenterIcon } from '@orclickag/keystatic-ui/icon/icons/alignCenterIcon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Menu, MenuTrigger } from '@orclickag/keystatic-ui/menu';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { DocumentFeatures } from './document-features';
 import { useToolbarState } from './toolbar-state';

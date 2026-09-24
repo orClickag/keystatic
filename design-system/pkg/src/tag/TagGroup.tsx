@@ -27,13 +27,13 @@ import {
   FocusRing,
   css,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
-import { ActionButton } from '@keystar/ui/button';
-import { KeystarProvider, useProviderProps } from '@keystar/ui/core';
-import { type FieldProps, FieldPrimitive } from '@keystar/ui/field';
-import { SlotProvider } from '@keystar/ui/slots';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { KeystarProvider, useProviderProps } from '@orclickag/keystatic-ui/core';
+import { type FieldProps, FieldPrimitive } from '@orclickag/keystatic-ui/field';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import localizedMessages from './l10n';
 import { gapVar, heightVar, radiusVar, tokenValues } from './styles';

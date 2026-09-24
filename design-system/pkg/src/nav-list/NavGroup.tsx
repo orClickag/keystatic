@@ -3,9 +3,9 @@ import { useId } from 'react-aria/useId';
 import { DOMProps } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { Box } from '@keystar/ui/layout';
-import { classNames, css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Box } from '@orclickag/keystatic-ui/layout';
+import { classNames, css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import {
   itemContentGutter,

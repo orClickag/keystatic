@@ -1,9 +1,9 @@
 import { render, RenderOptions } from '@testing-library/react';
-import { TestProvider } from '@keystar/ui/core';
+import { TestProvider } from '@orclickag/keystatic-ui/core';
 import { expect, describe, it } from 'vitest';
 
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { Icon } from '@keystar/ui/icon';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import { createRef, ReactElement } from 'react';
 
 import { Tooltip } from '..';

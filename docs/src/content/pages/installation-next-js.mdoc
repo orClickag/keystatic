@@ -17,7 +17,7 @@ npx create-next-app@latest
 Install two Keystatic packages and `@markdoc/markdoc`:
 
 ```bash
-npm install @keystatic/core @keystatic/next @markdoc/markdoc
+npm install @orclickag/keystatic-core @orclickag/keystatic-next @markdoc/markdoc
 ```
 
 ## Creating a Keystatic config file
@@ -28,7 +28,7 @@ Create a file called `keystatic.config.ts` in the root of the project and add th
 
 ```typescript
 // keystatic.config.ts
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from '@orclickag/keystatic-core';
 
 export default config({
   storage: {
@@ -61,7 +61,7 @@ First, create a `src/app/keystatic/keystatic.ts` file:
 // src/app/keystatic/keystatic.ts
 "use client";
 
-import { makePage } from "@keystatic/next/ui/app";
+import { makePage } from "@orclickag/keystatic-next/ui/app";
 import config from "../../../keystatic.config";
 
 export default makePage(config);
@@ -96,7 +96,7 @@ Finally, create an API route called `src/app/api/keystatic/[...params]/route.ts`
 
 ```tsx
 // src/app/api/keystatic/[...params]/route.ts
-import { makeRouteHandler } from '@keystatic/next/route-handler';
+import { makeRouteHandler } from '@orclickag/keystatic-next/route-handler';
 import config from '../../../../../keystatic.config';
 
 export const { POST, GET } = makeRouteHandler({
@@ -158,7 +158,7 @@ The following example displays a list of each post title, with a link to an indi
 
 ```tsx
 // src/app/posts/page.tsx
-import { createReader } from '@keystatic/core/reader';
+import { createReader } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../../../keystatic.config';
 
 import Link from 'next/link';
@@ -188,7 +188,7 @@ To display content from an individual post, you can use Markdoc's `transform` an
 
 ```tsx
 // src/app/posts/[slug]/page.tsx
-import { createReader } from "@keystatic/core/reader";
+import { createReader } from "@orclickag/keystatic-core/reader";
 import React from "react";
 import Markdoc from "@markdoc/markdoc";
 

@@ -1,17 +1,17 @@
 'use client';
 
-import { ActionButton } from '@keystar/ui/button';
-import { monitorIcon } from '@keystar/ui/icon/icons/monitorIcon';
-import { moonIcon } from '@keystar/ui/icon/icons/moonIcon';
-import { sunIcon } from '@keystar/ui/icon/icons/sunIcon';
-import { Icon } from '@keystar/ui/icon';
-import { MenuTrigger, Menu, Item } from '@keystar/ui/menu';
-import { useRootColorScheme } from '@keystar/ui/next';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { monitorIcon } from '@orclickag/keystatic-ui/icon/icons/monitorIcon';
+import { moonIcon } from '@orclickag/keystatic-ui/icon/icons/moonIcon';
+import { sunIcon } from '@orclickag/keystatic-ui/icon/icons/sunIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { MenuTrigger, Menu, Item } from '@orclickag/keystatic-ui/menu';
+import { useRootColorScheme } from '@orclickag/keystatic-ui/next';
 
-import { SCHEME_AUTO, SCHEME_DARK, SCHEME_LIGHT } from '@keystar/ui/primitives';
-import { css } from '@keystar/ui/style';
-import { ColorScheme } from '@keystar/ui/types';
-import { Text } from '@keystar/ui/typography';
+import { SCHEME_AUTO, SCHEME_DARK, SCHEME_LIGHT } from '@orclickag/keystatic-ui/primitives';
+import { css } from '@orclickag/keystatic-ui/style';
+import { ColorScheme } from '@orclickag/keystatic-ui/types';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 const items = [
   { icon: sunIcon, label: 'Light', key: 'light' },

@@ -9,12 +9,12 @@ import {
 } from '@react-types/shared';
 import { Key, RefObject, useEffect, useMemo, useRef } from 'react';
 
-import { HStack } from '@keystar/ui/layout';
-import { ListBoxBase, listStyles, useListBoxLayout } from '@keystar/ui/listbox';
-import { BaseStyleProps } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { HStack } from '@orclickag/keystatic-ui/layout';
+import { ListBoxBase, listStyles, useListBoxLayout } from '@orclickag/keystatic-ui/listbox';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
-export { Item, Section } from '@keystar/ui/listbox';
+export { Item, Section } from '@orclickag/keystatic-ui/listbox';
 
 export type EditorListboxProps<T> = {
   listenerRef: RefObject<HTMLElement | null>;

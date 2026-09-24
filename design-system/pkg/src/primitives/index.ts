@@ -1,4 +1,4 @@
-// constrain "@keystar/ui" to "@keystar/primitives", without publishing
+// constrain "@orclickag/keystatic-ui" to "@keystar/primitives", without publishing
 export const TOKEN_PREFIX = 'kui';
 
 export const THEME_DEFAULT = `${TOKEN_PREFIX}-theme`;

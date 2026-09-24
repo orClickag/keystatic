@@ -1,17 +1,17 @@
-import { classNames, css, tokenSchema, transition } from '@keystar/ui/style';
-import { fileCodeIcon } from '@keystar/ui/icon/icons/fileCodeIcon';
-import { heading1Icon } from '@keystar/ui/icon/icons/heading1Icon';
-import { heading2Icon } from '@keystar/ui/icon/icons/heading2Icon';
-import { heading3Icon } from '@keystar/ui/icon/icons/heading3Icon';
-import { heading4Icon } from '@keystar/ui/icon/icons/heading4Icon';
-import { heading5Icon } from '@keystar/ui/icon/icons/heading5Icon';
-import { heading6Icon } from '@keystar/ui/icon/icons/heading6Icon';
-import { imageIcon } from '@keystar/ui/icon/icons/imageIcon';
-import { listIcon } from '@keystar/ui/icon/icons/listIcon';
-import { listOrderedIcon } from '@keystar/ui/icon/icons/listOrderedIcon';
-import { quoteIcon } from '@keystar/ui/icon/icons/quoteIcon';
-import { tableIcon } from '@keystar/ui/icon/icons/tableIcon';
-import { separatorHorizontalIcon } from '@keystar/ui/icon/icons/separatorHorizontalIcon';
+import { classNames, css, tokenSchema, transition } from '@orclickag/keystatic-ui/style';
+import { fileCodeIcon } from '@orclickag/keystatic-ui/icon/icons/fileCodeIcon';
+import { heading1Icon } from '@orclickag/keystatic-ui/icon/icons/heading1Icon';
+import { heading2Icon } from '@orclickag/keystatic-ui/icon/icons/heading2Icon';
+import { heading3Icon } from '@orclickag/keystatic-ui/icon/icons/heading3Icon';
+import { heading4Icon } from '@orclickag/keystatic-ui/icon/icons/heading4Icon';
+import { heading5Icon } from '@orclickag/keystatic-ui/icon/icons/heading5Icon';
+import { heading6Icon } from '@orclickag/keystatic-ui/icon/icons/heading6Icon';
+import { imageIcon } from '@orclickag/keystatic-ui/icon/icons/imageIcon';
+import { listIcon } from '@orclickag/keystatic-ui/icon/icons/listIcon';
+import { listOrderedIcon } from '@orclickag/keystatic-ui/icon/icons/listOrderedIcon';
+import { quoteIcon } from '@orclickag/keystatic-ui/icon/icons/quoteIcon';
+import { tableIcon } from '@orclickag/keystatic-ui/icon/icons/tableIcon';
+import { separatorHorizontalIcon } from '@orclickag/keystatic-ui/icon/icons/separatorHorizontalIcon';
 import {
   DOMOutputSpec,
   NodeSpec,

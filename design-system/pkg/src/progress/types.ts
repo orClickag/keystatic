@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { AriaLabelingProps, DOMProps } from '@react-types/shared';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 // Common props
 // -----------------------------------------------------------------------------

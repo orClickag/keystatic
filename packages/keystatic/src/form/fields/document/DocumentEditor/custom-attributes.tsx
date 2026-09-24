@@ -4,21 +4,21 @@ import {
   Dialog,
   DialogContainer,
   useDialogContainer,
-} from '@keystar/ui/dialog';
+} from '@orclickag/keystatic-ui/dialog';
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { clientSideValidateProp } from '../../../errors';
-import { Content } from '@keystar/ui/slots';
+import { Content } from '@orclickag/keystatic-ui/slots';
 import { FormValueContentFromPreviewProps } from '../../../form-from-preview';
-import { ButtonGroup, Button, ActionButton } from '@keystar/ui/button';
-import { Heading } from '@keystar/ui/typography';
+import { ButtonGroup, Button, ActionButton } from '@orclickag/keystatic-ui/button';
+import { Heading } from '@orclickag/keystatic-ui/typography';
 import { useState, useMemo } from 'react';
 import l10nMessages from '../../../../app/l10n';
 import { focusWithPreviousSelection } from './ui-utils';
 import { ReactEditor, useSlateStatic } from 'slate-react';
 import { Element, Transforms } from 'slate';
-import { Icon } from '@keystar/ui/icon';
-import { editIcon } from '@keystar/ui/icon/icons/editIcon';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { editIcon } from '@orclickag/keystatic-ui/icon/icons/editIcon';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
 import { getInitialPropsValueFromInitializer } from '../../../initial-values';
 
 function CustomAttributesDialogInner(props: {

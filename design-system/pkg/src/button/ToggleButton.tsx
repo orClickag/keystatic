@@ -11,9 +11,9 @@ import {
   Ref,
 } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { useSlotProps } from '@keystar/ui/slots';
-import { FocusRing } from '@keystar/ui/style';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { FocusRing } from '@orclickag/keystatic-ui/style';
 
 import { useActionButtonStyles } from './useActionButtonStyles';
 import { ToggleButtonProps } from './types';

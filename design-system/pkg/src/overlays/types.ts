@@ -4,7 +4,7 @@ import { OverlayProps as ReactAriaOverlayProps } from 'react-aria/Overlay';
 import { OverlayTriggerState } from 'react-stately/useOverlayTriggerState';
 import { HTMLAttributes, MutableRefObject, ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type BlanketProps = {
   isOpen?: boolean;

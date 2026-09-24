@@ -8,7 +8,7 @@ import {
   FontSizeHeading,
   FontSizeText,
   FontWeight,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 // ============================================================================
 // HEADING

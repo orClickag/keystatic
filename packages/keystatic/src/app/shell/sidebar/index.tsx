@@ -15,20 +15,20 @@ import {
   useRef,
 } from 'react';
 
-import { Badge } from '@keystar/ui/badge';
-import { Divider, ScrollView, HStack, VStack } from '@keystar/ui/layout';
-import { NavList, NavItem, NavGroup } from '@keystar/ui/nav-list';
-import { Blanket } from '@keystar/ui/overlays';
-import { StatusLight } from '@keystar/ui/status-light';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { Divider, ScrollView, HStack, VStack } from '@orclickag/keystatic-ui/layout';
+import { NavList, NavItem, NavGroup } from '@orclickag/keystatic-ui/nav-list';
+import { Blanket } from '@orclickag/keystatic-ui/overlays';
+import { StatusLight } from '@orclickag/keystatic-ui/status-light';
 import {
   breakpoints,
   css,
   tokenSchema,
   transition,
   useBreakpoint,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { usePrevious } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { usePrevious } from '@orclickag/keystatic-ui/utils';
 
 import l10nMessages from '../../l10n';
 import { useRouter } from '../../router';

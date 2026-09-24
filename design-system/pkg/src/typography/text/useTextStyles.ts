@@ -4,8 +4,8 @@ import {
   maybeTokenByKey,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { PickRequired, TextProps } from '@keystar/ui/types';
+} from '@orclickag/keystatic-ui/style';
+import { PickRequired, TextProps } from '@orclickag/keystatic-ui/types';
 
 import { useTextContext } from './context';
 import { getTrimStyles } from '../getTrimStyles';

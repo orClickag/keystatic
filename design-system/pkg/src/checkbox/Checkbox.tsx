@@ -10,10 +10,10 @@ import {
   useRef,
 } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { checkIcon } from '@keystar/ui/icon/icons/checkIcon';
-import { minusIcon } from '@keystar/ui/icon/icons/minusIcon';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { checkIcon } from '@orclickag/keystatic-ui/icon/icons/checkIcon';
+import { minusIcon } from '@orclickag/keystatic-ui/icon/icons/minusIcon';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   ClassList,
   FocusRing,
@@ -22,9 +22,9 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { CheckboxProps } from './types';
 import { CheckboxGroupContext } from './context';

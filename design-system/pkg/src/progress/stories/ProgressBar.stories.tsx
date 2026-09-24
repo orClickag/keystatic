@@ -1,4 +1,4 @@
-import { ArgTypes } from '@keystar/ui-storybook';
+import { ArgTypes } from '@orclickag/keystatic-ui-storybook';
 
 import { ProgressBar } from '..';
 

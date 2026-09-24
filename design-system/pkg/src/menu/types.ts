@@ -10,8 +10,8 @@ import type {
 
 import type { ReactElement } from 'react';
 
-import type { BaseStyleProps } from '@keystar/ui/style';
-import type { ActionButtonProps } from '@keystar/ui/button';
+import type { BaseStyleProps } from '@orclickag/keystatic-ui/style';
+import type { ActionButtonProps } from '@orclickag/keystatic-ui/button';
 
 export type MenuProps<T> = {
   /** Whether `disabledKeys` applies to all interactions, or only selection. */

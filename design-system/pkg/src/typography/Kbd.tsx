@@ -12,8 +12,8 @@ import {
 } from 'react';
 import { DOMProps } from '@react-types/shared';
 
-import { useSlotProps } from '@keystar/ui/slots';
-import { BaseStyleProps, css } from '@keystar/ui/style';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { BaseStyleProps, css } from '@orclickag/keystatic-ui/style';
 
 import { useTextStyles } from './text';
 

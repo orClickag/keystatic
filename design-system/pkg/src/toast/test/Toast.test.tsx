@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import userEvent from '@testing-library/user-event';
 import { ReactNode, useState } from 'react';
 
-import { Button } from '@keystar/ui/button';
+import { Button } from '@orclickag/keystatic-ui/button';
 import {
   act,
   fireEvent,

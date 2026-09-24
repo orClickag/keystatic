@@ -1,11 +1,11 @@
 import { PropsWithChildren } from 'react';
 import { DOMProps } from '@react-types/shared';
 
-import { alertTriangleIcon } from '@keystar/ui/icon/icons/alertTriangleIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { alertTriangleIcon } from '@orclickag/keystatic-ui/icon/icons/alertTriangleIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 type FieldMessageProps = PropsWithChildren<DOMProps>;
 

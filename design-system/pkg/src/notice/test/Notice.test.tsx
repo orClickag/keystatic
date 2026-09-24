@@ -1,8 +1,8 @@
 import { expect, it, describe } from 'vitest';
 import { render } from '@testing-library/react';
 
-import { Content } from '@keystar/ui/slots';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Notice } from '..';
 

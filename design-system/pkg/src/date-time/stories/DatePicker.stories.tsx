@@ -6,7 +6,7 @@ import {
   parseDate,
   today,
 } from '@internationalized/date';
-import { Parameters, StoryObj, action } from '@keystar/ui-storybook';
+import { Parameters, StoryObj, action } from '@orclickag/keystatic-ui-storybook';
 import React from 'react';
 
 import { DatePicker } from '../index';

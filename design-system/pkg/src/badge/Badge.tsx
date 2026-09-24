@@ -9,11 +9,11 @@ import {
   Ref,
 } from 'react';
 
-import { Flex } from '@keystar/ui/layout';
-import { SlotProvider } from '@keystar/ui/slots';
-import { BaseStyleProps, useStyleProps } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
+import { BaseStyleProps, useStyleProps } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 type BadgeTones =
   | 'accent'

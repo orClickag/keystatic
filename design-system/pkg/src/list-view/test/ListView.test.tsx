@@ -9,7 +9,7 @@ import {
   afterEach,
 } from 'vitest';
 
-import { Button } from '@keystar/ui/button';
+import { Button } from '@orclickag/keystatic-ui/button';
 import {
   act,
   fireEvent,

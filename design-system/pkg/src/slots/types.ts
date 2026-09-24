@@ -3,7 +3,7 @@ import {
   IconProps,
   HeadingProps,
   TextProps,
-} from '@keystar/ui/types';
+} from '@orclickag/keystatic-ui/types';
 import { ReactNode, type JSX } from 'react';
 
 export type HTMLTag = keyof JSX.IntrinsicElements & keyof HTMLElementTagNameMap;

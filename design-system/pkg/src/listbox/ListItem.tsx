@@ -1,15 +1,15 @@
 import { HTMLAttributes, ReactNode } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { checkIcon } from '@keystar/ui/icon/icons/checkIcon';
-import { ClearSlots, SlotProvider } from '@keystar/ui/slots';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { checkIcon } from '@orclickag/keystatic-ui/icon/icons/checkIcon';
+import { ClearSlots, SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+} from '@orclickag/keystatic-ui/style';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 type ListItemProps = {
   children: ReactNode;

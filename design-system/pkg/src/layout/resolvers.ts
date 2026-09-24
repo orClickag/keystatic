@@ -8,7 +8,7 @@ import {
   filterStyleProps,
   LooseSizeDimension,
   sizeResolver,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 // Resolvers
 // ============================================================================

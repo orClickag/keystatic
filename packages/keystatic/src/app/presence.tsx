@@ -1,6 +1,6 @@
-import { HStack } from '@keystar/ui/layout';
+import { HStack } from '@orclickag/keystatic-ui/layout';
 import { useAwarenessStates } from './shell/collab';
-import { Avatar } from '@keystar/ui/avatar';
+import { Avatar } from '@orclickag/keystatic-ui/avatar';
 import { useCloudInfo } from './shell/data';
 import { useRouter } from './router';
 

@@ -1,7 +1,7 @@
 'use client';
-import { Box, BoxProps } from '@keystar/ui/layout';
-import { css } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Box, BoxProps } from '@orclickag/keystatic-ui/layout';
+import { css } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import type { JSX } from 'react';
 

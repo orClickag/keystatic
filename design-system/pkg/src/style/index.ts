@@ -24,8 +24,8 @@ export { useIsMobileDevice } from './useIsMobileDevice';
 export { useMediaQuery } from './useMediaQuery';
 export { useStyleProps } from './useStyleProps';
 
-// NOTE: some package's types are "hoisted" up to '@keystar/ui/types' avoiding
+// NOTE: some package's types are "hoisted" up to '@orclickag/keystatic-ui/types' avoiding
 // circular dependencies, allowing safe imports internally. this package is the
-// exception, it is the only internal dependency of '@keystar/ui/types' and
+// exception, it is the only internal dependency of '@orclickag/keystatic-ui/types' and
 // therefore cannot import from it.
 export * from './types';

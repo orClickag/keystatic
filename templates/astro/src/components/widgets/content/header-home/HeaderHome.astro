@@ -1,0 +1,13 @@
+---
+import type { HeaderHomeData } from './HeaderHomeData';
+
+type Props = HeaderHomeData;
+const { eyebrow, title, description, backgroundImage } = Astro.props;
+---
+
+<header class="header-home">
+  {backgroundImage?.src ? <img src={backgroundImage.src} alt={backgroundImage.alt ?? ''} /> : null}
+  {eyebrow ? <p>{eyebrow}</p> : null}
+  <h1>{title}</h1>
+  {description ? <p>{description}</p> : null}
+</header>

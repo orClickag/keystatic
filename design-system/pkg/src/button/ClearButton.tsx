@@ -4,8 +4,8 @@ import { mergeProps } from 'react-aria/mergeProps';
 import { useObjectRef } from 'react-aria/useObjectRef';
 import { ForwardedRef, forwardRef } from 'react';
 
-import { xIcon } from '@keystar/ui/icon/icons/xIcon';
-import { Icon } from '@keystar/ui/icon';
+import { xIcon } from '@orclickag/keystatic-ui/icon/icons/xIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import {
   classNames,
   css,
@@ -14,8 +14,8 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { PropsWithElementType } from '@keystar/ui/utils/ts';
+} from '@orclickag/keystatic-ui/style';
+import { PropsWithElementType } from '@orclickag/keystatic-ui/utils/ts';
 
 import { ButtonProps } from './types';
 

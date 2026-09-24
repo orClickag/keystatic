@@ -13,23 +13,23 @@ import {
 import { useResizeObserver } from 'react-aria/private/utils/useResizeObserver';
 import { useSelectState } from 'react-stately/useSelectState';
 
-import { FieldButton } from '@keystar/ui/button';
-import { useProvider, useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
-import { chevronsUpDownIcon } from '@keystar/ui/icon/icons/chevronsUpDownIcon';
-import { Icon } from '@keystar/ui/icon';
-import { ListBoxBase, listStyles, useListBoxLayout } from '@keystar/ui/listbox';
-import { Popover, Tray } from '@keystar/ui/overlays';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { SlotProvider, useSlotProps } from '@keystar/ui/slots';
+import { FieldButton } from '@orclickag/keystatic-ui/button';
+import { useProvider, useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
+import { chevronsUpDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronsUpDownIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { ListBoxBase, listStyles, useListBoxLayout } from '@orclickag/keystatic-ui/listbox';
+import { Popover, Tray } from '@orclickag/keystatic-ui/overlays';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { SlotProvider, useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   tokenSchema,
   useIsMobileDevice,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import localizedMessages from './l10n';
 import { PickerProps } from './types';

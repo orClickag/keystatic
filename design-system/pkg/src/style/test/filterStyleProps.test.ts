@@ -1,4 +1,4 @@
-import { filterStyleProps } from '@keystar/ui/style';
+import { filterStyleProps } from '@orclickag/keystatic-ui/style';
 import { expect, describe, it } from 'vitest';
 
 describe('style/filterStyleProps', function () {

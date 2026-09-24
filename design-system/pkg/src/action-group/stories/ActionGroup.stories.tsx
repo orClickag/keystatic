@@ -1,28 +1,28 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 
-import { alignCenterIcon } from '@keystar/ui/icon/icons/alignCenterIcon';
-import { alignJustifyIcon } from '@keystar/ui/icon/icons/alignJustifyIcon';
-import { alignLeftIcon } from '@keystar/ui/icon/icons/alignLeftIcon';
-import { alignRightIcon } from '@keystar/ui/icon/icons/alignRightIcon';
-import { boldIcon } from '@keystar/ui/icon/icons/boldIcon';
-import { italicIcon } from '@keystar/ui/icon/icons/italicIcon';
-import { strikethroughIcon } from '@keystar/ui/icon/icons/strikethroughIcon';
-import { underlineIcon } from '@keystar/ui/icon/icons/underlineIcon';
-import { subscriptIcon } from '@keystar/ui/icon/icons/subscriptIcon';
-import { superscriptIcon } from '@keystar/ui/icon/icons/superscriptIcon';
-import { typeIcon } from '@keystar/ui/icon/icons/typeIcon';
-import { editIcon } from '@keystar/ui/icon/icons/editIcon';
-import { copyIcon } from '@keystar/ui/icon/icons/copyIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { plusIcon } from '@keystar/ui/icon/icons/plusIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { alignCenterIcon } from '@orclickag/keystatic-ui/icon/icons/alignCenterIcon';
+import { alignJustifyIcon } from '@orclickag/keystatic-ui/icon/icons/alignJustifyIcon';
+import { alignLeftIcon } from '@orclickag/keystatic-ui/icon/icons/alignLeftIcon';
+import { alignRightIcon } from '@orclickag/keystatic-ui/icon/icons/alignRightIcon';
+import { boldIcon } from '@orclickag/keystatic-ui/icon/icons/boldIcon';
+import { italicIcon } from '@orclickag/keystatic-ui/icon/icons/italicIcon';
+import { strikethroughIcon } from '@orclickag/keystatic-ui/icon/icons/strikethroughIcon';
+import { underlineIcon } from '@orclickag/keystatic-ui/icon/icons/underlineIcon';
+import { subscriptIcon } from '@orclickag/keystatic-ui/icon/icons/subscriptIcon';
+import { superscriptIcon } from '@orclickag/keystatic-ui/icon/icons/superscriptIcon';
+import { typeIcon } from '@orclickag/keystatic-ui/icon/icons/typeIcon';
+import { editIcon } from '@orclickag/keystatic-ui/icon/icons/editIcon';
+import { copyIcon } from '@orclickag/keystatic-ui/icon/icons/copyIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { plusIcon } from '@orclickag/keystatic-ui/icon/icons/plusIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 import { PropsWithChildren } from 'react';
 
 import { ActionGroup, ActionGroupProps, Item } from '..';
-import { css } from '@keystar/ui/style';
+import { css } from '@orclickag/keystatic-ui/style';
 
 let onSelectionChange = action('onSelectionChange');
 const formattingItems = [

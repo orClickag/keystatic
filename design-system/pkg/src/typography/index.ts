@@ -15,4 +15,4 @@ export { Prose, useProseStyleProps } from './Prose';
 export type { EmojiProps } from './Emoji';
 export type { KbdProps } from './Kbd';
 export type { NumeralProps } from './Numeral';
-export type { HeadingProps, TextProps } from '@keystar/ui/types';
+export type { HeadingProps, TextProps } from '@orclickag/keystatic-ui/types';

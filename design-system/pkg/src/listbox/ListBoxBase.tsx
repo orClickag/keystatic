@@ -8,9 +8,9 @@ import { ReusableView } from 'react-stately/useVirtualizerState';
 import { Node } from '@react-types/shared';
 import { RefObject, forwardRef, ReactElement, ReactNode, useMemo } from 'react';
 
-import { useProvider } from '@keystar/ui/core';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { useStyleProps } from '@keystar/ui/style';
+import { useProvider } from '@orclickag/keystatic-ui/core';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { useStyleProps } from '@orclickag/keystatic-ui/style';
 
 import localizedMessages from './l10n';
 import { ListBoxContext } from './context';

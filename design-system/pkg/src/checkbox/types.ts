@@ -8,8 +8,8 @@ import {
 
 import { ReactNode } from 'react';
 
-import { FieldProps } from '@keystar/ui/field';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type ToggleProps = {
   /**

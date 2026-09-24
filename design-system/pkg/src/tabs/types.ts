@@ -9,7 +9,7 @@ import {
 
 import { ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type TabProminence = 'low' | 'default';
 

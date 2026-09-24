@@ -1,4 +1,4 @@
-import { Field, FieldProps } from '@keystar/ui/field';
+import { Field, FieldProps } from '@orclickag/keystatic-ui/field';
 import { FormFieldInputProps } from '../../api';
 import { EditorState } from 'prosemirror-state';
 import { Editor } from './editor';

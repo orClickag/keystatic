@@ -1,15 +1,15 @@
 import { GridNode } from 'react-stately/private/grid/GridCollection';
 
-import { Flex, Grid } from '@keystar/ui/layout';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Flex, Grid } from '@orclickag/keystatic-ui/layout';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { listViewItemClassList } from './class-list';
 import type { ListViewProps } from './types';

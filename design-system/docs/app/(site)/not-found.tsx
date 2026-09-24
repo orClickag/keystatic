@@ -1,4 +1,4 @@
-import { Heading, Text } from '@keystar/ui/typography';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { Metadata } from 'next';
 import { DocsContent } from '../../components/content';
 import { makePageTitle } from './utils';

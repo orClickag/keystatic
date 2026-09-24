@@ -29,8 +29,8 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
-import { Prose } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Prose } from '@orclickag/keystatic-ui/typography';
 
 import { useEntryLayoutSplitPaneContext } from '../../../../app/entry-form';
 import { useContentPanelSize } from '../../../../app/shell/context';

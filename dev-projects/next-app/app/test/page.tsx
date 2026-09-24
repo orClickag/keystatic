@@ -1,5 +1,5 @@
-// this page mainly exists to make sure @keystatic/core/reader from server components
-import { createReader } from '@keystatic/core/reader';
+// this page mainly exists to make sure @orclickag/keystatic-core/reader from server components
+import { createReader } from '@orclickag/keystatic-core/reader';
 import localConfig from '../../keystatic.config';
 
 function time() {

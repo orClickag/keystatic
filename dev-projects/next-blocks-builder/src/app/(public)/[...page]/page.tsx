@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { DocumentRenderer as PageBuilder } from '@keystatic/core/renderer';
+import { DocumentRenderer as PageBuilder } from '@orclickag/keystatic-core/renderer';
 
 import { reader } from '../../../keystatic/reader';
 

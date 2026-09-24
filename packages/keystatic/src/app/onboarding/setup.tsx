@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-import { Button } from '@keystar/ui/button';
-import { Box, Flex } from '@keystar/ui/layout';
-import { css } from '@keystar/ui/style';
-import { TextField } from '@keystar/ui/text-field';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { css } from '@orclickag/keystatic-ui/style';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { GitHubConfig } from '../..';
 import { parseRepoConfig } from '../repo-config';
 

@@ -1,6 +1,6 @@
 import { ReactNode, useContext } from 'react';
 
-import { alertCircleIcon } from '@keystar/ui/icon/icons/alertCircleIcon';
+import { alertCircleIcon } from '@orclickag/keystatic-ui/icon/icons/alertCircleIcon';
 
 import { Config } from '../../config';
 

@@ -1,10 +1,10 @@
 import { chain } from 'react-aria/chain';
 import { useOverlayTriggerState } from 'react-stately/useOverlayTriggerState';
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useRef, useState } from 'react';
 
-import { Box, Divider, Flex, Grid } from '@keystar/ui/layout';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Box, Divider, Flex, Grid } from '@orclickag/keystatic-ui/layout';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Tray } from '..';
 

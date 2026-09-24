@@ -1,6 +1,6 @@
-import { action } from '@keystar/ui-storybook';
-import { Box, Flex, Grid } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { action } from '@orclickag/keystatic-ui-storybook';
+import { Box, Flex, Grid } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { useState } from 'react';
 
 import { Image } from '..';

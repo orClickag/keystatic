@@ -1,11 +1,11 @@
-import { ActionButton } from '@keystar/ui/button';
-import { DialogTrigger } from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { gitBranchIcon } from '@keystar/ui/icon/icons/gitBranchIcon';
-import { gitBranchPlusIcon } from '@keystar/ui/icon/icons/gitBranchPlusIcon';
-import { gitPullRequestIcon } from '@keystar/ui/icon/icons/gitPullRequestIcon';
-import { Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { DialogTrigger } from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { gitBranchIcon } from '@orclickag/keystatic-ui/icon/icons/gitBranchIcon';
+import { gitBranchPlusIcon } from '@orclickag/keystatic-ui/icon/icons/gitBranchPlusIcon';
+import { gitPullRequestIcon } from '@orclickag/keystatic-ui/icon/icons/gitPullRequestIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { CreateBranchDialog } from '../branch-selection';
 import { DashboardSection } from './components';

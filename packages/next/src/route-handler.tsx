@@ -1,7 +1,7 @@
 import {
   APIRouteConfig,
   makeGenericAPIRouteHandler,
-} from '@keystatic/core/api/generic';
+} from '@orclickag/keystatic-core/api/generic';
 
 export function makeRouteHandler(_config: APIRouteConfig) {
   const handler = makeGenericAPIRouteHandler(_config, {

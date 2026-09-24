@@ -20,8 +20,8 @@ import React, {
   useRef,
 } from 'react';
 
-import { useProvider } from '@keystar/ui/core';
-import { ProgressCircle } from '@keystar/ui/progress';
+import { useProvider } from '@orclickag/keystatic-ui/core';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
 import {
   FocusRing,
   classNames,
@@ -29,7 +29,7 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { listViewClassList } from './class-list';
 import { ListViewProvider, useListViewContext } from './context';

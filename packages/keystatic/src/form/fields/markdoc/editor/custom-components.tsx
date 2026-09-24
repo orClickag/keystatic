@@ -1,7 +1,7 @@
-import { Button } from '@keystar/ui/button';
-import { DialogContainer, Dialog } from '@keystar/ui/dialog';
-import { Box, Flex } from '@keystar/ui/layout';
-import { Heading } from '@keystar/ui/typography';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { DialogContainer, Dialog } from '@orclickag/keystatic-ui/dialog';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { Heading } from '@orclickag/keystatic-ui/typography';
 import { MarkSpec, Node } from 'prosemirror-model';
 import { ReactNode, useMemo, useState } from 'react';
 import { getInitialPropsValue } from '../../../initial-values';
@@ -12,8 +12,8 @@ import { EditorNodeSpec } from './schema';
 import { classes } from './utils';
 import { ContentComponent } from '../../../../content-components';
 import { NodeSelection } from 'prosemirror-state';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { Item, Menu, MenuTrigger } from '@keystar/ui/menu';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Item, Menu, MenuTrigger } from '@orclickag/keystatic-ui/menu';
 import {
   deserializeValue,
   toSerialized,

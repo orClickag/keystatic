@@ -1,4 +1,4 @@
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from '@orclickag/keystatic-core';
 
 import {
   callToAction,

@@ -1,9 +1,9 @@
 'use client';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Box, BoxProps, Grid, Flex, repeat } from '@keystar/ui/layout';
-import { ColorForeground, tokenSchema } from '@keystar/ui/style';
-import { Heading, Text } from '@keystar/ui/typography';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Box, BoxProps, Grid, Flex, repeat } from '@orclickag/keystatic-ui/layout';
+import { ColorForeground, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { DocsContent } from '../../../components/content';
 

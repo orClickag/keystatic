@@ -9,12 +9,12 @@ import {
   type JSX,
 } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { chevronLeftIcon } from '@keystar/ui/icon/icons/chevronLeftIcon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
-import { Box, Flex } from '@keystar/ui/layout';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronLeftIcon } from '@orclickag/keystatic-ui/icon/icons/chevronLeftIcon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { HeadingEntry } from '../../utils/generate-toc';
 import { ASIDE_WIDTH, HEADER_HEIGHT, SIDEBAR_WIDTH } from '../constants';

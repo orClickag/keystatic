@@ -1,8 +1,8 @@
 import { chain } from 'react-aria/chain';
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useState } from 'react';
 
-import { Button } from '@keystar/ui/button';
+import { Button } from '@orclickag/keystatic-ui/button';
 
 import { NumberField, NumberFieldProps } from '..';
 

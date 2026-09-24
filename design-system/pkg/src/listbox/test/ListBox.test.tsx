@@ -17,10 +17,10 @@ import {
   it,
 } from 'vitest';
 
-import { TestProvider } from '@keystar/ui/core';
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Text } from '@keystar/ui/typography';
+import { TestProvider } from '@orclickag/keystatic-ui/core';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Item, ListBox, Section } from '..';
 

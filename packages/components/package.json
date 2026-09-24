@@ -1,0 +1,25 @@
+{
+  "name": "@orclickag/keystatic-components",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "exports": {
+    ".": "./dist/orclickag-keystatic-components.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@orclickag/keystatic-core": "workspace:^"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

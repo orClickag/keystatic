@@ -2,7 +2,7 @@ import path from 'path';
 import { categories, Category } from './categories';
 import { SidebarItem } from '../components/sidebar';
 import { SidebarLink } from '../components/sidebar/types';
-import { createReader, Reader } from '@keystatic/core/reader';
+import { createReader, Reader } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../keystatic.config';
 
 export const projectDir = path.resolve(process.cwd(), '..');

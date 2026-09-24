@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import { createContext, useContext, useState } from 'react';
 import { describe, expect, it, vi } from 'vitest';
 
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 
 import { useNavigate, usePathname, useSearch } from '..';
 

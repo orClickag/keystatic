@@ -3,7 +3,7 @@ import { useTooltipTrigger } from 'react-aria/useTooltipTrigger';
 import { useTooltipTriggerState } from 'react-stately/useTooltipTriggerState';
 import React, { ReactElement, useRef, type JSX } from 'react';
 
-import { Overlay } from '@keystar/ui/overlays';
+import { Overlay } from '@orclickag/keystatic-ui/overlays';
 
 import { TooltipContext } from './context';
 import { TooltipTriggerProps } from './types';

@@ -4,8 +4,8 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { useId, useIsMounted } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { useId, useIsMounted } from '@orclickag/keystatic-ui/utils';
 import { useLocale } from 'react-aria/I18nProvider';
 import { filterDOMProps } from 'react-aria/filterDOMProps';
 import { useUpdateEffect } from 'react-aria/private/utils/useUpdateEffect';

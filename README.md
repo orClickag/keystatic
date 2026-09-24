@@ -4,8 +4,8 @@
   </br>
 </a>
 <p>
-  <a aria-label="NPM version" href="https://www.npmjs.com/package/@keystatic/core">
-    <img alt="" src="https://img.shields.io/npm/v/@keystatic/core.svg?style=for-the-badge&labelColor=0869B8">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@orclickag/keystatic-core">
+    <img alt="" src="https://img.shields.io/npm/v/@orclickag/keystatic-core.svg?style=for-the-badge&labelColor=0869B8">
   </a>
   <a aria-label="Twitter Logo" href="https://twitter.com/thekeystatic">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=007BCE">

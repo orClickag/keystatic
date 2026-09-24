@@ -7,7 +7,7 @@ import {
   Ref,
 } from 'react';
 
-import { useSlotProps } from '@keystar/ui/slots';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   BaseStyleProps,
   classNames,
@@ -15,8 +15,8 @@ import {
   tokenSchema,
   useStyleProps,
   SizeElement,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 export type AvatarProps = {
   /**

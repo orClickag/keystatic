@@ -36,24 +36,24 @@ import {
   ClearButton,
   FieldButtonProps,
   useFieldButton,
-} from '@keystar/ui/button';
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
-import { Icon } from '@keystar/ui/icon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { Flex } from '@keystar/ui/layout';
-import { ListBoxBase, useListBoxLayout } from '@keystar/ui/listbox';
-import { Tray } from '@keystar/ui/overlays';
-import { ProgressCircle } from '@keystar/ui/progress';
+} from '@orclickag/keystatic-ui/button';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { ListBoxBase, useListBoxLayout } from '@orclickag/keystatic-ui/listbox';
+import { Tray } from '@orclickag/keystatic-ui/overlays';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
 import {
   FocusRing,
   css,
   toDataAttributes,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
-import { TextFieldPrimitive } from '@keystar/ui/text-field';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { TextFieldPrimitive } from '@orclickag/keystatic-ui/text-field';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import localizedMessages from './l10n';
 import { ComboboxProps } from './types';

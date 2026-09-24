@@ -3,7 +3,7 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import { HTMLAttributes } from 'react';
 
 type DirectionIndicatorProps = {

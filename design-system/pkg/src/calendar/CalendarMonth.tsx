@@ -14,8 +14,8 @@ import { RangeCalendarState } from 'react-stately/useRangeCalendarState';
 import { DOMProps } from '@react-types/shared';
 import React from 'react';
 
-import { css } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { css } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { CalendarCell, useCellStyles } from './CalendarCell';
 

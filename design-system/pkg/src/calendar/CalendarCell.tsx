@@ -14,8 +14,8 @@ import { CalendarState } from 'react-stately/useCalendarState';
 import { RangeCalendarState } from 'react-stately/useRangeCalendarState';
 import React, { useRef } from 'react';
 
-import { css, toDataAttributes, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { css, toDataAttributes, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 interface CalendarCellProps extends AriaCalendarCellProps {
   state: CalendarState | RangeCalendarState;

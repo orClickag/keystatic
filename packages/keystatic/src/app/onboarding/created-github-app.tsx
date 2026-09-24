@@ -1,5 +1,5 @@
-import { Flex } from '@keystar/ui/layout';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { GitHubConfig } from '../..';
 import { InstallGitHubApp } from './install-app';
 import { serializeRepoConfig } from '../repo-config';

@@ -12,7 +12,7 @@ import {
 
 import { HTMLAttributes, ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 import { ListBoxLayout } from './ListBoxLayout';
 

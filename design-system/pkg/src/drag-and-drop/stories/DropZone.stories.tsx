@@ -1,17 +1,17 @@
 import { useState } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { imagePlusIcon } from '@keystar/ui/icon/icons/imagePlusIcon';
-import { uploadCloudIcon } from '@keystar/ui/icon/icons/uploadCloudIcon';
-import { VStack } from '@keystar/ui/layout';
-import { action } from '@keystar/ui-storybook';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { imagePlusIcon } from '@orclickag/keystatic-ui/icon/icons/imagePlusIcon';
+import { uploadCloudIcon } from '@orclickag/keystatic-ui/icon/icons/uploadCloudIcon';
+import { VStack } from '@orclickag/keystatic-ui/layout';
+import { action } from '@orclickag/keystatic-ui-storybook';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { DropZone, FileDropItem, isFileDropItem } from '../index';
 import { FileTrigger } from '../FileTrigger';
-import { Image } from '@keystar/ui/image';
-import { ListView, Item } from '@keystar/ui/list-view';
+import { Image } from '@orclickag/keystatic-ui/image';
+import { ListView, Item } from '@orclickag/keystatic-ui/list-view';
 
 export default {
   title: 'Components/DropZone',

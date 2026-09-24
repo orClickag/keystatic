@@ -1,8 +1,8 @@
 import { ReactElement, ReactNode } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 type EmptyStateProps =
   | { children: ReactNode }

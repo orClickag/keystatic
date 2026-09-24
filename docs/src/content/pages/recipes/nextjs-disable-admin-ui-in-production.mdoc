@@ -19,7 +19,7 @@ If you've followed the [Next.js integration guide](/docs/installation-next-js), 
 
 ```diff
 // `keystatic.config.ts` file
-import { config, collection, fields } from '@keystatic/core';
+import { config, collection, fields } from '@orclickag/keystatic-core';
 
 + export const showAdminUI = process.env.NODE_ENV === "development"
 
@@ -74,7 +74,7 @@ Keystatic admin uses [API Routes](https://nextjs.org/docs/pages/building-your-ap
 
 ```diff
 // `api/keystatic/[...params]/route.ts` file
-import { makeRouteHandler } from '@keystatic/next/route-handler';
+import { makeRouteHandler } from '@orclickag/keystatic-next/route-handler';
 - import keystaticConfig from '../../../../keystatic.config';
 + import keystaticConfig, { showAdminUI } from '../../../../keystatic.config';
 

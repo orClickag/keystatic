@@ -1,12 +1,12 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 
-import { Icon } from '@keystar/ui/icon';
-import { bookmarkIcon } from '@keystar/ui/icon/icons/bookmarkIcon';
-import { calendarIcon } from '@keystar/ui/icon/icons/calendarIcon';
-import { gaugeIcon } from '@keystar/ui/icon/icons/gaugeIcon';
-import { Divider, Flex } from '@keystar/ui/layout';
-import { tokenSchema } from '@keystar/ui/style';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { bookmarkIcon } from '@orclickag/keystatic-ui/icon/icons/bookmarkIcon';
+import { calendarIcon } from '@orclickag/keystatic-ui/icon/icons/calendarIcon';
+import { gaugeIcon } from '@orclickag/keystatic-ui/icon/icons/gaugeIcon';
+import { Divider, Flex } from '@orclickag/keystatic-ui/layout';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { useState } from 'react';
 
 import { Item, TabList, TabPanels, Tabs, TabsProps } from '..';

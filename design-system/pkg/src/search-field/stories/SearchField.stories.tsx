@@ -1,4 +1,4 @@
-import { action, Meta, Parameters, StoryObj } from '@keystar/ui-storybook';
+import { action, Meta, Parameters, StoryObj } from '@orclickag/keystatic-ui-storybook';
 import { useMemo, useState } from 'react';
 
 import { SearchField } from '..';

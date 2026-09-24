@@ -10,10 +10,10 @@ import {
   toZoned,
 } from '@internationalized/date';
 import { useLocale } from 'react-aria/I18nProvider';
-import { KeystarProvider } from '@keystar/ui/core';
-import { Flex } from '@keystar/ui/layout';
-import { Item, Picker, Section } from '@keystar/ui/picker';
-import { ArgTypes, action } from '@keystar/ui-storybook';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Item, Picker, Section } from '@orclickag/keystatic-ui/picker';
+import { ArgTypes, action } from '@orclickag/keystatic-ui-storybook';
 import React from 'react';
 
 import { DateField, DateFieldProps } from '..';

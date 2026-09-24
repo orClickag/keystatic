@@ -12,7 +12,7 @@ import {
   useMemo,
 } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
 
 import { CalendarBase } from './CalendarBase';
 import { RangeCalendarProps } from './types';

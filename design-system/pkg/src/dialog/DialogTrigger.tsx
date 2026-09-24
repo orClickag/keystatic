@@ -16,8 +16,8 @@ import {
   type JSX,
 } from 'react';
 
-import { Modal, Popover, PopoverProps, Tray } from '@keystar/ui/overlays';
-import { breakpointQueries, useMediaQuery } from '@keystar/ui/style';
+import { Modal, Popover, PopoverProps, Tray } from '@orclickag/keystatic-ui/overlays';
+import { breakpointQueries, useMediaQuery } from '@orclickag/keystatic-ui/style';
 
 import { DialogContext } from './context';
 import { DialogRenderFn, DialogProps, DialogTriggerProps } from './types';

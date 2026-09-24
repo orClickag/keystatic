@@ -1,5 +1,5 @@
-import { Text } from '@keystar/ui/typography';
-import { Flex } from '@keystar/ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
 import React from 'react';
 
 import { rowDragPreviewClassname } from './styles';
@@ -15,7 +15,7 @@ export function DragPreview(props: DragPreviewProps) {
   let { itemText, itemCount, height, maxWidth } = props;
   let isDraggingMultiple = itemCount > 1;
   return (
-    /* TODO: export as `DragPreview` from "@keystar/ui/drag-and-drop" for use here and in the list view */
+    /* TODO: export as `DragPreview` from "@orclickag/keystatic-ui/drag-and-drop" for use here and in the list view */
     <Flex
       alignItems="center"
       justifyContent="space-between"
@@ -25,7 +25,7 @@ export function DragPreview(props: DragPreviewProps) {
     >
       <Text>{itemText}</Text>
 
-      {/* TODO: export as `DragPreviewCount` from "@keystar/ui/drag-and-drop" for use here and in the list view */}
+      {/* TODO: export as `DragPreviewCount` from "@orclickag/keystatic-ui/drag-and-drop" for use here and in the list view */}
       {isDraggingMultiple && (
         <Flex
           alignItems="center"

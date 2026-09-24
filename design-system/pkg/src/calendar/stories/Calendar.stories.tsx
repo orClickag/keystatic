@@ -5,7 +5,7 @@ import {
   today,
 } from '@internationalized/date';
 
-import { action, Parameters, StoryObj } from '@keystar/ui-storybook';
+import { action, Parameters, StoryObj } from '@orclickag/keystatic-ui-storybook';
 
 import { Calendar } from '../index';
 

@@ -54,6 +54,18 @@ export default defineConfig({
           include: [`packages/keystatic/${testFiles}`],
         },
       },
+      {
+        extends: true,
+        test: {
+          name: 'orclickag packages',
+          environment: 'node',
+          globals: true,
+          clearMocks: true,
+          include: [
+            `packages/{components,content,media-client,page-builder}/${testFiles}`,
+          ],
+        },
+      },
     ],
   },
 });

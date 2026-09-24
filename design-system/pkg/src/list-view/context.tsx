@@ -5,7 +5,7 @@ import { ListState } from 'react-stately/useListState';
 import { LoadingState } from '@react-types/shared';
 import { Key, createContext, useContext } from 'react';
 
-import { DragAndDropHooks } from '@keystar/ui/drag-and-drop';
+import { DragAndDropHooks } from '@orclickag/keystatic-ui/drag-and-drop';
 
 interface ListViewContextValue<T> {
   density: 'compact' | 'regular' | 'spacious';

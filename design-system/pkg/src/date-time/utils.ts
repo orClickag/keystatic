@@ -55,7 +55,7 @@ export function useVisibleMonths(maxVisibleMonths: number) {
 }
 
 // these calculations are brittle, they depend on styling decisions in both:
-// - the `CalendarBase` component, from "@keystar/ui/calendar"
+// - the `CalendarBase` component, from "@orclickag/keystatic-ui/calendar"
 // - the `DatePickerPopover` component
 function getVisibleMonths() {
   if (typeof window === 'undefined') {

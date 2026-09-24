@@ -9,7 +9,7 @@ import { useHover } from 'react-aria/useHover';
 import { usePress } from 'react-aria/usePress';
 import { useObjectRef } from 'react-aria/useObjectRef';
 
-import { FieldPrimitive } from '@keystar/ui/field';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
 import {
   FocusRing,
   classNames,
@@ -17,7 +17,7 @@ import {
   toDataAttributes,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { TextFieldPrimitiveProps } from './types';
 

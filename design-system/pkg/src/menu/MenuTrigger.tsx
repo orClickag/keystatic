@@ -5,8 +5,8 @@ import { useMenuTriggerState } from 'react-stately/useMenuTriggerState';
 import { Placement } from 'react-aria/useOverlayPosition';
 import React, { ForwardedRef, forwardRef, Fragment, useRef } from 'react';
 
-import { Popover, Tray } from '@keystar/ui/overlays';
-import { tokenSchema, useIsMobileDevice } from '@keystar/ui/style';
+import { Popover, Tray } from '@orclickag/keystatic-ui/overlays';
+import { tokenSchema, useIsMobileDevice } from '@orclickag/keystatic-ui/style';
 
 import { MenuContext } from './context';
 import { MenuTriggerProps } from './types';

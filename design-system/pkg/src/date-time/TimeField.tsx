@@ -4,8 +4,8 @@ import React, { ReactElement, Ref, useRef } from 'react';
 
 import { TimeValue, useTimeFieldState } from 'react-stately/useTimeFieldState';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
 
 import { Input } from './Input';
 import { InputSegment } from './InputSegment';

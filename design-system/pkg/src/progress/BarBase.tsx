@@ -10,8 +10,8 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { ProgressBarProps } from './types';
 

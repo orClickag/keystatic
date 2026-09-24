@@ -8,13 +8,13 @@ import {
   forwardRef,
 } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Dialog, DialogTrigger } from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { helpCircleIcon } from '@keystar/ui/icon/icons/helpCircleIcon';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { ClearSlots } from '@keystar/ui/slots';
-import { classNames, css, tokenSchema } from '@keystar/ui/style';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Dialog, DialogTrigger } from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { helpCircleIcon } from '@orclickag/keystatic-ui/icon/icons/helpCircleIcon';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { ClearSlots } from '@orclickag/keystatic-ui/slots';
+import { classNames, css, tokenSchema } from '@orclickag/keystatic-ui/style';
 
 import localizedMessages from './l10n';
 import { ContextualHelpProps } from './types';

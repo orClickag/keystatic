@@ -5,19 +5,19 @@ import { useObjectRef } from 'react-aria/useObjectRef';
 
 import { ForwardedRef, forwardRef } from 'react';
 
-import { useProvider, useProviderProps } from '@keystar/ui/core';
-import { plusIcon } from '@keystar/ui/icon/icons/plusIcon';
-import { minusIcon } from '@keystar/ui/icon/icons/minusIcon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { chevronUpIcon } from '@keystar/ui/icon/icons/chevronUpIcon';
-import { Icon } from '@keystar/ui/icon';
+import { useProvider, useProviderProps } from '@orclickag/keystatic-ui/core';
+import { plusIcon } from '@orclickag/keystatic-ui/icon/icons/plusIcon';
+import { minusIcon } from '@orclickag/keystatic-ui/icon/icons/minusIcon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { chevronUpIcon } from '@orclickag/keystatic-ui/icon/icons/chevronUpIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 interface StepButtonProps extends AriaButtonProps {
   direction: 'up' | 'down';

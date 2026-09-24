@@ -13,20 +13,20 @@ import React, {
   useState,
 } from 'react';
 
-import { ActionGroup } from '@keystar/ui/action-group';
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { xIcon } from '@keystar/ui/icon/icons/xIcon';
-import { Transition } from '@keystar/ui/overlays';
+import { ActionGroup } from '@orclickag/keystatic-ui/action-group';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { xIcon } from '@orclickag/keystatic-ui/icon/icons/xIcon';
+import { Transition } from '@orclickag/keystatic-ui/overlays';
 import {
   classNames,
   css,
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { useProviderProps } from '@keystar/ui/core';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
 
 import localizedMessages from './l10n';
 import { ActionBarProps } from './types';

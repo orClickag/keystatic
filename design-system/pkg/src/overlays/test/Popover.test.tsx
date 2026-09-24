@@ -4,7 +4,7 @@ import {
 } from 'react-stately/useOverlayTriggerState';
 import { expect, vi, describe, it } from 'vitest';
 import { fireEvent, render, waitFor } from '@testing-library/react';
-import { TestProvider } from '@keystar/ui/core';
+import { TestProvider } from '@orclickag/keystatic-ui/core';
 import { useRef } from 'react';
 
 import { Popover, PopoverProps } from '..';

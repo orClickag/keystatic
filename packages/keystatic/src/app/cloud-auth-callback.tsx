@@ -1,11 +1,11 @@
-import { ProgressCircle } from '@keystar/ui/progress';
-import { Text } from '@keystar/ui/typography';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { useEffect, useMemo, useState } from 'react';
 import * as s from 'superstruct';
 import { Config } from '../config';
 import { useRouter } from './router';
 import { KEYSTATIC_CLOUD_API_URL, KEYSTATIC_CLOUD_HEADERS } from './utils';
-import { Flex } from '@keystar/ui/layout';
+import { Flex } from '@orclickag/keystatic-ui/layout';
 
 const storedStateSchema = s.object({
   state: s.string(),

@@ -1,7 +1,7 @@
 import { DOMProps, FocusableProps, PressEvents } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { AnchorDOMProps } from '@keystar/ui/types';
+import { AnchorDOMProps } from '@orclickag/keystatic-ui/types';
 
 export type TextLinkProminence = 'default' | 'high';
 

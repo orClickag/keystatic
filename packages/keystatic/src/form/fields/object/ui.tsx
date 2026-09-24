@@ -1,9 +1,9 @@
 import { assert, assertNever } from 'emery';
 import { useId, useMemo } from 'react';
 
-import { Grid } from '@keystar/ui/layout';
-import { containerQueries, css } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Grid } from '@orclickag/keystatic-ui/layout';
+import { containerQueries, css } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { ComponentSchema, GenericPreviewProps, ObjectField } from '../../api';
 import {
@@ -20,11 +20,13 @@ function ObjectFieldInputEntry({
   field,
   fieldKey,
   span,
+  preserveLayoutOnNarrow,
   forceValidation,
   firstFocusable,
   omitFieldAtPath,
 }: {
   span: number;
+  preserveLayoutOnNarrow: boolean | undefined;
   fieldKey: string;
   forceValidation: boolean;
   firstFocusable: string | undefined;
@@ -37,9 +39,13 @@ function ObjectFieldInputEntry({
         className={css({
           gridColumn: `span ${span}`,
 
-          [belowTablet]: {
-            gridColumn: `span ${FIELD_GRID_COLUMNS}`,
-          },
+          ...(preserveLayoutOnNarrow
+            ? {}
+            : {
+                [belowTablet]: {
+                  gridColumn: `span ${FIELD_GRID_COLUMNS}`,
+                },
+              }),
         })}
       >
         <AddToPathProvider part={fieldKey}>
@@ -87,6 +93,7 @@ export function ObjectFieldInput<
           <ObjectFieldInputEntry
             key={key}
             span={span}
+            preserveLayoutOnNarrow={schema.preserveLayoutOnNarrow}
             field={propVal}
             fieldKey={key}
             forceValidation={forceValidation}

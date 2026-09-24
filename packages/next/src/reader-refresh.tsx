@@ -1,6 +1,6 @@
 import 'server-only';
 import { Suspense } from 'react';
-import { Reader } from '@keystatic/core/reader';
+import { Reader } from '@orclickag/keystatic-core/reader';
 import { ReaderRefreshClient } from './reader-refresh-client';
 import { getReaderKey, getResolvedDirectories } from './utils';
 

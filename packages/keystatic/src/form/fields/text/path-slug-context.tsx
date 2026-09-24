@@ -9,8 +9,8 @@ import { useCloudInfo } from '../../../app/shell/data';
 import { useRouter } from '../../../app/router';
 import { useConfig } from '../../../app/shell/context';
 import { areArraysEqual } from '../document/DocumentEditor/document-features-normalization';
-import { Avatar } from '@keystar/ui/avatar';
-import { css } from '@keystar/ui/style';
+import { Avatar } from '@orclickag/keystatic-ui/avatar';
+import { css } from '@orclickag/keystatic-ui/style';
 
 function CollabAddToPathProvider(props: {
   path: ReadonlyPropPath;

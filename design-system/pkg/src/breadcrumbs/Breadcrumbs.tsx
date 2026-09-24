@@ -16,13 +16,13 @@ import { useObjectRef } from 'react-aria/useObjectRef';
 import { useResizeObserver } from 'react-aria/private/utils/useResizeObserver';
 import { useValueEffect } from 'react-aria/private/utils/useValueEffect';
 
-import { ActionButton } from '@keystar/ui/button';
-import { useProviderProps } from '@keystar/ui/core';
-import { Icon } from '@keystar/ui/icon';
-import { folderClosedIcon } from '@keystar/ui/icon/icons/folderClosedIcon';
-import { folderOpenIcon } from '@keystar/ui/icon/icons/folderOpenIcon';
-import { Menu, MenuTrigger } from '@keystar/ui/menu';
-import { classNames, css, tokenSchema, useStyleProps } from '@keystar/ui/style';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { folderClosedIcon } from '@orclickag/keystatic-ui/icon/icons/folderClosedIcon';
+import { folderOpenIcon } from '@orclickag/keystatic-ui/icon/icons/folderOpenIcon';
+import { Menu, MenuTrigger } from '@orclickag/keystatic-ui/menu';
+import { classNames, css, tokenSchema, useStyleProps } from '@orclickag/keystatic-ui/style';
 
 import { BreadcrumbItem, breadcrumbsClassList } from './BreadcrumbItem';
 import { BreadcrumbsProps } from './types';

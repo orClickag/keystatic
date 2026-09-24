@@ -14,9 +14,9 @@ import {
   css,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 type StatusLightTones =
   | 'accent'

@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@keystatic/core": "workspace:^",
-    "@keystatic/next": "workspace:^",
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-next": "workspace:^",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.9",
     "next": "~15.1.10",

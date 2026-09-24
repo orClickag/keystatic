@@ -1,9 +1,9 @@
 import type { AriaSelectProps } from 'react-aria/useSelect';
 import type { AsyncLoadable } from '@react-types/shared';
-import { ActionButtonProps } from '@keystar/ui/button';
+import { ActionButtonProps } from '@orclickag/keystatic-ui/button';
 
-import { FieldProps } from '@keystar/ui/field';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type PickerProps<T> = {
   /**

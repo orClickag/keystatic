@@ -7,7 +7,7 @@ import {
   Ref,
 } from 'react';
 
-import { BaseStyleProps, useStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps, useStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type EmojiProps = {
   /** Label used to describe the symbol that will be announced to screen readers. */

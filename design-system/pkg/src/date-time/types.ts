@@ -5,7 +5,7 @@ import { Granularity, MappedDateValue } from 'react-stately/useDateFieldState';
 import { MappedTimeValue, TimeValue } from 'react-stately/useTimeFieldState';
 import { FocusableProps, RangeValue, ValueBase } from '@react-types/shared';
 
-import { FieldProps } from '@keystar/ui/field';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
 
 type DateFieldBase<T extends DateValue> = {
   /** The minimum allowed date that a user may select. */

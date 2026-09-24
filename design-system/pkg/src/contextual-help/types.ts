@@ -3,7 +3,7 @@ import { Placement, PositionProps } from 'react-aria/useOverlayPosition';
 import { AriaLabelingProps, DOMProps } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type ContextualHelpProps = {
   /** Contents of the Contextual Help popover. */

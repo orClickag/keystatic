@@ -3,20 +3,20 @@ import {
   type Meta,
   type StoryObj,
   action,
-} from '@keystar/ui-storybook';
+} from '@orclickag/keystatic-ui-storybook';
 import { type Key } from '@react-types/shared';
 import React, { type PropsWithChildren, useState } from 'react';
 
-import { Avatar } from '@keystar/ui/avatar';
-import { ContextualHelp } from '@keystar/ui/contextual-help';
-import { Icon } from '@keystar/ui/icon';
-import { saladIcon } from '@keystar/ui/icon/icons/saladIcon';
-import { pizzaIcon } from '@keystar/ui/icon/icons/pizzaIcon';
-import { dessertIcon } from '@keystar/ui/icon/icons/dessertIcon';
-import { VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { Content } from '@keystar/ui/slots';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Avatar } from '@orclickag/keystatic-ui/avatar';
+import { ContextualHelp } from '@orclickag/keystatic-ui/contextual-help';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { saladIcon } from '@orclickag/keystatic-ui/icon/icons/saladIcon';
+import { pizzaIcon } from '@orclickag/keystatic-ui/icon/icons/pizzaIcon';
+import { dessertIcon } from '@orclickag/keystatic-ui/icon/icons/dessertIcon';
+import { VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Item, TagGroup } from '../index';
 

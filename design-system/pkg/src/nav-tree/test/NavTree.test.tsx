@@ -1,6 +1,6 @@
 import { vi, expect, it, describe } from 'vitest';
 
-import { Text } from '@keystar/ui/typography';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { fireEvent, renderWithProvider } from '#test-utils';
 

@@ -3,14 +3,14 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import * as Y from 'yjs';
 import * as s from 'superstruct';
 
-import { Button } from '@keystar/ui/button';
-import { DialogContainer } from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { historyIcon } from '@keystar/ui/icon/icons/historyIcon';
-import { Flex } from '@keystar/ui/layout';
-import { Notice } from '@keystar/ui/notice';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { toastQueue } from '@keystar/ui/toast';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { DialogContainer } from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { historyIcon } from '@orclickag/keystatic-ui/icon/icons/historyIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Notice } from '@orclickag/keystatic-ui/notice';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { toastQueue } from '@orclickag/keystatic-ui/toast';
 
 import { Config } from '../config';
 import { ComponentSchema, GenericPreviewProps, ObjectField } from '../form/api';
@@ -53,11 +53,11 @@ import { useDuplicateSlug } from './duplicate-slug';
 import { getYjsValFromParsedValue } from '../form/yjs-props-value';
 import { setValueToPreviewProps } from '../form/get-value';
 import { copyEntryToClipboard, getPastedEntry } from './entry-clipboard';
-import { clipboardCopyIcon } from '@keystar/ui/icon/icons/clipboardCopyIcon';
-import { clipboardPasteIcon } from '@keystar/ui/icon/icons/clipboardPasteIcon';
-import { ActionGroup, Item } from '@keystar/ui/action-group';
-import { Text } from '@keystar/ui/typography';
-import { breakpointQueries, useMediaQuery } from '@keystar/ui/style';
+import { clipboardCopyIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardCopyIcon';
+import { clipboardPasteIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardPasteIcon';
+import { ActionGroup, Item } from '@orclickag/keystatic-ui/action-group';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { breakpointQueries, useMediaQuery } from '@orclickag/keystatic-ui/style';
 
 function CreateItemWrapper(props: {
   collection: string;

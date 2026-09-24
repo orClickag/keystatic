@@ -1,17 +1,21 @@
 {
-  "name": "@keystatic/astro",
+  "name": "@orclickag/keystatic-astro",
   "version": "6.0.0",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkmill/keystatic/",
+    "url": "https://github.com/orClickag/keystatic/",
     "directory": "packages/astro"
   },
   "type": "module",
   "exports": {
-    "./ui": "./dist/keystatic-astro-ui.js",
-    "./api": "./dist/keystatic-astro-api.js",
-    ".": "./dist/keystatic-astro.js",
+    "./ui": "./dist/orclickag-keystatic-astro-ui.js",
+    "./api": "./dist/orclickag-keystatic-astro-api.js",
+    ".": "./dist/orclickag-keystatic-astro.js",
     "./package.json": "./package.json",
     "./internal/keystatic-api.js": "./internal/keystatic-api.js",
     "./internal/keystatic-astro-page.astro": "./internal/keystatic-astro-page.astro"
@@ -28,13 +32,13 @@
     "@types/react": "^19.0.8"
   },
   "devDependencies": {
-    "@keystatic/core": "workspace:^",
+    "@orclickag/keystatic-core": "workspace:^",
     "astro": "^7.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "peerDependencies": {
-    "@keystatic/core": "*",
+    "@orclickag/keystatic-core": "*",
     "astro": "5 || 6 || 7",
     "react": "^18.2.0 || ^19.0.0",
     "react-dom": "^18.2.0 || ^19.0.0"

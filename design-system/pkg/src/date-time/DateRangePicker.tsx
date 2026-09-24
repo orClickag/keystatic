@@ -6,13 +6,13 @@ import { useDateRangePickerState } from 'react-stately/useDateRangePickerState';
 import { DateValue } from 'react-stately/useCalendarState';
 import React, { ReactElement, Ref, useRef } from 'react';
 
-import { FieldButton } from '@keystar/ui/button';
-import { RangeCalendar } from '@keystar/ui/calendar';
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
-import { Icon } from '@keystar/ui/icon';
-import { calendarDaysIcon } from '@keystar/ui/icon/icons/calendarDaysIcon';
-import { Text } from '@keystar/ui/typography';
+import { FieldButton } from '@orclickag/keystatic-ui/button';
+import { RangeCalendar } from '@orclickag/keystatic-ui/calendar';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { calendarDaysIcon } from '@orclickag/keystatic-ui/icon/icons/calendarDaysIcon';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Input } from './Input';
 import { DatePickerField } from './DatePickerField';

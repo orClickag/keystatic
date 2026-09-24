@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react';
 
-import { FontSizeHeading } from '@keystar/ui/style';
+import { FontSizeHeading } from '@orclickag/keystatic-ui/style';
 
 type HeadingContextType = { size: FontSizeHeading };
 

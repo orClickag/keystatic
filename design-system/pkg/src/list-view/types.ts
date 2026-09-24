@@ -6,8 +6,8 @@ import {
 } from '@react-types/shared';
 import { Key, type JSX } from 'react';
 
-import { DragAndDropHooks } from '@keystar/ui/drag-and-drop';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { DragAndDropHooks } from '@orclickag/keystatic-ui/drag-and-drop';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export interface ListViewProps<T>
   extends AriaGridListProps<T>,

@@ -1,5 +1,5 @@
 {
-  "name": "@keystatic/remix-test-app",
+  "name": "@orclickag/keystatic-remix-test-app",
   "version": "0.1.57",
   "type": "module",
   "private": true,
@@ -11,8 +11,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@keystatic/core": "workspace:^",
-    "@keystatic/remix": "workspace:^",
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-remix": "workspace:^",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
     "@remix-run/serve": "^2.9.2",

@@ -1,4 +1,4 @@
-import { VoussoirTheme } from '@keystar/ui/style';
+import { VoussoirTheme } from '@orclickag/keystatic-ui/style';
 
 type FontDefinition = VoussoirTheme['typography']['text']['medium']; // 'medium' is arbitrary, we just want the shape
 /**

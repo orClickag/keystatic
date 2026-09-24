@@ -15,9 +15,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@keystatic/core": "workspace:^",
-    "@keystatic/remix": "workspace:^",
     "@markdoc/markdoc": "^0.4.0",
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-remix": "workspace:^",
     "@remix-run/css-bundle": "^2.9.2",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",

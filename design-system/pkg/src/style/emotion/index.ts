@@ -13,7 +13,7 @@ import {
   RegisteredCache,
 } from '@emotion/utils';
 import { StyleSheet } from '@emotion/sheet';
-import { TOKEN_PREFIX } from '@keystar/ui/primitives';
+import { TOKEN_PREFIX } from '@orclickag/keystatic-ui/primitives';
 
 export type {
   CSSInterpolation,

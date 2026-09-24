@@ -1,4 +1,4 @@
-import { css, injectGlobal, tokenSchema } from '@keystar/ui/style';
+import { css, injectGlobal, tokenSchema } from '@orclickag/keystatic-ui/style';
 import { useRef, useCallback, useEffect } from 'react';
 
 export const classes = {

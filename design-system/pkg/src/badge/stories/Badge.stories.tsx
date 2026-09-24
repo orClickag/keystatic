@@ -1,7 +1,7 @@
-import { arrowUpRightIcon } from '@keystar/ui/icon/icons/arrowUpRightIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Numeral } from '@keystar/ui/typography';
+import { arrowUpRightIcon } from '@orclickag/keystatic-ui/icon/icons/arrowUpRightIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Numeral } from '@orclickag/keystatic-ui/typography';
 
 import { Badge } from '..';
 

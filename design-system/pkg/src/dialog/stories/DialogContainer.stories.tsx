@@ -1,10 +1,10 @@
 import { chain } from 'react-aria/chain';
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useReducer } from 'react';
 
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Content, Header } from '@keystar/ui/slots';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Content, Header } from '@orclickag/keystatic-ui/slots';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Dialog, DialogContainer, DialogProps, useDialogContainer } from '..';
 import { getParagraph } from './common';

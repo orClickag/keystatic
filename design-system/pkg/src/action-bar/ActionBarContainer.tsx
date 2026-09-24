@@ -2,7 +2,7 @@ import { filterDOMProps } from 'react-aria/filterDOMProps';
 import { useObjectRef } from 'react-aria/useObjectRef';
 import React, { ForwardRefExoticComponent, ForwardedRef, Ref } from 'react';
 
-import { classNames, css, useStyleProps } from '@keystar/ui/style';
+import { classNames, css, useStyleProps } from '@orclickag/keystatic-ui/style';
 
 import { actionbarClassList } from './class-list';
 import { ActionBarContainerProps } from './types';

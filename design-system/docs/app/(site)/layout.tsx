@@ -1,4 +1,4 @@
-import { NextRootProvider, nextRootScript } from '@keystar/ui/next';
+import { NextRootProvider, nextRootScript } from '@orclickag/keystatic-ui/next';
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 

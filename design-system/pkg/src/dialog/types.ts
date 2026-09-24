@@ -1,8 +1,8 @@
 import { ReactElement, ReactNode, RefObject } from 'react';
 import { AriaLabelingProps, DOMProps } from '@react-types/shared';
 
-import { OverlayTriggerProps, PositionProps } from '@keystar/ui/overlays';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { OverlayTriggerProps, PositionProps } from '@orclickag/keystatic-ui/overlays';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 import { OverlayTriggerState } from 'react-stately/useOverlayTriggerState';
 
 export type DialogType = 'modal' | 'popover' | 'tray' | 'fullscreen';

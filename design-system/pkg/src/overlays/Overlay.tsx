@@ -1,7 +1,7 @@
 import { ForwardedRef, forwardRef, ReactElement } from 'react';
 import { Overlay as ReactAriaOverlay } from 'react-aria/Overlay';
 
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 
 import { cloneValidElement } from '../utils';
 

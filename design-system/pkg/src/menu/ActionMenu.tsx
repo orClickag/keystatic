@@ -7,10 +7,10 @@ import { Menu } from './Menu';
 import { MenuTrigger } from './MenuTrigger';
 import { ActionMenuProps } from './types';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { moreHorizontalIcon } from '@keystar/ui/icon/icons/moreHorizontalIcon';
-import { useSlotProps } from '@keystar/ui/slots';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { moreHorizontalIcon } from '@orclickag/keystatic-ui/icon/icons/moreHorizontalIcon';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 
 function ActionMenu<T extends object>(
   props: ActionMenuProps<T>,

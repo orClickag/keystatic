@@ -1,7 +1,7 @@
-import { ArgTypes } from '@keystar/ui-storybook';
+import { ArgTypes } from '@orclickag/keystatic-ui-storybook';
 
-import { Box, Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { ButtonGroup, Button } from '..';
 

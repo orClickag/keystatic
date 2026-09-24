@@ -6,8 +6,8 @@ import { mergeProps } from 'react-aria/mergeProps';
 import { Node } from '@react-types/shared';
 import { useRef } from 'react';
 
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { useListBoxContext } from './context';
 import { ListItem } from './ListItem';

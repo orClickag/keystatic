@@ -1,9 +1,9 @@
-import { Icon } from '@keystar/ui/icon';
-import { copyIcon } from '@keystar/ui/icon/icons/copyIcon';
-import { pencilIcon } from '@keystar/ui/icon/icons/pencilIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Item, ListView } from '@keystar/ui/list-view';
-import { Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { copyIcon } from '@orclickag/keystatic-ui/icon/icons/copyIcon';
+import { pencilIcon } from '@orclickag/keystatic-ui/icon/icons/pencilIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Item, ListView } from '@orclickag/keystatic-ui/list-view';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { Selection } from '@react-types/shared';
 import React, { useState } from 'react';
 

@@ -1,7 +1,7 @@
 import {
   APIRouteConfig,
   makeGenericAPIRouteHandler,
-} from '@keystatic/core/api/generic';
+} from '@orclickag/keystatic-core/api/generic';
 
 export async function handleLoader(
   _config: APIRouteConfig,

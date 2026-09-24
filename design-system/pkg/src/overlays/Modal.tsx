@@ -10,7 +10,7 @@ import {
   useRef,
 } from 'react';
 
-import { TOKEN_PREFIX } from '@keystar/ui/primitives';
+import { TOKEN_PREFIX } from '@orclickag/keystatic-ui/primitives';
 import {
   classNames,
   css,
@@ -18,7 +18,7 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { Blanket } from './Blanket';
 import { Overlay } from './Overlay';

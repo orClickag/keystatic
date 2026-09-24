@@ -1,18 +1,18 @@
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Dialog, DialogContainer } from '@keystar/ui/dialog';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Dialog, DialogContainer } from '@orclickag/keystatic-ui/dialog';
 import {
   ItemDropTarget,
   move,
   useDragAndDrop,
-} from '@keystar/ui/drag-and-drop';
-import { FieldDescription, FieldLabel, FieldMessage } from '@keystar/ui/field';
-import { Icon } from '@keystar/ui/icon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { VStack } from '@keystar/ui/layout';
-import { Item, ListView } from '@keystar/ui/list-view';
-import { Content } from '@keystar/ui/slots';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/drag-and-drop';
+import { FieldDescription, FieldLabel, FieldMessage } from '@orclickag/keystatic-ui/field';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { VStack } from '@orclickag/keystatic-ui/layout';
+import { Item, ListView } from '@orclickag/keystatic-ui/list-view';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { useField } from 'react-aria/useField';
 import { useId, Key, useMemo, useState } from 'react';

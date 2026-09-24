@@ -8,8 +8,8 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 const segmentClassList = new ClassList('InputSegment', ['editable']);
 

@@ -1,11 +1,11 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useRef, useState } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { plusIcon } from '@keystar/ui/icon/icons/plusIcon';
-import { Box } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { plusIcon } from '@orclickag/keystatic-ui/icon/icons/plusIcon';
+import { Box } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { NavTree, Item, Section } from '../index';
 import { Key } from '@react-types/shared';

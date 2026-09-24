@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import { FormFieldInputProps } from '../../api';
-import { TextArea, TextField } from '@keystar/ui/text-field';
+import { TextArea, TextField } from '@orclickag/keystatic-ui/text-field';
 import { validateText } from './validateText';
 import { PathContext, SlugFieldContext } from './path-slug-context';
 

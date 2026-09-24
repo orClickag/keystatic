@@ -19,14 +19,14 @@ import { DropTarget, Node } from '@react-types/shared';
 import { assert } from 'emery';
 import React, { HTMLAttributes, useRef } from 'react';
 
-import { Checkbox } from '@keystar/ui/checkbox';
-import { KeystarProvider } from '@keystar/ui/core';
-import { Icon } from '@keystar/ui/icon';
-import { chevronLeftIcon } from '@keystar/ui/icon/icons/chevronLeftIcon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
-import { gripVerticalIcon } from '@keystar/ui/icon/icons/gripVerticalIcon';
-import { Flex, Grid } from '@keystar/ui/layout';
-import { ClearSlots, SlotProvider } from '@keystar/ui/slots';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronLeftIcon } from '@orclickag/keystatic-ui/icon/icons/chevronLeftIcon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
+import { gripVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/gripVerticalIcon';
+import { Flex, Grid } from '@orclickag/keystatic-ui/layout';
+import { ClearSlots, SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   FocusRing,
   classNames,
@@ -34,9 +34,9 @@ import {
   toDataAttributes,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { listViewClassList, listViewItemClassList } from './class-list';
 import { useListViewContext } from './context';

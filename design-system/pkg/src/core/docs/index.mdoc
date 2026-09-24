@@ -81,7 +81,7 @@ components that render links to perform client-side navigation using your
 application or framework’s client-side router.
 
 ```jsx
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 import {
   useLocation as useRouterLocation,
   useNavigate,
@@ -111,11 +111,11 @@ export function App() {
 ```
 
 Providing stable pathname and search hooks enables the framework-independent
-router hooks exported from `@keystar/ui/router`. The hooks are only called by
+router hooks exported from `@orclickag/keystatic-ui/router`. The hooks are only called by
 components that consume the corresponding value.
 
 ```tsx
-import { useNavigate, usePathname, useSearch } from '@keystar/ui/router';
+import { useNavigate, usePathname, useSearch } from '@orclickag/keystatic-ui/router';
 
 function Pagination() {
   const navigate = useNavigate();

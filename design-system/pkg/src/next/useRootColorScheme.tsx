@@ -7,7 +7,7 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { ColorScheme } from '@keystar/ui/types';
+import { ColorScheme } from '@orclickag/keystatic-ui/types';
 
 type ColorSchemeContextType = ReturnType<typeof useColorSchemeState>;
 

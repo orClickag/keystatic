@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Entry } from '@keystatic/core/reader';
+import { Entry } from '@orclickag/keystatic-core/reader';
 
 import { cx } from '../../utils';
 import { reader } from '../../keystatic/reader';

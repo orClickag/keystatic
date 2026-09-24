@@ -8,13 +8,13 @@ import {
   useState,
 } from 'react';
 
-import { Badge } from '@keystar/ui/badge';
-import { Button } from '@keystar/ui/button';
-import { DialogContainer } from '@keystar/ui/dialog';
-import { Flex } from '@keystar/ui/layout';
-import { Notice } from '@keystar/ui/notice';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { DialogContainer } from '@orclickag/keystatic-ui/dialog';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Notice } from '@orclickag/keystatic-ui/notice';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Config } from '../config';
 import { clientSideValidateProp } from '../form/errors';
@@ -37,18 +37,18 @@ import { useBaseCommit, useCurrentBranch, useRepoInfo } from './shell/data';
 import { useHasChanged } from './useHasChanged';
 import { parseEntry, useItemData } from './useItemData';
 import { serializeEntryToFiles, useUpsertItem } from './updating';
-import { Icon } from '@keystar/ui/icon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import { ForkRepoDialog } from './fork-repo';
 import { FormForEntry, containerWidthForEntryLayout } from './entry-form';
 import { notFound } from './not-found';
 import { delDraft, getDraft, setDraft } from './persistence';
 import * as s from 'superstruct';
 import { LOADING, useData } from './useData';
-import { ActionGroup, Item } from '@keystar/ui/action-group';
-import { useMediaQuery, breakpointQueries } from '@keystar/ui/style';
-import { githubIcon } from '@keystar/ui/icon/icons/githubIcon';
-import { externalLinkIcon } from '@keystar/ui/icon/icons/externalLinkIcon';
-import { historyIcon } from '@keystar/ui/icon/icons/historyIcon';
+import { ActionGroup, Item } from '@orclickag/keystatic-ui/action-group';
+import { useMediaQuery, breakpointQueries } from '@orclickag/keystatic-ui/style';
+import { githubIcon } from '@orclickag/keystatic-ui/icon/icons/githubIcon';
+import { externalLinkIcon } from '@orclickag/keystatic-ui/icon/icons/externalLinkIcon';
+import { historyIcon } from '@orclickag/keystatic-ui/icon/icons/historyIcon';
 import { getYjsValFromParsedValue } from '../form/yjs-props-value';
 import * as Y from 'yjs';
 import { useYjsIfAvailable } from './shell/collab';
@@ -61,10 +61,10 @@ import {
 } from './preview-props';
 import { ComponentSchema, GenericPreviewProps } from '..';
 import { copyEntryToClipboard, getPastedEntry } from './entry-clipboard';
-import { clipboardPasteIcon } from '@keystar/ui/icon/icons/clipboardPasteIcon';
-import { clipboardCopyIcon } from '@keystar/ui/icon/icons/clipboardCopyIcon';
+import { clipboardPasteIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardPasteIcon';
+import { clipboardCopyIcon } from '@orclickag/keystatic-ui/icon/icons/clipboardCopyIcon';
 import { setValueToPreviewProps } from '../form/get-value';
-import { toastQueue } from '@keystar/ui/toast';
+import { toastQueue } from '@orclickag/keystatic-ui/toast';
 
 type SingletonPageProps = {
   singleton: string;

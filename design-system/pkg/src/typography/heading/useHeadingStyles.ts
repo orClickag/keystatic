@@ -1,5 +1,5 @@
-import { ClassList, css, tokenSchema, useStyleProps } from '@keystar/ui/style';
-import { HeadingProps, PickRequired } from '@keystar/ui/types';
+import { ClassList, css, tokenSchema, useStyleProps } from '@orclickag/keystatic-ui/style';
+import { HeadingProps, PickRequired } from '@orclickag/keystatic-ui/types';
 
 import { getTrimStyles } from '../getTrimStyles';
 import { textOptimizationStyles } from '../text/useTextStyles';

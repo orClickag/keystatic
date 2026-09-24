@@ -1,9 +1,9 @@
-import { Box } from '@keystar/ui/layout';
+import { Box } from '@orclickag/keystatic-ui/layout';
 import {
   SplitView,
   SplitPanePrimary,
   SplitPaneSecondary,
-} from '@keystar/ui/split-view';
+} from '@orclickag/keystatic-ui/split-view';
 import { ReactNode, createContext, useContext } from 'react';
 
 import { ReadonlyPropPath } from '../form/fields/document/DocumentEditor/component-blocks/utils';

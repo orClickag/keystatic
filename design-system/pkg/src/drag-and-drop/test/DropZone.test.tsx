@@ -22,9 +22,9 @@ import {
   renderWithProvider,
 } from '#test-utils';
 
-import { Button, buttonClassList } from '@keystar/ui/button';
-import { TextLink } from '@keystar/ui/link';
-import { Text } from '@keystar/ui/typography';
+import { Button, buttonClassList } from '@orclickag/keystatic-ui/button';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { DropZone, FileTrigger, dropZoneClassList } from '../index';
 import { Draggable } from './examples';

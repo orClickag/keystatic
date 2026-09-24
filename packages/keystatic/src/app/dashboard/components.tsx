@@ -1,15 +1,15 @@
 import { PropsWithChildren, ReactElement, useRef } from 'react';
 
-import { Flex } from '@keystar/ui/layout';
-import { useLink } from '@keystar/ui/link';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { useLink } from '@orclickag/keystatic-ui/link';
 import {
   classNames,
   containerQueries,
   css,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 export const DashboardSection = ({
   children,

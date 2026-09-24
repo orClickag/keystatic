@@ -19,8 +19,8 @@ import {
   vi,
 } from 'vitest';
 
-import { Button } from '@keystar/ui/button';
-import { TestProvider } from '@keystar/ui/core';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { TestProvider } from '@orclickag/keystatic-ui/core';
 
 import { Tooltip, TooltipTrigger } from '..';
 import { MOUSE_REST_TIMEOUT } from '../TooltipTrigger';

@@ -25,9 +25,9 @@ import { useCollection } from 'react-stately/private/collections/useCollection';
 import { TabListState, useTabListState } from 'react-stately/useTabListState';
 import { DOMProps, Node, Orientation } from '@react-types/shared';
 
-import { useProvider, useProviderProps } from '@keystar/ui/core';
-import { Item, Picker, PickerProps } from '@keystar/ui/picker';
-import { SlotProvider } from '@keystar/ui/slots';
+import { useProvider, useProviderProps } from '@orclickag/keystatic-ui/core';
+import { Item, Picker, PickerProps } from '@orclickag/keystatic-ui/picker';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   ClassList,
   FocusRing,
@@ -37,9 +37,9 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import {
   TabsProps,

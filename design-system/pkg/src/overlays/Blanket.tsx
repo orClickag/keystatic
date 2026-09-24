@@ -5,7 +5,7 @@ import {
   toDataAttributes,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { BlanketProps } from './types';
 

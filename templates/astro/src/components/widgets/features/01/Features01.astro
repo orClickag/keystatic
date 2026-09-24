@@ -1,0 +1,12 @@
+---
+import type { Features01Data } from './Features01Data';
+
+type Props = Features01Data;
+const { title, description, cards } = Astro.props;
+---
+
+<section class="features features--01">
+  <h2>{title}</h2>
+  {description ? <p>{description}</p> : null}
+  <ul>{cards.map(card => <li>{card.icon ? <span aria-hidden="true">{card.icon}</span> : null}<h3>{card.title}</h3><p>{card.description}</p></li>)}</ul>
+</section>

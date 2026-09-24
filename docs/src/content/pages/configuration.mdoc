@@ -4,11 +4,11 @@ summary: >-
   The Keystatic's config file, where content structures and storage paths are
   defined.
 ---
-Every Keystatic project expects an exported `config`. The `config()` function can be imported from the `@keystatic/core` package:
+Every Keystatic project expects an exported `config`. The `config()` function can be imported from the `@orclickag/keystatic-core` package:
 
 ```typescript
 // keystatic.config.ts
-import { config } from '@keystatic/core'
+import { config } from '@orclickag/keystatic-core'
 
 export default config({
   // ...
@@ -23,7 +23,7 @@ Each post has a `title` as well as a long-form, WYSIWYG `content` field.
 
 ```typescript
 // keystatic.config.ts
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from '@orclickag/keystatic-core';
 
 export default config({
   storage: {
@@ -54,7 +54,7 @@ export default config({
 
 ```ts
 // keystatic.config.ts
-import { config } from '@keystatic/core'
+import { config } from '@orclickag/keystatic-core'
 
 export default config({
   storage: { 
@@ -79,7 +79,7 @@ Learn more in the [Collections](/docs/collections) page.
 
 ### Locale
 
-`locale` — defines the [locale](https://docsmill.dev/npm/@keystatic/core@latest#/.CloudConfig.locales) for the project.
+`locale` — defines the [locale](https://docsmill.dev/npm/@orclickag/keystatic-core@latest#/.CloudConfig.locales) for the project.
 
 ### Singletons
 
@@ -99,7 +99,7 @@ It's `kind` can be set to:
 
 ```typescript
 // keystatic.config.ts
-import { config } from '@keystatic/core'
+import { config } from '@orclickag/keystatic-core'
 
 export default config({
   storage: { kind: 'local' }
@@ -116,4 +116,4 @@ Learn more on the [User Interface](/docs/user-interface) page.
 
 ## Type signature
 
-Find the latest version of the `config` type signature at:&nbsp;[**https://docsmill.dev/npm/@keystatic/core@latest#/.config**](https://docsmill.dev/npm/@keystatic/core@latest#/.config)
+Find the latest version of the `config` type signature at:&nbsp;[**https://docsmill.dev/npm/@orclickag/keystatic-core@latest#/.config**](https://docsmill.dev/npm/@orclickag/keystatic-core@latest#/.config)

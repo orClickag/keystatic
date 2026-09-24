@@ -1,6 +1,6 @@
-import { ArgTypes, action } from '@keystar/ui-storybook';
+import { ArgTypes, action } from '@orclickag/keystatic-ui-storybook';
 
-import { Text } from '@keystar/ui/typography';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Radio, RadioGroup, RadioGroupProps } from '..';
 

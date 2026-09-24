@@ -1,4 +1,4 @@
-import { Picker, Item } from '@keystar/ui/picker';
+import { Picker, Item } from '@orclickag/keystatic-ui/picker';
 import { useFieldSpan } from '../context';
 
 export function SelectFieldInput<Value extends string>(props: {
@@ -7,6 +7,8 @@ export function SelectFieldInput<Value extends string>(props: {
   autoFocus?: boolean;
   label: string;
   description?: string;
+  width?: 'auto' | 'full';
+  isRequired?: boolean;
   options: readonly { label: string; value: Value }[];
 }) {
   let fieldSpan = useFieldSpan();
@@ -15,6 +17,7 @@ export function SelectFieldInput<Value extends string>(props: {
     <Picker
       label={props.label}
       description={props.description}
+      isRequired={props.isRequired}
       items={props.options}
       value={props.value}
       onChange={key => {
@@ -23,10 +26,14 @@ export function SelectFieldInput<Value extends string>(props: {
         }
       }}
       autoFocus={props.autoFocus}
-      width={{
-        mobile: 'auto',
-        tablet: fieldSpan === 12 ? 'alias.singleLineWidth' : 'auto',
-      }}
+      width={
+        props.width === 'full'
+          ? '100%'
+          : {
+              mobile: 'auto',
+              tablet: fieldSpan === 12 ? 'alias.singleLineWidth' : 'auto',
+            }
+      }
     >
       {item => <Item key={item.value}>{item.label}</Item>}
     </Picker>

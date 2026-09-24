@@ -1,9 +1,9 @@
-import { Flex } from '@keystar/ui/layout';
-import { Button, ButtonGroup } from '@keystar/ui/button';
-import { useDialogContainer } from '@keystar/ui/dialog';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { useDialogContainer } from '@orclickag/keystatic-ui/dialog';
 import { useId, useMemo, useState } from 'react';
 import { FormValueContentFromPreviewProps } from '../../../form-from-preview';
-import { Content } from '@keystar/ui/slots';
+import { Content } from '@orclickag/keystatic-ui/slots';
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { clientSideValidateProp } from '../../../errors';
 import { createGetPreviewProps } from '../../../preview-props';

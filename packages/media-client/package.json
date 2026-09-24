@@ -1,0 +1,22 @@
+{
+  "name": "@orclickag/keystatic-media-client",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "exports": {
+    ".": "./dist/orclickag-keystatic-media-client.js",
+    "./package.json": "./package.json"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

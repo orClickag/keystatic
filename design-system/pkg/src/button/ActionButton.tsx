@@ -6,11 +6,11 @@ import { mergeProps } from 'react-aria/mergeProps';
 import { useObjectRef } from 'react-aria/useObjectRef';
 import { ForwardedRef, forwardRef, useMemo } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { SlotProvider, SlotContextType, useSlotProps } from '@keystar/ui/slots';
-import { FocusRing } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { SlotProvider, SlotContextType, useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { FocusRing } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import {
   actionButtonClassList,

@@ -16,7 +16,7 @@ import {
 } from 'react';
 import { createPortal } from 'react-dom';
 import { useEditorViewRef } from './editor-view';
-import { css } from '@keystar/ui/style';
+import { css } from '@orclickag/keystatic-ui/style';
 
 type NodeViewInfo = {
   key: string;

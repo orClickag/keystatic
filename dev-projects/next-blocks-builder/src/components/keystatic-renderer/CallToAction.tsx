@@ -1,4 +1,4 @@
-import { InferRenderersForComponentBlocks } from '@keystatic/core';
+import { InferRenderersForComponentBlocks } from '@orclickag/keystatic-core';
 
 import { cx } from '../../utils';
 import { callToAction } from '../../keystatic/schema/component-blocks';

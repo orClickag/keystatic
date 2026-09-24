@@ -1,5 +1,5 @@
-import { Flex } from '@keystar/ui/layout';
-import { Kbd, Numeral, Text } from '@keystar/ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Kbd, Numeral, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Tooltip } from '..';
 import { TooltipContext } from '../context';

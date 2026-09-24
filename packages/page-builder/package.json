@@ -1,0 +1,29 @@
+{
+  "name": "@orclickag/keystatic-page-builder",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "exports": {
+    ".": "./dist/orclickag-keystatic-page-builder.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-media-client": "workspace:^"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

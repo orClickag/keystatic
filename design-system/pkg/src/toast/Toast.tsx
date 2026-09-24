@@ -3,21 +3,21 @@ import { useToast } from 'react-aria/useToast';
 import { useObjectRef } from 'react-aria/useObjectRef';
 import { ForwardedRef, forwardRef, useMemo } from 'react';
 
-import { Button, ClearButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { checkCircle2Icon } from '@keystar/ui/icon/icons/checkCircle2Icon';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { alertTriangleIcon } from '@keystar/ui/icon/icons/alertTriangleIcon';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Button, ClearButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { checkCircle2Icon } from '@orclickag/keystatic-ui/icon/icons/checkCircle2Icon';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { alertTriangleIcon } from '@orclickag/keystatic-ui/icon/icons/alertTriangleIcon';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   tokenSchema,
   useMediaQuery,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import intlMessages from './l10n';
 import { ToastProps } from './types';

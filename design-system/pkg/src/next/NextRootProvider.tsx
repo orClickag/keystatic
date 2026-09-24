@@ -1,7 +1,7 @@
 'use client';
 
-import { cache } from '@keystar/ui/style';
-import { KeystarProvider } from '@keystar/ui/core';
+import { cache } from '@orclickag/keystatic-ui/style';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 import {
   usePathname,
   useRouter,
@@ -68,7 +68,7 @@ function InnerProvider(props: NextRootProviderProps) {
       navigate(href: string, options?: { replace?: boolean }) {
         return options?.replace ? replace(href) : push(href);
       },
-      // These hooks are consumed lazily by @keystar/ui/router.
+      // These hooks are consumed lazily by @orclickag/keystatic-ui/router.
       // eslint-disable-next-line react-compiler/react-compiler
       usePathname,
       // eslint-disable-next-line react-compiler/react-compiler

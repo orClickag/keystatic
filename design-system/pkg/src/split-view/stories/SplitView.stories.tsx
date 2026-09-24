@@ -1,6 +1,6 @@
-import { ActionButton } from '@keystar/ui/button';
-import { Text } from '@keystar/ui/typography';
-import { action } from '@keystar/ui-storybook';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { chain } from 'react-aria/chain';
 import { useState } from 'react';
 

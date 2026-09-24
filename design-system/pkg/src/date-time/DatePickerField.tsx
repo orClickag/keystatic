@@ -4,7 +4,7 @@ import { useLocale } from 'react-aria/I18nProvider';
 import { useDateFieldState } from 'react-stately/useDateFieldState';
 import { useRef } from 'react';
 
-import { css, tokenSchema } from '@keystar/ui/style';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
 
 import { InputSegment } from './InputSegment';
 import { DatePickerProps } from './types';

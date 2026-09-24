@@ -1,6 +1,6 @@
-import { Flex } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 export function EmptyRepo(props: { repo: string }) {
   return (

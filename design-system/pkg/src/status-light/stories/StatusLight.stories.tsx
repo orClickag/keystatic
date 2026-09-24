@@ -1,4 +1,4 @@
-import { Flex } from '@keystar/ui/layout';
+import { Flex } from '@orclickag/keystatic-ui/layout';
 
 import { StatusLight } from '..';
 

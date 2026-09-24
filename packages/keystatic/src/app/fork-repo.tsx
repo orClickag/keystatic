@@ -1,18 +1,18 @@
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
-import { ButtonGroup, Button } from '@keystar/ui/button';
-import { Dialog } from '@keystar/ui/dialog';
-import { Content } from '@keystar/ui/slots';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ButtonGroup, Button } from '@orclickag/keystatic-ui/button';
+import { Dialog } from '@orclickag/keystatic-ui/dialog';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { useContext, useEffect, useState } from 'react';
 import l10nMessages from './l10n';
 import { GitHubConfig } from '../config';
 import { getAuth } from './auth';
 import { useClient } from 'urql';
 import { GitHubAppShellQuery } from './shell/data';
-import { Notice } from '@keystar/ui/notice';
+import { Notice } from '@orclickag/keystatic-ui/notice';
 import { AppSlugContext } from './onboarding/install-app';
-import { Flex } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
 import { parseRepoConfig, serializeRepoConfig } from './repo-config';
 
 export function ForkRepoDialog(props: {

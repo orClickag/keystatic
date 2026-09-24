@@ -6,8 +6,8 @@ import { type AriaTagProps, useTag } from 'react-aria/useTagGroup';
 import { mergeProps } from 'react-aria/mergeProps';
 import type { ListState } from 'react-stately/useListState';
 
-import { ClearButton } from '@keystar/ui/button';
-import { ClearSlots, SlotProvider } from '@keystar/ui/slots';
+import { ClearButton } from '@orclickag/keystatic-ui/button';
+import { ClearSlots, SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
@@ -15,9 +15,9 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 import { gapVar, heightVar } from './styles';
 
 export interface TagProps<T> extends AriaTagProps<T> {

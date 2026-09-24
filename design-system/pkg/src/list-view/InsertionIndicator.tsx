@@ -3,7 +3,7 @@ import { ItemDropTarget } from '@react-types/shared';
 import { assert } from 'emery';
 import { useRef } from 'react';
 
-import { InsertionIndicatorPrimitive } from '@keystar/ui/drag-and-drop';
+import { InsertionIndicatorPrimitive } from '@orclickag/keystatic-ui/drag-and-drop';
 
 import { useListViewContext } from './context';
 

@@ -1,7 +1,7 @@
 import { DOMProps } from '@react-types/shared';
 import { ReactElement } from 'react';
 
-import { BaseStyleProps, ColorForeground, SizeIcon } from '@keystar/ui/style';
+import { BaseStyleProps, ColorForeground, SizeIcon } from '@orclickag/keystatic-ui/style';
 
 export type IconProps = {
   src: ReactElement;

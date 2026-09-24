@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react';
-import { useStyleProps } from '@keystar/ui/style';
+import { useStyleProps } from '@orclickag/keystatic-ui/style';
 import { expect, describe, it } from 'vitest';
 
 describe('style/useStyleProps', function () {

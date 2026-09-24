@@ -3,15 +3,15 @@ import copy from 'clipboard-copy';
 import { createUrl } from 'playroom/utils';
 import { ReactNode, useEffect, useId, useState, type JSX } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { copyIcon } from '@keystar/ui/icon/icons/copyIcon';
-import { editIcon } from '@keystar/ui/icon/icons/editIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Box, Flex } from '@keystar/ui/layout';
-import { ClearSlots } from '@keystar/ui/slots';
-import { css, tokenSchema, transition } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { copyIcon } from '@orclickag/keystatic-ui/icon/icons/copyIcon';
+import { editIcon } from '@orclickag/keystatic-ui/icon/icons/editIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { ClearSlots } from '@orclickag/keystatic-ui/slots';
+import { css, tokenSchema, transition } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Highlight } from '../highlight';
 import { placeholderCounter } from '../../example-helpers';

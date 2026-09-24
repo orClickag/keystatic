@@ -1,19 +1,19 @@
 'use client';
-import { ActionGroup, Item } from '@keystar/ui/action-group';
-import { ActionButton } from '@keystar/ui/button';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Text } from '@keystar/ui/typography';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Icon } from '@keystar/ui/icon';
-import { Divider, Flex } from '@keystar/ui/layout';
+import { ActionGroup, Item } from '@orclickag/keystatic-ui/action-group';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Divider, Flex } from '@orclickag/keystatic-ui/layout';
 
 import { PropsWithChildren } from 'react';
 
-import { alertOctagonIcon } from '@keystar/ui/icon/icons/alertOctagonIcon';
-import { alertTriangleIcon } from '@keystar/ui/icon/icons/alertTriangleIcon';
-import { checkCircle2Icon } from '@keystar/ui/icon/icons/checkCircle2Icon';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { css, tokenSchema } from '@keystar/ui/style';
+import { alertOctagonIcon } from '@orclickag/keystatic-ui/icon/icons/alertOctagonIcon';
+import { alertTriangleIcon } from '@orclickag/keystatic-ui/icon/icons/alertTriangleIcon';
+import { checkCircle2Icon } from '@orclickag/keystatic-ui/icon/icons/checkCircle2Icon';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
 
 const toneToIcon = {
   caution: alertTriangleIcon,

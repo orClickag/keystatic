@@ -3,13 +3,13 @@ import { EditorState, NodeSelection, TextSelection } from 'prosemirror-state';
 import { toggleHeader } from 'prosemirror-tables';
 import { ReactElement, useMemo, useState } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { EditorPopover, EditorPopoverProps } from '@keystar/ui/editor';
-import { Icon } from '@keystar/ui/icon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Divider, Flex } from '@keystar/ui/layout';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { sheetIcon } from '@keystar/ui/icon/icons/sheetIcon';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { EditorPopover, EditorPopoverProps } from '@orclickag/keystatic-ui/editor';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Divider, Flex } from '@orclickag/keystatic-ui/layout';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { sheetIcon } from '@orclickag/keystatic-ui/icon/icons/sheetIcon';
 
 import {
   useEditorDispatchCommand,
@@ -20,13 +20,13 @@ import { EditorSchema, getEditorSchema } from '../schema';
 import { LinkToolbar } from './link-toolbar';
 import { useEditorReferenceElement } from './reference';
 import { ImagePopover } from './images';
-import { Dialog, DialogContainer } from '@keystar/ui/dialog';
+import { Dialog, DialogContainer } from '@orclickag/keystatic-ui/dialog';
 import { FormValue } from '../FormValue';
-import { Heading } from '@keystar/ui/typography';
-import { pencilIcon } from '@keystar/ui/icon/icons/pencilIcon';
+import { Heading } from '@orclickag/keystatic-ui/typography';
+import { pencilIcon } from '@orclickag/keystatic-ui/icon/icons/pencilIcon';
 import { ComponentSchema } from '../../../../api';
 import { toSerialized, useDeserializedValue } from '../props-serialization';
-import { TextField } from '@keystar/ui/text-field';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
 
 type NodePopoverRenderer = (props: {
   node: Node;

@@ -1,4 +1,4 @@
-import { fields } from '@keystatic/core';
+import { fields } from '@orclickag/keystatic-core';
 
 const surfaceOptions = [
   { label: 'White', value: 'white' },

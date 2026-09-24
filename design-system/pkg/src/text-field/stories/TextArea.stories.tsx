@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
-import { action, Parameters } from '@keystar/ui-storybook';
-import { Grid } from '@keystar/ui/layout';
+import { action, Parameters } from '@orclickag/keystatic-ui-storybook';
+import { Grid } from '@orclickag/keystatic-ui/layout';
 
 import { TextArea } from '..';
 

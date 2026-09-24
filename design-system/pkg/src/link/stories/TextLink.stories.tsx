@@ -1,7 +1,7 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 
-import { Grid } from '@keystar/ui/layout';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Grid } from '@orclickag/keystatic-ui/layout';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { TextLink, TextLinkProps } from '..';
 

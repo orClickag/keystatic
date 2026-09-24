@@ -21,10 +21,10 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { WithRenderProps } from '@keystar/ui/types';
-import { useRenderProps } from '@keystar/ui/utils';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+} from '@orclickag/keystatic-ui/style';
+import { WithRenderProps } from '@orclickag/keystatic-ui/types';
+import { useRenderProps } from '@orclickag/keystatic-ui/utils';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import localizedMessages from './l10n';
 import { SlotProvider } from '../slots';

@@ -10,8 +10,8 @@ import {
   useMemo,
 } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { SlotProvider } from '@keystar/ui/slots';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   BaseStyleProps,
   FocusRing,
@@ -21,9 +21,9 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 export type SwitchProps = AriaSwitchProps &
   BaseStyleProps & {

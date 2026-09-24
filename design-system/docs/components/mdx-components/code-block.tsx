@@ -1,6 +1,6 @@
 'use client';
-import { Flex } from '@keystar/ui/layout';
-import { css, tokenSchema } from '@keystar/ui/style';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
 
 import { Highlight } from './highlight';
 

@@ -1,4 +1,4 @@
-import { MaybeArray } from '@keystar/ui/types';
+import { MaybeArray } from '@orclickag/keystatic-ui/types';
 import { assertNever } from 'emery';
 
 import { tokenSchema } from './tokens';

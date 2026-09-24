@@ -251,7 +251,7 @@ const docs = [
               </div>
               <p>
                 <span className="text-sand-11">npm</span> install
-                @keystatic/core @keystatic/astro
+                @orclickag/keystatic-core @orclickag/keystatic-astro
               </p>
             </div>
             <div className="flex h-16 flex-row items-center gap-5 overflow-hidden rounded-lg border border-sand-12 bg-whiteAlpha-9 px-4 py-2 transition-all duration-150 ease-out hover:h-[5.5rem] hover:bg-whiteAlpha-12">
@@ -260,7 +260,7 @@ const docs = [
               </div>
               <p>
                 <span className="text-sand-11">npm</span> install
-                @keystatic/core @keystatic/next
+                @orclickag/keystatic-core @orclickag/keystatic-next
               </p>
             </div>
           </div>

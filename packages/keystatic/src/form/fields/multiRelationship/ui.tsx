@@ -2,15 +2,15 @@ import { Item } from 'react-stately/Item';
 import { ItemDropTarget, Selection } from '@react-types/shared';
 import { useReducer, useMemo, useState, useEffect, Key } from 'react';
 
-import { ActionBar, ActionBarContainer } from '@keystar/ui/action-bar';
-import { Combobox } from '@keystar/ui/combobox';
-import { move, useDragAndDrop } from '@keystar/ui/drag-and-drop';
-import { Icon } from '@keystar/ui/icon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { VStack } from '@keystar/ui/layout';
-import { ListView } from '@keystar/ui/list-view';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { ActionBar, ActionBarContainer } from '@orclickag/keystatic-ui/action-bar';
+import { Combobox } from '@orclickag/keystatic-ui/combobox';
+import { move, useDragAndDrop } from '@orclickag/keystatic-ui/drag-and-drop';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { VStack } from '@orclickag/keystatic-ui/layout';
+import { ListView } from '@orclickag/keystatic-ui/list-view';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { FormFieldInputProps } from '../../api';
 import { useSlugsInCollection } from '../../../app/useSlugsInCollection';

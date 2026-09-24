@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 
-import { useSlotProps } from '@keystar/ui/slots';
-import { HeadingProps } from '@keystar/ui/types';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { HeadingProps } from '@orclickag/keystatic-ui/types';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import { HeadingContext } from './context';
 import { useHeadingStyles } from './useHeadingStyles';

@@ -1,11 +1,11 @@
 import { Alignment } from '@react-types/shared';
-import { action, Meta } from '@keystar/ui-storybook';
+import { action, Meta } from '@orclickag/keystatic-ui-storybook';
 import React, { useState } from 'react';
 
-import { Checkbox } from '@keystar/ui/checkbox';
-import { Flex } from '@keystar/ui/layout';
-import { Picker } from '@keystar/ui/picker';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Picker } from '@orclickag/keystatic-ui/picker';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
 
 import { ActionMenuProps, ActionMenu, Item } from '..';
 

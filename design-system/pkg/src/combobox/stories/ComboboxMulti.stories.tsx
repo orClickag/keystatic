@@ -1,13 +1,13 @@
-import { ArgTypes, action } from '@keystar/ui-storybook';
+import { ArgTypes, action } from '@orclickag/keystatic-ui-storybook';
 
-import { alignCenterVerticalIcon } from '@keystar/ui/icon/icons/alignCenterVerticalIcon';
-import { alignStartVerticalIcon } from '@keystar/ui/icon/icons/alignStartVerticalIcon';
-import { alignEndVerticalIcon } from '@keystar/ui/icon/icons/alignEndVerticalIcon';
-import { boldIcon } from '@keystar/ui/icon/icons/boldIcon';
-import { italicIcon } from '@keystar/ui/icon/icons/italicIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { alignCenterVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignCenterVerticalIcon';
+import { alignStartVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignStartVerticalIcon';
+import { alignEndVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignEndVerticalIcon';
+import { boldIcon } from '@orclickag/keystatic-ui/icon/icons/boldIcon';
+import { italicIcon } from '@orclickag/keystatic-ui/icon/icons/italicIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { ComboboxMulti, ComboboxMultiProps, Item, Section } from '../index';
 

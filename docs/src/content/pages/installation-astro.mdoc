@@ -23,7 +23,7 @@ npx astro add react markdoc
 You will also need two Keystatic packages:
 
 ```bash
-npm install @keystatic/core @keystatic/astro
+npm install @orclickag/keystatic-core @orclickag/keystatic-astro
 ```
 
 ## Updating the Astro config
@@ -36,7 +36,7 @@ import { defineConfig } from 'astro/config'
 
 import react from '@astrojs/react'
 import markdoc from '@astrojs/markdoc'
-+ import keystatic from '@keystatic/astro'
++ import keystatic from '@orclickag/keystatic-astro'
 
 // https://astro.build/config
 export default defineConfig({
@@ -53,7 +53,7 @@ Create a file called `keystatic.config.ts` in the root of the project and add th
 
 ```ts
 // keystatic.config.ts
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from '@orclickag/keystatic-core';
 
 export default config({
   storage: {

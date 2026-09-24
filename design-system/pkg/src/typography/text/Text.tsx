@@ -2,9 +2,9 @@ import { filterDOMProps } from 'react-aria/filterDOMProps';
 import { assert, warning } from 'emery';
 import { useMemo } from 'react';
 
-import { useSlotProps } from '@keystar/ui/slots';
-import { TextProps } from '@keystar/ui/types';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { TextProps } from '@orclickag/keystatic-ui/types';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import { TextContext, TextContextType, useTextContext } from './context';
 import { useTextStyles } from './useTextStyles';

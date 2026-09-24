@@ -1,8 +1,8 @@
 import { DOMProps } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { RootStyleProps, VoussoirTheme } from '@keystar/ui/style';
-import { ColorScheme, Emphasis, ScaleScheme } from '@keystar/ui/types';
+import { RootStyleProps, VoussoirTheme } from '@orclickag/keystatic-ui/style';
+import { ColorScheme, Emphasis, ScaleScheme } from '@orclickag/keystatic-ui/types';
 
 import type { Router } from '../router/types';
 

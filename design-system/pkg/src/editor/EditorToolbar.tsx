@@ -28,14 +28,14 @@ import {
   ActionButton,
   ToggleButton,
   ToggleButtonProps,
-} from '@keystar/ui/button';
-import { HStack } from '@keystar/ui/layout';
+} from '@orclickag/keystatic-ui/button';
+import { HStack } from '@orclickag/keystatic-ui/layout';
 import {
   BaseStyleProps,
   css,
   onlyStyleProps,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 type EditorToolbarState = {
   /** The value of the last focused node. */

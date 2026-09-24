@@ -1,0 +1,12 @@
+---
+import type { Features02Data } from './Features02Data';
+
+type Props = Features02Data;
+const { eyebrow, title, items } = Astro.props;
+---
+
+<section class="features features--02">
+  {eyebrow ? <p>{eyebrow}</p> : null}
+  <h2>{title}</h2>
+  <ol>{items.map(item => <li><h3>{item.title}</h3>{item.description ? <p>{item.description}</p> : null}</li>)}</ol>
+</section>

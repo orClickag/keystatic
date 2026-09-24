@@ -1,9 +1,9 @@
-import { Checkbox } from '@keystar/ui/checkbox';
-import { FieldLabel } from '@keystar/ui/field';
-import { Flex } from '@keystar/ui/layout';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
+import { FieldLabel } from '@orclickag/keystatic-ui/field';
+import { Flex } from '@orclickag/keystatic-ui/layout';
 import { useId } from 'react';
 import { FormFieldInputProps } from '../../api';
-import { Text } from '@keystar/ui/typography';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 export function MultiselectFieldInput<Value extends string>(
   props: FormFieldInputProps<readonly Value[]> & {

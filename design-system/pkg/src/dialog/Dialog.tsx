@@ -12,11 +12,11 @@ import {
   useRef,
 } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { xIcon } from '@keystar/ui/icon/icons/xIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Grid } from '@keystar/ui/layout';
-import { SlotProvider } from '@keystar/ui/slots';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { xIcon } from '@orclickag/keystatic-ui/icon/icons/xIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Grid } from '@orclickag/keystatic-ui/layout';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   ClassList,
   breakpointQueries,
@@ -25,8 +25,8 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { useHasChild } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { useHasChild } from '@orclickag/keystatic-ui/utils';
 
 import localizedMessages from './l10n';
 import { DialogContext, DialogContextValue } from './context';

@@ -1,4 +1,4 @@
-import { classNames, resetClassName } from '@keystar/ui/style';
+import { classNames, resetClassName } from '@orclickag/keystatic-ui/style';
 import { expect, describe, it } from 'vitest';
 
 describe('style/classNames', function () {

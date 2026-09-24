@@ -1,10 +1,10 @@
 'use client';
 import { ReactNode, type JSX } from 'react';
 
-import { Flex } from '@keystar/ui/layout';
+import { Flex } from '@orclickag/keystatic-ui/layout';
 
 import { SidebarItem, Sidebar, SidebarProvider } from './sidebar';
-import { Toaster } from '@keystar/ui/toast';
+import { Toaster } from '@orclickag/keystatic-ui/toast';
 
 export function Layout({
   children,

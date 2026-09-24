@@ -1,8 +1,8 @@
 import { filterDOMProps } from 'react-aria/filterDOMProps';
 import React, { SVGProps } from 'react';
 
-import { TOKEN_PREFIX } from '@keystar/ui/primitives';
-import { useSlotProps } from '@keystar/ui/slots';
+import { TOKEN_PREFIX } from '@orclickag/keystatic-ui/primitives';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
@@ -10,8 +10,8 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { IconProps } from '@keystar/ui/types';
+} from '@orclickag/keystatic-ui/style';
+import { IconProps } from '@orclickag/keystatic-ui/types';
 
 const STROKE_VAR = `--${TOKEN_PREFIX}-icon-stroke`;
 

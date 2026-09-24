@@ -1,9 +1,9 @@
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { MenuTrigger, Menu } from '@keystar/ui/menu';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { MenuTrigger, Menu } from '@orclickag/keystatic-ui/menu';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
 import { Item } from 'react-stately/Item';
 import { Command, EditorState, Plugin } from 'prosemirror-state';
 import {

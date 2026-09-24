@@ -1,10 +1,10 @@
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 
-import { Avatar } from '@keystar/ui/avatar';
-import { Flex, VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { tokenSchema } from '@keystar/ui/style';
-import { Heading } from '@keystar/ui/typography';
+import { Avatar } from '@orclickag/keystatic-ui/avatar';
+import { Flex, VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Heading } from '@orclickag/keystatic-ui/typography';
 
 import { Config } from '../../config';
 

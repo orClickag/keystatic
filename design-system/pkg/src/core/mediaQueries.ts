@@ -1,4 +1,4 @@
-import { useMediaQuery } from '@keystar/ui/style';
+import { useMediaQuery } from '@orclickag/keystatic-ui/style';
 
 // FANTASY API
 export type ColorScheme = 'light' | 'dark';

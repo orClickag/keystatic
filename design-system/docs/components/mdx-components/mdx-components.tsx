@@ -1,8 +1,8 @@
 import { ReactNode, ElementType } from 'react';
 
-import { Divider } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { Text } from '@keystar/ui/typography';
+import { Divider } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Heading } from '../../components/content/toc-context';
 import { InlineCode } from '../example-helpers';

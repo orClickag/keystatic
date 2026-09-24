@@ -4,9 +4,9 @@ import { useHover } from 'react-aria/useHover';
 import { mergeProps } from 'react-aria/mergeProps';
 import React, { Fragment, useMemo, useRef, ElementType } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
-import { chevronLeftIcon } from '@keystar/ui/icon/icons/chevronLeftIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
+import { chevronLeftIcon } from '@orclickag/keystatic-ui/icon/icons/chevronLeftIcon';
 import {
   ClassList,
   FocusRing,
@@ -14,7 +14,7 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { BreadcrumbItemProps as _BreadcrumbItemProps } from './types';
 

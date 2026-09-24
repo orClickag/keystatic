@@ -18,15 +18,15 @@ import {
   KeystarProvider,
   useProvider,
   useProviderProps,
-} from '@keystar/ui/core';
-import { useSlotProps } from '@keystar/ui/slots';
+} from '@orclickag/keystatic-ui/core';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { ButtonGroupProps } from './types';
 

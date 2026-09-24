@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 
-import { plusCircleIcon } from '@keystar/ui/icon/icons/plusCircleIcon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { plusCircleIcon } from '@orclickag/keystatic-ui/icon/icons/plusCircleIcon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Button, ButtonProps } from '..';
 

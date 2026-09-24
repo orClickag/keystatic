@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { ReactEditor, RenderElementProps, useSlateStatic } from 'slate-react';
 import { Transforms } from 'slate';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Flex } from '@keystar/ui/layout';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
 
 import {
   CustomAttributesDialog,

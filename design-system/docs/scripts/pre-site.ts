@@ -33,7 +33,7 @@ async function getComponentReexports() {
   return packages
     .sort()
     .filter(x => x !== 'types' && x !== 'test-utils')
-    .map(pkg => `export * from '@keystar/ui/${pkg}';`)
+    .map(pkg => `export * from '@orclickag/keystatic-ui/${pkg}';`)
     .join('\n');
 }
 

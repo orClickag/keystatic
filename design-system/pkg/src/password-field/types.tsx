@@ -7,7 +7,7 @@ import {
 } from '@react-types/shared';
 import { InputHTMLAttributes, LabelHTMLAttributes } from 'react';
 
-import { FieldProps } from '@keystar/ui/field';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
 
 export type PasswordFieldType = 'password' | 'text';
 

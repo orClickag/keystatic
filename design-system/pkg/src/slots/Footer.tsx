@@ -2,8 +2,8 @@ import { filterDOMProps } from 'react-aria/filterDOMProps';
 import { DOMProps } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { BaseStyleProps, useStyleProps } from '@keystar/ui/style';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { BaseStyleProps, useStyleProps } from '@orclickag/keystatic-ui/style';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import { useSlotProps } from './context';
 

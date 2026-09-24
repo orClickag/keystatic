@@ -1,16 +1,20 @@
 {
-  "name": "@keystatic/remix",
+  "name": "@orclickag/keystatic-remix",
   "version": "5.0.4",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkmill/keystatic/",
+    "url": "https://github.com/orClickag/keystatic/",
     "directory": "packages/remix"
   },
   "type": "module",
   "exports": {
-    "./ui": "./dist/keystatic-remix-ui.js",
-    "./api": "./dist/keystatic-remix-api.js",
+    "./ui": "./dist/orclickag-keystatic-remix-ui.js",
+    "./api": "./dist/orclickag-keystatic-remix-api.js",
     "./package.json": "./package.json"
   },
   "files": [
@@ -23,13 +27,13 @@
     "@types/react": "^19.0.8"
   },
   "devDependencies": {
-    "@keystatic/core": "workspace:^",
+    "@orclickag/keystatic-core": "workspace:^",
     "@remix-run/react": "^2.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "peerDependencies": {
-    "@keystatic/core": "*",
+    "@orclickag/keystatic-core": "*",
     "@remix-run/react": "1 || 2",
     "react": "^18.2.0 || ^19.0.0",
     "react-dom": "^18.2.0 || ^19.0.0"

@@ -12,16 +12,16 @@ import {
 } from 'react';
 import { RenderElementProps, useSelected } from 'slate-react';
 
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Dialog, DialogContainer } from '@keystar/ui/dialog';
-import { FieldMessage } from '@keystar/ui/field';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Content } from '@keystar/ui/slots';
-import { css, tokenSchema } from '@keystar/ui/style';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Dialog, DialogContainer } from '@orclickag/keystatic-ui/dialog';
+import { FieldMessage } from '@orclickag/keystatic-ui/field';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import l10nMessages from '../../../../../app/l10n';
 import {

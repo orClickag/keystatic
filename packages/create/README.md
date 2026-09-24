@@ -1,6 +1,6 @@
-# @keystatic/create
+# @orclickag/keystatic-create
 
-The `@keystatic/create` packages allows users to create a Keystatic project
+The `@orclickag/keystatic-create` packages allows users to create a Keystatic project
 direct from their CLI.
 
 ```bash

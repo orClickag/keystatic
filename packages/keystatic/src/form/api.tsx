@@ -263,6 +263,8 @@ export type ArrayField<ElementField extends ComponentSchema> = {
 export type ObjectFieldOptions = {
   label?: string;
   description?: string;
+  /** Preserve the configured grid columns when the form container is narrow. */
+  preserveLayoutOnNarrow?: boolean;
   /**
    * Define the number of columns each field should span. The grid layout
    * supports 12 possible columns.

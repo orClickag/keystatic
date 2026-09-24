@@ -8,12 +8,12 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import {
   Text,
   useHeadingContext,
   useTextContext,
-} from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/typography';
 
 import { TextLinkButtonProps } from './types';
 

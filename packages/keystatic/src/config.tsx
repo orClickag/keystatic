@@ -1,4 +1,4 @@
-import { ColorScheme } from '@keystar/ui/types';
+import { ColorScheme } from '@orclickag/keystatic-ui/types';
 import { ReactElement } from 'react';
 
 import { ComponentSchema, FormField, SlugFormField } from './form/api';

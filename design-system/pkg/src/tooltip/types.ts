@@ -6,7 +6,7 @@ import {
 import { PositionProps } from 'react-aria/useOverlayPosition';
 import { DOMProps } from '@react-types/shared';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type TooltipProps = {
   /** The content to display within the tooltip. */

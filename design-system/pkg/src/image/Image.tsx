@@ -3,14 +3,14 @@ import { DOMProps } from '@react-types/shared';
 import { warning } from 'emery';
 import { ReactEventHandler, ReactNode } from 'react';
 
-import { AspectRatio, AspectRatioProps } from '@keystar/ui/layout';
-import { useSlotProps } from '@keystar/ui/slots';
+import { AspectRatio, AspectRatioProps } from '@orclickag/keystatic-ui/layout';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   BoxStyleProps,
   classNames,
   css,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 const supportedProps = new Set(['loading', 'onError', 'onLoad', 'src']);
 

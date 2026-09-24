@@ -1,15 +1,15 @@
 import { ClipboardEvent, useEffect, useId, useState } from 'react';
 
-import { ObjectField, PreviewProps } from '@keystatic/core';
-import { ClearButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { imageIcon } from '@keystar/ui/icon/icons/imageIcon';
-import { Box, Flex, VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { tokenSchema } from '@keystar/ui/style';
-import { TextArea, TextField } from '@keystar/ui/text-field';
-import { Text } from '@keystar/ui/typography';
+import { ObjectField, PreviewProps } from '@orclickag/keystatic-core';
+import { ClearButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { imageIcon } from '@orclickag/keystatic-ui/icon/icons/imageIcon';
+import { Box, Flex, VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
+import { TextArea, TextField } from '@orclickag/keystatic-ui/text-field';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { cloudImageSchema } from '../../../component-blocks/cloud-image-schema';
 import {

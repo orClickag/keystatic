@@ -1,4 +1,4 @@
-import { breakpoints } from '@keystar/ui/style';
+import { breakpoints } from '@orclickag/keystatic-ui/style';
 import { useResizeObserver } from 'react-aria/private/utils/useResizeObserver';
 import { RefObject, createContext, useContext, useState } from 'react';
 

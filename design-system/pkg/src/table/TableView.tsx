@@ -73,11 +73,11 @@ import {
 import { GridNode } from 'react-stately/private/grid/GridCollection';
 import { ITableCollection as TableCollection } from 'react-stately/private/table/TableCollection';
 
-import { Checkbox } from '@keystar/ui/checkbox';
-import { Icon } from '@keystar/ui/icon';
-import { gripVerticalIcon } from '@keystar/ui/icon/icons/gripVerticalIcon';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { gripVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/gripVerticalIcon';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
@@ -85,10 +85,10 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import {
   TableContext,

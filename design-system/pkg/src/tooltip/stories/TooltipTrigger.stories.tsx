@@ -1,9 +1,9 @@
-import { action, ArgTypes, Meta } from '@keystar/ui-storybook';
+import { action, ArgTypes, Meta } from '@orclickag/keystatic-ui-storybook';
 
-import { Button, ActionButton } from '@keystar/ui/button';
-import { Flex } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { Text } from '@keystar/ui/typography';
+import { Button, ActionButton } from '@orclickag/keystatic-ui/button';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Tooltip, TooltipTrigger, TooltipTriggerProps } from '..';
 import { MOUSE_REST_TIMEOUT } from '../TooltipTrigger';

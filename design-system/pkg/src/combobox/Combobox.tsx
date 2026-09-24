@@ -20,26 +20,26 @@ import { useComboBoxState } from 'react-stately/useComboBoxState';
 import { AriaButtonProps } from 'react-aria/useButton';
 import { LoadingState } from '@react-types/shared';
 
-import { FieldButton } from '@keystar/ui/button';
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
-import { Icon } from '@keystar/ui/icon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { Flex } from '@keystar/ui/layout';
-import { ListBoxBase, listStyles, useListBoxLayout } from '@keystar/ui/listbox';
-import { Popover } from '@keystar/ui/overlays';
-import { ProgressCircle } from '@keystar/ui/progress';
+import { FieldButton } from '@orclickag/keystatic-ui/button';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { ListBoxBase, listStyles, useListBoxLayout } from '@orclickag/keystatic-ui/listbox';
+import { Popover } from '@orclickag/keystatic-ui/overlays';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
 import {
   FocusRing,
   css,
   tokenSchema,
   useIsMobileDevice,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import {
   TextFieldPrimitive,
   validateTextFieldProps,
-} from '@keystar/ui/text-field';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/text-field';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { comboboxClassList } from './class-list';
 import localizedMessages from './l10n';

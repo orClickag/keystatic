@@ -1,4 +1,4 @@
-import { Combobox, Item } from '@keystar/ui/combobox';
+import { Combobox, Item } from '@orclickag/keystatic-ui/combobox';
 import { filter } from 'minimatch';
 import { useReducer, useMemo, useState, useEffect } from 'react';
 import { useTree } from '../../../app/shell/data';

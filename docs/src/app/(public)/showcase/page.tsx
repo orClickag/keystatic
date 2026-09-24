@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import type { EntryWithResolvedLinkedFiles } from '@keystatic/core/reader';
+import type { EntryWithResolvedLinkedFiles } from '@orclickag/keystatic-core/reader';
 
 import { reader } from '../../../utils/reader';
 import keystaticConfig from '../../../../keystatic.config';

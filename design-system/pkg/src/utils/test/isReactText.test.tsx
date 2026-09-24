@@ -1,5 +1,5 @@
 import { expect, describe, it } from 'vitest';
-import { isReactText } from '@keystar/ui/utils';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 describe('utils/isReactText', () => {
   it('string', () => {

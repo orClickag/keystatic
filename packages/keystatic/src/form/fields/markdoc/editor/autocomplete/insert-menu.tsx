@@ -1,5 +1,5 @@
-import { Icon } from '@keystar/ui/icon';
-import { Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { matchSorter } from 'match-sorter';
 import { NodeType } from 'prosemirror-model';
 import { Command, EditorState } from 'prosemirror-state';

@@ -1,7 +1,7 @@
 import { expect, describe, it } from 'vitest';
 
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { Icon } from '@keystar/ui/icon';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import { renderWithProvider } from '#test-utils';
 
 import { Badge } from '..';

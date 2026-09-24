@@ -1,5 +1,5 @@
 import { cx } from './emotion';
-import { TOKEN_PREFIX } from '@keystar/ui/primitives';
+import { TOKEN_PREFIX } from '@orclickag/keystatic-ui/primitives';
 import { assert } from 'emery';
 
 export const classNamePrefix = TOKEN_PREFIX;

@@ -3,21 +3,21 @@ import { useSlotId } from 'react-aria/private/utils/useId';
 import { DOMProps } from '@react-types/shared';
 import { ReactNode, useMemo, useRef } from 'react';
 
-import { checkCircle2Icon } from '@keystar/ui/icon/icons/checkCircle2Icon';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { alertTriangleIcon } from '@keystar/ui/icon/icons/alertTriangleIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Grid, minmax } from '@keystar/ui/layout';
-import { Content, SlotProvider } from '@keystar/ui/slots';
-import { isReactText, useHasChild } from '@keystar/ui/utils';
+import { checkCircle2Icon } from '@orclickag/keystatic-ui/icon/icons/checkCircle2Icon';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { alertTriangleIcon } from '@orclickag/keystatic-ui/icon/icons/alertTriangleIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Grid, minmax } from '@orclickag/keystatic-ui/layout';
+import { Content, SlotProvider } from '@orclickag/keystatic-ui/slots';
+import { isReactText, useHasChild } from '@orclickag/keystatic-ui/utils';
 import {
   BaseStyleProps,
   ClassList,
   css,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 export const noticeClassList = new ClassList('Notice', ['heading']);
 

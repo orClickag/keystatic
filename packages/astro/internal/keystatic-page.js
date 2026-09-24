@@ -1,4 +1,4 @@
-import { makePage } from '../dist/keystatic-astro-ui.js';
+import { makePage } from '@orclickag/keystatic-astro/ui';
 // eslint-disable-next-line import/no-unresolved
 import config from 'virtual:keystatic-config';
 

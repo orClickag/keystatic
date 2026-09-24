@@ -18,7 +18,7 @@ The reader API code is meant to run on the server, and not in the browser. Be su
 To read from local storage, import the `createReader` function, as well as your Keystatic config file:
 
 ```javascript
-import { createReader } from '@keystatic/core/reader';
+import { createReader } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from 'relative/path/to/your/keystatic.config';
 ```
 
@@ -36,7 +36,7 @@ const reader = createReader(process.cwd(), keystaticConfig);
 To read from GitHub, import the `createGitHubReader` function, as well as your Keystatic config file:
 
 ```javascript
-import { createGitHubReader } from '@keystatic/core/reader/github';
+import { createGitHubReader } from '@orclickag/keystatic-core/reader/github';
 import keystaticConfig from 'relative/path/to/your/keystatic.config';
 ```
 
@@ -135,7 +135,7 @@ await reader.collections.posts.read(slug, { resolveLinkedFiles: true });
 The Reader API exports an `Entry` type, which is useful when you need to define what props a UI component should receive:
 
 ```ts
-import { Entry } from '@keystatic/core/reader';
+import { Entry } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../../keystatic.config';
 
 type MovieProps = Entry<typeof keystaticConfig['collections']['movies']>
@@ -148,7 +148,7 @@ export function Movie(props: MovieProps) {
 If your data was read using the `resolvedLinkedFiles` option, you can use the `EntryWithResolvedLinkedFiles` type instead:
 
 ```ts
-import { EntryWithResolvedLinkedFiles } from '@keystatic/core/reader';
+import { EntryWithResolvedLinkedFiles } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../../keystatic.config';
 
 type MovieProps = EntryWithResolvedLinkedFiles<typeof keystaticConfig['collections']['movies']>
@@ -176,4 +176,4 @@ This segment of the [Keystatic Mini-Course on YouTube](https://www.youtube.com/p
 
 ## Type signature
 
-Find the latest version of the `Reader` type signature at: [https://docsmill.dev/npm/@keystatic/core@latest#/.reader.Reader](https://docsmill.dev/npm/@keystatic/core@latest#/reader.Reader)
+Find the latest version of the `Reader` type signature at: [https://docsmill.dev/npm/@orclickag/keystatic-core@latest#/.reader.Reader](https://docsmill.dev/npm/@orclickag/keystatic-core@latest#/reader.Reader)

@@ -1,4 +1,4 @@
-import { VoussoirTheme } from '@keystar/ui/style';
+import { VoussoirTheme } from '@orclickag/keystatic-ui/style';
 import { useLayoutEffect } from 'react';
 
 import { useProvider } from './context';

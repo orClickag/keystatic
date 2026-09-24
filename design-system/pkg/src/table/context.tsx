@@ -1,4 +1,4 @@
-import type { DragAndDropHooks } from '@keystar/ui/drag-and-drop';
+import type { DragAndDropHooks } from '@orclickag/keystatic-ui/drag-and-drop';
 
 import type { DraggableCollectionState } from 'react-stately/useDraggableCollectionState';
 import type { DroppableCollectionState } from 'react-stately/useDroppableCollectionState';

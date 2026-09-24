@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
-import { Button } from '@keystar/ui/button';
-import { menuIcon } from '@keystar/ui/icon/icons/menuIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Box, Divider } from '@keystar/ui/layout';
-import { breakpointQueries, css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { menuIcon } from '@orclickag/keystatic-ui/icon/icons/menuIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Box, Divider } from '@orclickag/keystatic-ui/layout';
+import { breakpointQueries, css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { HEADER_HEIGHT, SIDEBAR_WIDTH } from '../constants';
 import { useSidebarContext } from './context';

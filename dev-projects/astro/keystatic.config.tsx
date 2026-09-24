@@ -1,4 +1,4 @@
-import { config, collection, singleton, fields } from '@keystatic/core';
+import { config, collection, singleton, fields } from '@orclickag/keystatic-core';
 
 export default config({
   storage: {

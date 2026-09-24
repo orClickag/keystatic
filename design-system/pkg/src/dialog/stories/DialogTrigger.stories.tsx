@@ -1,12 +1,12 @@
 import { chain } from 'react-aria/chain';
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useRef } from 'react';
 
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Flex } from '@keystar/ui/layout';
-import { Content, Header } from '@keystar/ui/slots';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Content, Header } from '@orclickag/keystatic-ui/slots';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { AlertDialog, Dialog, DialogTrigger, DialogTriggerProps } from '..';
 import { getParagraph } from './common';

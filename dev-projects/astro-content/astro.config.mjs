@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import markdoc from '@astrojs/markdoc';
 import node from '@astrojs/node';
-import keystatic from '@keystatic/astro';
+import keystatic from '@orclickag/keystatic-astro';
 
 // https://astro.build/config
 export default defineConfig({

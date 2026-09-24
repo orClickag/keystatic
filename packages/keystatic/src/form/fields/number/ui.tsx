@@ -1,7 +1,8 @@
-import { NumberField } from '@keystar/ui/number-field';
+import { NumberField } from '@orclickag/keystatic-ui/number-field';
 import { useReducer } from 'react';
 import { validateNumber } from './validateNumber';
 import { FormFieldInputProps } from '../../api';
+import { useFieldSpan } from '../context';
 
 export function NumberFieldInput(
   props: FormFieldInputProps<number | null> & {
@@ -14,6 +15,7 @@ export function NumberFieldInput(
   }
 ) {
   const [blurred, onBlur] = useReducer(() => true, false);
+  const fieldSpan = useFieldSpan();
 
   return (
     <NumberField
@@ -32,6 +34,7 @@ export function NumberFieldInput(
       }
       onBlur={onBlur}
       autoFocus={props.autoFocus}
+      width={fieldSpan < 12 ? '100%' : undefined}
       step={props.step}
       value={props.value === null ? undefined : props.value}
       onChange={val => {

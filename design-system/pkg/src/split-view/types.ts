@@ -1,5 +1,5 @@
 import { ReactElement, ReactNode } from 'react';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 import { DOMProps } from '@react-types/shared';
 
 export type CursorState = 'horizontal' | 'horizontal-max' | 'horizontal-min';

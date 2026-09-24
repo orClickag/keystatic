@@ -1,16 +1,16 @@
 import { useLandmark } from 'react-aria/useLandmark';
 import React, { useRef, useState } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Dialog, DialogTrigger } from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { checkCircle2Icon } from '@keystar/ui/icon/icons/checkCircle2Icon';
-import { infoIcon } from '@keystar/ui/icon/icons/infoIcon';
-import { alertTriangleIcon } from '@keystar/ui/icon/icons/alertTriangleIcon';
-import { Box, Flex } from '@keystar/ui/layout';
-import { Content } from '@keystar/ui/slots';
-import { ArgTypes, Meta, action } from '@keystar/ui-storybook';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Dialog, DialogTrigger } from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { checkCircle2Icon } from '@orclickag/keystatic-ui/icon/icons/checkCircle2Icon';
+import { infoIcon } from '@orclickag/keystatic-ui/icon/icons/infoIcon';
+import { alertTriangleIcon } from '@orclickag/keystatic-ui/icon/icons/alertTriangleIcon';
+import { Box, Flex } from '@orclickag/keystatic-ui/layout';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { ArgTypes, Meta, action } from '@orclickag/keystatic-ui-storybook';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Toaster, ToastOptions, toastQueue } from '..';
 

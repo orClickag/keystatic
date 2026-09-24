@@ -1,6 +1,6 @@
 // @ts-ignore
 import * as componentsFromPackages from '../generated/components';
-import { allIcons } from '@keystar/ui/icon/all';
+import { allIcons } from '@orclickag/keystatic-ui/icon/all';
 import * as exampleHelpers from './example-helpers';
 import * as internationalizedDate from '@internationalized/date';
 import { useCollator } from 'react-aria/useCollator';

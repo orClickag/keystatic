@@ -7,11 +7,11 @@ import {
   useContext,
 } from 'react';
 
-import { Button, ButtonGroup } from '@keystar/ui/button';
-import { Content } from '@keystar/ui/slots';
-import { useStyleProps } from '@keystar/ui/style';
-import { Heading, Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+import { Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { useStyleProps } from '@orclickag/keystatic-ui/style';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { DialogContext, DialogContextValue } from './context';
 import { Dialog } from './Dialog';

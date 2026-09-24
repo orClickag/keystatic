@@ -2,8 +2,8 @@ import { LabelAria } from 'react-aria/useLabel';
 import { AriaLabelingProps, DOMProps, InputBase } from '@react-types/shared';
 import { HTMLAttributes, ReactElement, ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
-import { HTMLTag } from '@keystar/ui/utils/ts';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
+import { HTMLTag } from '@orclickag/keystatic-ui/utils/ts';
 
 type FieldRenderInputProps = LabelAria['fieldProps'] & {
   disabled?: boolean;

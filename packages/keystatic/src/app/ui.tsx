@@ -7,12 +7,12 @@ import {
   Fragment,
 } from 'react';
 
-import { Button } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { fileX2Icon } from '@keystar/ui/icon/icons/fileX2Icon';
-import { githubIcon } from '@keystar/ui/icon/icons/githubIcon';
-import { Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { Button } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { fileX2Icon } from '@orclickag/keystatic-ui/icon/icons/fileX2Icon';
+import { githubIcon } from '@orclickag/keystatic-ui/icon/icons/githubIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { CloudConfig, Config, GitHubConfig } from '../config';
 import { CollectionPage } from './CollectionPage';

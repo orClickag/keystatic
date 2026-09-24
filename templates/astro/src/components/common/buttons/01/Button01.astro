@@ -1,0 +1,8 @@
+---
+type Props = { href: string; label: string; newTab?: boolean };
+const { href, label, newTab = false } = Astro.props;
+---
+
+<a class="button button--primary" href={href} target={newTab ? '_blank' : undefined} rel={newTab ? 'noopener noreferrer' : undefined}>
+  {label}
+</a>

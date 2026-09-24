@@ -8,7 +8,7 @@ import {
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 type InputProps = {
   autoFocus?: boolean;

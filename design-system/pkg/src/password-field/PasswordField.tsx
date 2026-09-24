@@ -6,15 +6,15 @@ import {
   Ref,
 } from 'react';
 
-import { ActionButton, ActionButtonProps } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { eyeIcon } from '@keystar/ui/icon/icons/eyeIcon';
-import { eyeOffIcon } from '@keystar/ui/icon/icons/eyeOffIcon';
-import { ClassList, css, tokenSchema } from '@keystar/ui/style';
+import { ActionButton, ActionButtonProps } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { eyeIcon } from '@orclickag/keystatic-ui/icon/icons/eyeIcon';
+import { eyeOffIcon } from '@orclickag/keystatic-ui/icon/icons/eyeOffIcon';
+import { ClassList, css, tokenSchema } from '@orclickag/keystatic-ui/style';
 import {
   TextFieldPrimitive,
   validateTextFieldProps,
-} from '@keystar/ui/text-field';
+} from '@orclickag/keystatic-ui/text-field';
 
 import { PasswordFieldProps } from './types';
 import { usePasswordField } from './usePasswordField';

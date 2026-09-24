@@ -1,20 +1,20 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useAsyncList } from 'react-stately/useAsyncList';
 import { useListData } from 'react-stately/useListData';
 import { ItemDropTarget, Key } from '@react-types/shared';
 
 import React from 'react';
 
-import { ActionGroup } from '@keystar/ui/action-group';
-import { useDragAndDrop } from '@keystar/ui/drag-and-drop';
-import { Icon } from '@keystar/ui/icon';
-import { copyIcon } from '@keystar/ui/icon/icons/copyIcon';
-import { listPlusIcon } from '@keystar/ui/icon/icons/listPlusIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Image } from '@keystar/ui/image';
-import { Flex } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { Text } from '@keystar/ui/typography';
+import { ActionGroup } from '@orclickag/keystatic-ui/action-group';
+import { useDragAndDrop } from '@orclickag/keystatic-ui/drag-and-drop';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { copyIcon } from '@orclickag/keystatic-ui/icon/icons/copyIcon';
+import { listPlusIcon } from '@orclickag/keystatic-ui/icon/icons/listPlusIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Image } from '@orclickag/keystatic-ui/image';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Item, ListView } from '..';
 

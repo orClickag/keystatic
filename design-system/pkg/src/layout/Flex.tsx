@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
-import { filterStyleProps, FlexStyleProps } from '@keystar/ui/style';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { filterStyleProps, FlexStyleProps } from '@orclickag/keystatic-ui/style';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import { flexStyleProps, useFlexStyleProps } from './resolvers';
 

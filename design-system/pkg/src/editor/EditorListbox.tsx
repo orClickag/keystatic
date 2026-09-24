@@ -9,8 +9,8 @@ import {
 } from '@react-types/shared';
 import { Key, RefObject, useEffect, useMemo, useRef } from 'react';
 
-import { ListBoxBase, listStyles, useListBoxLayout } from '@keystar/ui/listbox';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { ListBoxBase, listStyles, useListBoxLayout } from '@orclickag/keystatic-ui/listbox';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type EditorListboxProps<T> = {
   listenerRef: RefObject<HTMLElement | null>;

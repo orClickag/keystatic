@@ -10,18 +10,18 @@ import { useLocale } from 'react-aria/I18nProvider';
 import { VisuallyHidden } from 'react-aria/VisuallyHidden';
 import React, { HTMLAttributes, RefObject } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { chevronLeftIcon } from '@keystar/ui/icon/icons/chevronLeftIcon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronLeftIcon } from '@orclickag/keystatic-ui/icon/icons/chevronLeftIcon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
 import {
   BaseStyleProps,
   classNames,
   css,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Heading } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/style';
+import { Heading } from '@orclickag/keystatic-ui/typography';
 
 import { CalendarMonth } from './CalendarMonth';
 

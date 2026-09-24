@@ -1,6 +1,6 @@
 import { Tag } from '@markdoc/markdoc';
-import { Flex } from '@keystar/ui/layout';
-import { Heading, Text } from '@keystar/ui/typography';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { generateToc } from '../utils/generate-toc';
 import { DocsContent } from './content';
 import { DocContent } from './mdx-components/mdx-content';

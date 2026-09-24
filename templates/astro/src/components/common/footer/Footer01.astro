@@ -1,0 +1,10 @@
+---
+import type { Footer01Data } from './Footer01Data';
+
+type Props = Footer01Data;
+const { columns } = Astro.props;
+---
+
+<footer>
+  {columns.map(column => <section><h2>{column.title}</h2>{column.text ? <p>{column.text}</p> : null}</section>)}
+</footer>

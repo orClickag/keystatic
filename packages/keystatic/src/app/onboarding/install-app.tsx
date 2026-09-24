@@ -1,8 +1,8 @@
-import { ActionButton, Button } from '@keystar/ui/button';
-import { Flex } from '@keystar/ui/layout';
-import { Notice } from '@keystar/ui/notice';
-import { TextField } from '@keystar/ui/text-field';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton, Button } from '@orclickag/keystatic-ui/button';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Notice } from '@orclickag/keystatic-ui/notice';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { useRouter } from '../router';
 import { GitHubConfig } from '../../config';
 import { createContext, useContext } from 'react';

@@ -3,12 +3,12 @@ import { useObjectRef } from 'react-aria/useObjectRef';
 import { useSearchFieldState } from 'react-stately/useSearchFieldState';
 import { forwardRef } from 'react';
 
-import { ClearButton } from '@keystar/ui/button';
-import { searchIcon } from '@keystar/ui/icon/icons/searchIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { css } from '@keystar/ui/style';
-import { TextFieldPrimitive } from '@keystar/ui/text-field';
+import { ClearButton } from '@orclickag/keystatic-ui/button';
+import { searchIcon } from '@orclickag/keystatic-ui/icon/icons/searchIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { css } from '@orclickag/keystatic-ui/style';
+import { TextFieldPrimitive } from '@orclickag/keystatic-ui/text-field';
 
 import { SearchFieldProps } from './types';
 

@@ -1,7 +1,7 @@
 import { useSeparator } from 'react-aria/useSeparator';
 import { filterDOMProps } from 'react-aria/filterDOMProps';
 
-import { useSlotProps } from '@keystar/ui/slots';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
 import {
   ClassList,
   classNames,
@@ -9,9 +9,9 @@ import {
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { DividerProps } from '@keystar/ui/types';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+} from '@orclickag/keystatic-ui/style';
+import { DividerProps } from '@orclickag/keystatic-ui/types';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 export const dividerClassList = new ClassList('Divider');
 const filterOptions = { propNames: new Set(['role']) };

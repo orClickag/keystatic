@@ -1,6 +1,6 @@
 import { AriaLabelingProps, DOMProps, Orientation } from '@react-types/shared';
 
-import { BaseStyleProps, SizeBorder } from '@keystar/ui/style';
+import { BaseStyleProps, SizeBorder } from '@orclickag/keystatic-ui/style';
 
 export type DividerProps = {
   /**

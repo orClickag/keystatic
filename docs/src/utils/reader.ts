@@ -1,4 +1,4 @@
-import { createReader, Reader } from '@keystatic/core/reader';
+import { createReader, Reader } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../../keystatic.config';
 import { cache } from 'react';
 

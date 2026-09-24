@@ -2,10 +2,10 @@ import { ReactNode } from 'react';
 import { Element } from 'slate';
 import { RenderElementProps } from 'slate-react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { trashIcon } from '@keystar/ui/icon/icons/trashIcon';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { trashIcon } from '@orclickag/keystatic-ui/icon/icons/trashIcon';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
 
 import { BlockPopover, BlockPopoverTrigger } from '../primitives';
 

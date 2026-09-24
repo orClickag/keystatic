@@ -4,16 +4,16 @@ import { useLink } from 'react-aria/useLink';
 import { DOMProps } from '@react-types/shared';
 import { forwardRef, ReactNode, useMemo } from 'react';
 
-import { SlotProvider } from '@keystar/ui/slots';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   FocusRing,
   classNames,
   css,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { itemIndicatorGutter, itemIndicatorWidth } from './constants';
 

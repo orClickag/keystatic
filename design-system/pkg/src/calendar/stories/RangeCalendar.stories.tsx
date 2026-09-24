@@ -1,6 +1,6 @@
 import { CalendarDate, getLocalTimeZone, today } from '@internationalized/date';
 
-import { action, Parameters, StoryObj } from '@keystar/ui-storybook';
+import { action, Parameters, StoryObj } from '@orclickag/keystatic-ui-storybook';
 
 import { RangeCalendar } from '../index';
 

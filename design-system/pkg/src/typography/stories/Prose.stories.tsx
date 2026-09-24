@@ -98,7 +98,7 @@ Integer molestie lorem at massa
 console.log(foo(5));</code>
 </pre>
 <h3>Inline code</h3>
-<p>We export a config object wrapped in the <code>config</code> function imported from <code>@keystatic/core</code>.</p>
+<p>We export a config object wrapped in the <code>config</code> function imported from <code>@orclickag/keystatic-core</code>.</p>
 
 <h2>Links</h2>
 <p>A paragraph that contains <a href="http://dev.nodeca.com">link text</a> within it.</p>

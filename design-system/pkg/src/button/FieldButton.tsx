@@ -10,9 +10,9 @@ import {
   useMemo,
 } from 'react';
 
-import { useSlotProps } from '@keystar/ui/slots';
-import { FocusRing, classNames, css } from '@keystar/ui/style';
-import { PropsWithElementType } from '@keystar/ui/utils/ts';
+import { useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { FocusRing, classNames, css } from '@orclickag/keystatic-ui/style';
+import { PropsWithElementType } from '@orclickag/keystatic-ui/utils/ts';
 
 import { FieldButtonProps } from './types';
 import { useActionButtonStyles } from './useActionButtonStyles';

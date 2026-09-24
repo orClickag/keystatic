@@ -1,9 +1,9 @@
-import { Icon } from '@keystar/ui/icon';
-import { homeIcon } from '@keystar/ui/icon/icons/homeIcon';
-import { mailsIcon } from '@keystar/ui/icon/icons/mailsIcon';
-import { tagIcon } from '@keystar/ui/icon/icons/tagIcon';
-import { Box, Divider } from '@keystar/ui/layout';
-import { Emoji, Text } from '@keystar/ui/typography';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { homeIcon } from '@orclickag/keystatic-ui/icon/icons/homeIcon';
+import { mailsIcon } from '@orclickag/keystatic-ui/icon/icons/mailsIcon';
+import { tagIcon } from '@orclickag/keystatic-ui/icon/icons/tagIcon';
+import { Box, Divider } from '@orclickag/keystatic-ui/layout';
+import { Emoji, Text } from '@orclickag/keystatic-ui/typography';
 
 import { NavList, NavGroup, NavItem } from '..';
 

@@ -30,20 +30,20 @@ import React, {
   useRef,
 } from 'react';
 
-import { Icon } from '@keystar/ui/icon';
-import { chevronLeftIcon } from '@keystar/ui/icon/icons/chevronLeftIcon';
-import { chevronRightIcon } from '@keystar/ui/icon/icons/chevronRightIcon';
-import { dotIcon } from '@keystar/ui/icon/icons/dotIcon';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronLeftIcon } from '@orclickag/keystatic-ui/icon/icons/chevronLeftIcon';
+import { chevronRightIcon } from '@orclickag/keystatic-ui/icon/icons/chevronRightIcon';
+import { dotIcon } from '@orclickag/keystatic-ui/icon/icons/dotIcon';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
   toDataAttributes,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { TreeKeyboardDelegate } from './TreeKeyboardDelegate';
 import { NavTreeProps } from './types';

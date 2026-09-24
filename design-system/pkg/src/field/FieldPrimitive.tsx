@@ -1,5 +1,5 @@
-import { Flex } from '@keystar/ui/layout';
-import { css, tokenSchema, useStyleProps } from '@keystar/ui/style';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { css, tokenSchema, useStyleProps } from '@orclickag/keystatic-ui/style';
 import {
   forwardRef,
   ForwardRefExoticComponent,

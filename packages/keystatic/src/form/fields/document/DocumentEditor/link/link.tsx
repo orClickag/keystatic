@@ -3,22 +3,22 @@ import { useEffect, useMemo, useState } from 'react';
 import { Editor, Node, Range, Transforms } from 'slate';
 import { ReactEditor, RenderElementProps, useSlateStatic } from 'slate-react';
 
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
 import {
   Dialog,
   DialogContainer,
   useDialogContainer,
-} from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { editIcon } from '@keystar/ui/icon/icons/editIcon';
-import { externalLinkIcon } from '@keystar/ui/icon/icons/externalLinkIcon';
-import { linkIcon } from '@keystar/ui/icon/icons/linkIcon';
-import { unlinkIcon } from '@keystar/ui/icon/icons/unlinkIcon';
-import { Flex } from '@keystar/ui/layout';
-import { Content } from '@keystar/ui/slots';
-import { TextField } from '@keystar/ui/text-field';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { editIcon } from '@orclickag/keystatic-ui/icon/icons/editIcon';
+import { externalLinkIcon } from '@orclickag/keystatic-ui/icon/icons/externalLinkIcon';
+import { linkIcon } from '@orclickag/keystatic-ui/icon/icons/linkIcon';
+import { unlinkIcon } from '@orclickag/keystatic-ui/icon/icons/unlinkIcon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import l10nMessages from '../../../../../app/l10n';
 import {

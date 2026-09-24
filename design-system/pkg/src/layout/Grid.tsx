@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
-import { filterStyleProps, GridStyleProps } from '@keystar/ui/style';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { filterStyleProps, GridStyleProps } from '@orclickag/keystatic-ui/style';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import { gridStyleProps, useGridStyleProps } from './resolvers';
 

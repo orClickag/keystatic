@@ -1,6 +1,6 @@
-import { Flex } from '@keystar/ui/layout';
-import { SlotProvider } from '@keystar/ui/slots';
-import { tokenSchema } from '@keystar/ui/style';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
 
 import { Kbd, Text } from '..';
 

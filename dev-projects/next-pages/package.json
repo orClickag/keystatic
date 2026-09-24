@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.18.3",
-    "@keystar/ui": "workspace:*",
-    "@keystatic/core": "workspace:^",
-    "@keystatic/next": "workspace:^",
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-next": "workspace:^",
+    "@orclickag/keystatic-ui": "workspace:*",
     "@preconstruct/next": "^4.0.0",
     "@types/react": "^19.2.18",
     "graphql": "^16.6.0",

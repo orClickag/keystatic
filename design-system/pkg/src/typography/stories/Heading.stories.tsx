@@ -1,4 +1,4 @@
-import { Grid } from '@keystar/ui/layout';
+import { Grid } from '@orclickag/keystatic-ui/layout';
 
 import { Heading } from '..';
 

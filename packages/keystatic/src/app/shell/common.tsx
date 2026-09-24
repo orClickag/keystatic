@@ -1,5 +1,5 @@
-import { useProvider } from '@keystar/ui/core';
-import { useMediaQuery } from '@keystar/ui/style';
+import { useProvider } from '@orclickag/keystatic-ui/core';
+import { useMediaQuery } from '@orclickag/keystatic-ui/style';
 
 import { serializeRepoConfig } from '../repo-config';
 import { useConfig } from './context';

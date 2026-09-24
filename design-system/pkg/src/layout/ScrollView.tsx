@@ -21,7 +21,7 @@ import {
   css,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import { useGridStyleProps } from './resolvers';
 
 export type ScrollDirection = 'vertical' | 'horizontal';

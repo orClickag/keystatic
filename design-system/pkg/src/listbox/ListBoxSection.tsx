@@ -9,9 +9,9 @@ import { LayoutInfo } from 'react-stately/useVirtualizerState';
 import { Node } from '@react-types/shared';
 import { Fragment, ReactNode, useRef } from 'react';
 
-import { Divider } from '@keystar/ui/layout';
-import { classNames, css, tokenSchema } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
+import { Divider } from '@orclickag/keystatic-ui/layout';
+import { classNames, css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { useListBoxContext } from './context';
 

@@ -1,9 +1,9 @@
-import { Badge } from '@keystar/ui/badge';
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { plusIcon } from '@keystar/ui/icon/icons/plusIcon';
-import { Divider, Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { plusIcon } from '@orclickag/keystatic-ui/icon/icons/plusIcon';
+import { Divider, Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { ItemOrGroup, useNavItems } from '../useNavItems';
 import { pluralize } from '../pluralize';

@@ -22,8 +22,8 @@ import {
 } from 'react-stately/useOverlayTriggerState';
 import { Element, Editor } from 'slate';
 
-import { Overlay, PopoverProps } from '@keystar/ui/overlays';
-import { css, tokenSchema, transition } from '@keystar/ui/style';
+import { Overlay, PopoverProps } from '@orclickag/keystatic-ui/overlays';
+import { css, tokenSchema, transition } from '@orclickag/keystatic-ui/style';
 
 import { nodeTypeMatcher } from '../utils';
 

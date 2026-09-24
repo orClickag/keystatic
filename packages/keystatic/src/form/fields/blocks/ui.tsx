@@ -1,14 +1,14 @@
-import { ActionButton, ButtonGroup, Button } from '@keystar/ui/button';
+import { ActionButton, ButtonGroup, Button } from '@orclickag/keystatic-ui/button';
 import {
   DialogContainer,
   Dialog,
   useDialogContainer,
-} from '@keystar/ui/dialog';
-import { FieldDescription, FieldLabel, FieldMessage } from '@keystar/ui/field';
-import { VStack } from '@keystar/ui/layout';
-import { MenuTrigger, Menu, Item } from '@keystar/ui/menu';
-import { Content } from '@keystar/ui/slots';
-import { Heading } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/dialog';
+import { FieldDescription, FieldLabel, FieldMessage } from '@orclickag/keystatic-ui/field';
+import { VStack } from '@orclickag/keystatic-ui/layout';
+import { MenuTrigger, Menu, Item } from '@orclickag/keystatic-ui/menu';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { Heading } from '@orclickag/keystatic-ui/typography';
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { useField } from 'react-aria/useField';
 import { useId, useState, useMemo } from 'react';

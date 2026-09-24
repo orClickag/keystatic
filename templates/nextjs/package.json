@@ -13,9 +13,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@keystatic/core": "workspace:^",
-    "@keystatic/next": "workspace:^",
     "@markdoc/markdoc": "^0.4.0",
+    "@orclickag/keystatic-core": "workspace:^",
+    "@orclickag/keystatic-next": "workspace:^",
     "next": "~15.1.10",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

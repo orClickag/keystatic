@@ -1,4 +1,4 @@
-import { classNames, css, tokenSchema } from '@keystar/ui/style';
+import { classNames, css, tokenSchema } from '@orclickag/keystatic-ui/style';
 import React, { HTMLAttributes } from 'react';
 
 export function InsertionIndicatorPrimitive(

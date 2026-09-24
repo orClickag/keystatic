@@ -1,7 +1,7 @@
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Flex } from '@keystar/ui/layout';
-import { Content, Footer, Header } from '@keystar/ui/slots';
-import { Heading, Text } from '@keystar/ui/typography';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Content, Footer, Header } from '@orclickag/keystatic-ui/slots';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { ReactElement } from 'react';
 
 import { Dialog, DialogProps, DialogTrigger } from '..';

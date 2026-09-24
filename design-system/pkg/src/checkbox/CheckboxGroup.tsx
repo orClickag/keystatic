@@ -6,9 +6,9 @@ import React, {
   forwardRef,
 } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive, validateFieldProps } from '@keystar/ui/field';
-import { classNames, css, toDataAttributes } from '@keystar/ui/style';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive, validateFieldProps } from '@orclickag/keystatic-ui/field';
+import { classNames, css, toDataAttributes } from '@orclickag/keystatic-ui/style';
 
 import { CheckboxGroupContext } from './context';
 import { CheckboxGroupProps } from './types';

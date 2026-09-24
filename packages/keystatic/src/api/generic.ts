@@ -70,7 +70,7 @@ export function makeGenericAPIRouteHandler(
       throw new Error(
         `Found incomplete URL in Keystatic API route URL handler${
           options?.slugEnvName === 'NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG'
-            ? ". Make sure you're using the latest version of @keystatic/next"
+            ? ". Make sure you're using the latest version of @orclickag/keystatic-next"
             : ''
         }`
       );
@@ -208,7 +208,7 @@ async function githubOauthCallback(
       status: 400,
       body: `An error occurred when trying to authenticate with GitHub:\n${errorDescription}${
         error === 'redirect_uri_mismatch'
-          ? `\n\nIf you were trying to sign in locally and recently upgraded Keystatic from @keystatic/core@0.0.69 or below, you need to add \`http://127.0.0.1/api/keystatic/github/oauth/callback\` as a callback URL in your GitHub app.`
+          ? `\n\nIf you were trying to sign in locally and recently upgraded Keystatic from @orclickag/keystatic-core@0.0.69 or below, you need to add \`http://127.0.0.1/api/keystatic/github/oauth/callback\` as a callback URL in your GitHub app.`
           : ''
       }`,
     };

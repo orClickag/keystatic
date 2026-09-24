@@ -1,4 +1,4 @@
-import { fields, component, NotEditable } from '@keystatic/core';
+import { fields, component, NotEditable } from '@orclickag/keystatic-core';
 
 import { layoutProps } from './layout-props';
 

@@ -1,7 +1,7 @@
 'use client';
 
 export { EditorListbox } from './EditorListbox';
-export { Item, Section } from '@keystar/ui/listbox';
+export { Item, Section } from '@orclickag/keystatic-ui/listbox';
 export { EditorPopover } from './EditorPopover';
 export {
   EditorToolbar,

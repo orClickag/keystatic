@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
-import { action, Parameters, StoryObj } from '@keystar/ui-storybook';
-import { ActionButton } from '@keystar/ui/button';
-import { Flex } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { action, Parameters, StoryObj } from '@orclickag/keystatic-ui-storybook';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { TextField } from '..';
 

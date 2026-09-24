@@ -1,5 +1,5 @@
-import { Config } from '@keystatic/core';
-import { getAllowedDirectories } from '@keystatic/core/api/utils';
+import { Config } from '@orclickag/keystatic-core';
+import { getAllowedDirectories } from '@orclickag/keystatic-core/api/utils';
 import path from 'path';
 import fs from 'fs/promises';
 import { createHash } from 'crypto';

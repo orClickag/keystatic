@@ -11,32 +11,32 @@ import {
   useState,
 } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
 import {
   EditorToolbar,
   EditorToolbarButton,
   EditorToolbarGroup,
   EditorToolbarItem,
   EditorToolbarSeparator,
-} from '@keystar/ui/editor';
-import { Icon } from '@keystar/ui/icon';
-import { boldIcon } from '@keystar/ui/icon/icons/boldIcon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { codeIcon } from '@keystar/ui/icon/icons/codeIcon';
-import { italicIcon } from '@keystar/ui/icon/icons/italicIcon';
-import { listIcon } from '@keystar/ui/icon/icons/listIcon';
-import { listOrderedIcon } from '@keystar/ui/icon/icons/listOrderedIcon';
-import { minusIcon } from '@keystar/ui/icon/icons/minusIcon';
-import { plusIcon } from '@keystar/ui/icon/icons/plusIcon';
-import { quoteIcon } from '@keystar/ui/icon/icons/quoteIcon';
-import { removeFormattingIcon } from '@keystar/ui/icon/icons/removeFormattingIcon';
-import { strikethroughIcon } from '@keystar/ui/icon/icons/strikethroughIcon';
-import { tableIcon } from '@keystar/ui/icon/icons/tableIcon';
-import { MenuTrigger, Menu } from '@keystar/ui/menu';
-import { Picker, Item } from '@keystar/ui/picker';
-import { breakpointQueries, css, tokenSchema } from '@keystar/ui/style';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Text, Kbd } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/editor';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { boldIcon } from '@orclickag/keystatic-ui/icon/icons/boldIcon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { codeIcon } from '@orclickag/keystatic-ui/icon/icons/codeIcon';
+import { italicIcon } from '@orclickag/keystatic-ui/icon/icons/italicIcon';
+import { listIcon } from '@orclickag/keystatic-ui/icon/icons/listIcon';
+import { listOrderedIcon } from '@orclickag/keystatic-ui/icon/icons/listOrderedIcon';
+import { minusIcon } from '@orclickag/keystatic-ui/icon/icons/minusIcon';
+import { plusIcon } from '@orclickag/keystatic-ui/icon/icons/plusIcon';
+import { quoteIcon } from '@orclickag/keystatic-ui/icon/icons/quoteIcon';
+import { removeFormattingIcon } from '@orclickag/keystatic-ui/icon/icons/removeFormattingIcon';
+import { strikethroughIcon } from '@orclickag/keystatic-ui/icon/icons/strikethroughIcon';
+import { tableIcon } from '@orclickag/keystatic-ui/icon/icons/tableIcon';
+import { MenuTrigger, Menu } from '@orclickag/keystatic-ui/menu';
+import { Picker, Item } from '@orclickag/keystatic-ui/picker';
+import { breakpointQueries, css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Text, Kbd } from '@orclickag/keystatic-ui/typography';
 
 import {
   useEditorDispatchCommand,
@@ -51,8 +51,8 @@ import { ImageToolbarButton } from './images';
 import { useEntryLayoutSplitPaneContext } from '../../../../app/entry-form';
 import { itemRenderer } from './autocomplete/insert-menu';
 import { LinkDialog } from './popovers/link-toolbar';
-import { DialogContainer } from '@keystar/ui/dialog';
-import { linkIcon } from '@keystar/ui/icon/icons/linkIcon';
+import { DialogContainer } from '@orclickag/keystatic-ui/dialog';
+import { linkIcon } from '@orclickag/keystatic-ui/icon/icons/linkIcon';
 import { markAround } from './popovers';
 import { useEditorKeydownListener } from './keydown';
 

@@ -1,5 +1,5 @@
-import { Box, VStack } from '@keystar/ui/layout';
-import { StoryFn, StoryObj, action } from '@keystar/ui-storybook';
+import { Box, VStack } from '@orclickag/keystatic-ui/layout';
+import { StoryFn, StoryObj, action } from '@orclickag/keystatic-ui-storybook';
 
 import { Breadcrumbs, BreadcrumbsProps, Item } from '..';
 import { ReactNode } from 'react';

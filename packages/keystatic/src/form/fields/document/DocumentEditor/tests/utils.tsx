@@ -9,7 +9,7 @@ import { createDocumentEditor, DocumentEditorEditable } from '..';
 import { ComponentBlock } from '../../../../api';
 import { DocumentFeatures } from '../document-features';
 import { createToolbarState, ToolbarStateProvider } from '../toolbar-state';
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 import { normaliseDocumentFeatures } from '../..';
 
 import { expect } from 'vitest';

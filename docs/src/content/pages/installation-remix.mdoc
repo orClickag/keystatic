@@ -18,7 +18,7 @@ npx create-remix@latest
 Add Keystatic's `core` and `remix` packages and `@markdoc/markdoc`:
 
 ```bash
-npm install @keystatic/core @keystatic/remix @markdoc/markdoc
+npm install @orclickag/keystatic-core @orclickag/keystatic-remix @markdoc/markdoc
 ```
 
 ## Creating a Keystatic config file
@@ -27,7 +27,7 @@ Create a file called `keystatic.config.ts` in the root of the project and add th
 
 ```ts
 // keystatic.config.ts
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from '@orclickag/keystatic-core';
 
 export default config({
   storage: {
@@ -59,7 +59,7 @@ Create an `app/routes/keystatic.$.tsx` file that will host all Admin UI routes:
 
 ```ts
 // app/routes/keystatic.$.tsx
-import { makePage } from '@keystatic/remix/ui';
+import { makePage } from '@orclickag/keystatic-remix/ui';
 import config from '../../keystatic.config';
 
 export default makePage(config);
@@ -70,7 +70,7 @@ Next, create an `app/routes/api.keystatic.$.tsx` file that will handle API route
 ```ts
 // app/routes/api.keystatic.$.tsx
 import type { ActionFunction, LoaderFunction } from '@remix-run/node';
-import { handleLoader } from '@keystatic/remix/api';
+import { handleLoader } from '@orclickag/keystatic-remix/api';
 import config from '../../keystatic.config';
 
 export const loader: LoaderFunction = args => handleLoader({ config }, args);
@@ -164,7 +164,7 @@ The following example displays a list of each post title, with a link to an indi
 
 ```tsx
 // app/routes/posts._index.tsx
-import { createReader } from '@keystatic/core/reader'
+import { createReader } from '@orclickag/keystatic-core/reader'
 import { Link, useLoaderData } from '@remix-run/react'
 import { json } from '@remix-run/node'
 
@@ -201,7 +201,7 @@ To display content from an individual post, you can use Markdoc's `transform` an
 // app/routes/posts.$slug.tsx
 import React from 'react';
 import Markdoc from '@markdoc/markdoc'
-import { createReader } from '@keystatic/core/reader'
+import { createReader } from '@orclickag/keystatic-core/reader'
 import { type LoaderFunctionArgs, json } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 

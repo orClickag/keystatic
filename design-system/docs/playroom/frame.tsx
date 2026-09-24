@@ -3,7 +3,7 @@ import { ReactNode, type JSX } from 'react';
 import {
   ClientSideOnlyDocumentElement,
   KeystarProvider,
-} from '@keystar/ui/core';
+} from '@orclickag/keystatic-ui/core';
 
 export default function FrameComponent({
   children,

@@ -9,26 +9,26 @@ import {
   ButtonGroup,
   ClearButton,
   ToggleButton,
-} from '@keystar/ui/button';
-import { Dialog, DialogContainer, DialogTrigger } from '@keystar/ui/dialog';
-import { FileTrigger } from '@keystar/ui/drag-and-drop';
-import { Icon } from '@keystar/ui/icon';
-import { imageIcon } from '@keystar/ui/icon/icons/imageIcon';
-import { link2Icon } from '@keystar/ui/icon/icons/link2Icon';
-import { link2OffIcon } from '@keystar/ui/icon/icons/link2OffIcon';
-import { pencilIcon } from '@keystar/ui/icon/icons/pencilIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { undo2Icon } from '@keystar/ui/icon/icons/undo2Icon';
-import { Flex, HStack, VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { NumberField } from '@keystar/ui/number-field';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { Content } from '@keystar/ui/slots';
-import { TextArea, TextField } from '@keystar/ui/text-field';
-import { toastQueue } from '@keystar/ui/toast';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
-import { useId } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/button';
+import { Dialog, DialogContainer, DialogTrigger } from '@orclickag/keystatic-ui/dialog';
+import { FileTrigger } from '@orclickag/keystatic-ui/drag-and-drop';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { imageIcon } from '@orclickag/keystatic-ui/icon/icons/imageIcon';
+import { link2Icon } from '@orclickag/keystatic-ui/icon/icons/link2Icon';
+import { link2OffIcon } from '@orclickag/keystatic-ui/icon/icons/link2OffIcon';
+import { pencilIcon } from '@orclickag/keystatic-ui/icon/icons/pencilIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { undo2Icon } from '@orclickag/keystatic-ui/icon/icons/undo2Icon';
+import { Flex, HStack, VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { NumberField } from '@orclickag/keystatic-ui/number-field';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { Content } from '@orclickag/keystatic-ui/slots';
+import { TextArea, TextField } from '@orclickag/keystatic-ui/text-field';
+import { toastQueue } from '@orclickag/keystatic-ui/toast';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
+import { useId } from '@orclickag/keystatic-ui/utils';
 
 import { useConfig } from '../app/shell/context';
 import { focusWithPreviousSelection } from '../form/fields/document/DocumentEditor/ui-utils';
@@ -45,7 +45,7 @@ import {
   ParsedValueForComponentSchema,
 } from '..';
 import { getCloudAuth } from '../app/auth';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type CloudImageProps = {
   src: string;

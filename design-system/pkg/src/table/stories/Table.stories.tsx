@@ -1,11 +1,11 @@
-import { action, ArgTypes } from '@keystar/ui-storybook';
-import { Badge } from '@keystar/ui/badge';
-import { Box, Flex, VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { tokenSchema } from '@keystar/ui/style';
-import { ActionButton } from '@keystar/ui/button';
-import { Switch } from '@keystar/ui/switch';
-import { Heading, Text } from '@keystar/ui/typography';
+import { action, ArgTypes } from '@orclickag/keystatic-ui-storybook';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { Box, Flex, VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Switch } from '@orclickag/keystatic-ui/switch';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 import { useAsyncList } from 'react-stately/useAsyncList';
 import { Key, useMemo, useState } from 'react';
 

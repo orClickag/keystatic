@@ -1,4 +1,4 @@
-import { Breadcrumbs, Item } from '@keystar/ui/breadcrumbs';
+import { Breadcrumbs, Item } from '@orclickag/keystatic-ui/breadcrumbs';
 import { Key, memo } from 'react';
 
 type HeaderBreadcrumbsProps = {

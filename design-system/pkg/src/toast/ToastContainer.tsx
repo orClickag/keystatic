@@ -3,13 +3,13 @@ import { useToastRegion } from 'react-aria/useToast';
 import React, { ReactElement, useRef } from 'react';
 import ReactDOM from 'react-dom';
 
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 import {
   FocusRing,
   useIsMobileDevice,
   css,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { ToastContainerProps } from './types';
 

@@ -1,5 +1,5 @@
 import { base64UrlDecode, base64UrlEncode } from '#base64';
-import { toastQueue } from '@keystar/ui/toast';
+import { toastQueue } from '@orclickag/keystatic-ui/toast';
 import { ComponentSchema } from '../form/api';
 import { serializeEntryToFiles } from './updating';
 import { parseEntry } from './useItemData';

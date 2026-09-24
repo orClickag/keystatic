@@ -10,14 +10,14 @@ import {
   Ref,
 } from 'react';
 
-import { useProvider, useProviderProps } from '@keystar/ui/core';
+import { useProvider, useProviderProps } from '@orclickag/keystatic-ui/core';
 import {
   css,
   onlyStyleProps,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
-import { TextFieldPrimitive } from '@keystar/ui/text-field';
+} from '@orclickag/keystatic-ui/style';
+import { TextFieldPrimitive } from '@orclickag/keystatic-ui/text-field';
 
 import { StepButton } from './StepButton';
 import { NumberFieldProps } from './types';

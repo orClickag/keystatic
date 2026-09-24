@@ -1,5 +1,5 @@
 import { useMeter } from 'react-aria/useMeter';
-import { css, toDataAttributes, tokenSchema } from '@keystar/ui/style';
+import { css, toDataAttributes, tokenSchema } from '@orclickag/keystatic-ui/style';
 import { ForwardedRef, forwardRef } from 'react';
 
 import { BarBase } from './BarBase';

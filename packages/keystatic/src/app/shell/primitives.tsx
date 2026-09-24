@@ -1,5 +1,5 @@
-import { Box, BoxProps, Flex, FlexProps } from '@keystar/ui/layout';
-import { css } from '@keystar/ui/style';
+import { Box, BoxProps, Flex, FlexProps } from '@orclickag/keystatic-ui/layout';
+import { css } from '@orclickag/keystatic-ui/style';
 
 // defaults resolve some flex panel layout issues
 export const View = (props: BoxProps) => {

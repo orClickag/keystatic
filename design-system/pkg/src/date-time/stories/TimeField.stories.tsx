@@ -5,7 +5,7 @@ import {
   Time,
   toZoned,
 } from '@internationalized/date';
-import { ArgTypes, action } from '@keystar/ui-storybook';
+import { ArgTypes, action } from '@orclickag/keystatic-ui-storybook';
 import { useState } from 'react';
 
 import { TimeField } from '..';

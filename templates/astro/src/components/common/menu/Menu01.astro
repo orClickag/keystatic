@@ -1,0 +1,12 @@
+---
+import type { Menu01Data } from './Menu01Data';
+
+type Props = Menu01Data & { links?: Record<string, { title: string; link: string; newTab?: boolean }> };
+const { items, links = {} } = Astro.props;
+---
+
+<nav aria-label="Menu principal">
+  <ul>
+    {items.map(id => links[id] ? <li><a href={links[id].link} target={links[id].newTab ? '_blank' : undefined} rel={links[id].newTab ? 'noopener noreferrer' : undefined}>{links[id].title}</a></li> : null)}
+  </ul>
+</nav>

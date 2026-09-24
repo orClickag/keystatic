@@ -4,14 +4,14 @@ import { ReactEditor, RenderElementProps, useSlateStatic } from 'slate-react';
 import { Item } from 'react-stately/Item';
 import { matchSorter } from 'match-sorter';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Combobox } from '@keystar/ui/combobox';
-import { codeIcon } from '@keystar/ui/icon/icons/codeIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Icon } from '@keystar/ui/icon';
-import { Flex } from '@keystar/ui/layout';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Combobox } from '@orclickag/keystatic-ui/combobox';
+import { codeIcon } from '@orclickag/keystatic-ui/icon/icons/codeIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 
 import { useDocumentEditorConfig, useToolbarState } from '../toolbar-state';
 import {

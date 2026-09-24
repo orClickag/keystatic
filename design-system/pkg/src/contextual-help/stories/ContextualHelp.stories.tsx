@@ -1,7 +1,7 @@
-import { StoryObj } from '@keystar/ui-storybook';
-import { Content, Footer } from '@keystar/ui/slots';
-import { TextLink } from '@keystar/ui/link';
-import { Heading, Text } from '@keystar/ui/typography';
+import { StoryObj } from '@orclickag/keystatic-ui-storybook';
+import { Content, Footer } from '@orclickag/keystatic-ui/slots';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { ContextualHelp } from '../index';
 

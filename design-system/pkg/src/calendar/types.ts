@@ -1,7 +1,7 @@
 import { AriaCalendarProps } from 'react-aria/useCalendar';
 import { AriaRangeCalendarProps } from 'react-aria/useRangeCalendar';
 import { DateValue } from 'react-stately/useCalendarState';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export interface CalendarProps<T extends DateValue>
   extends AriaCalendarProps<T>,

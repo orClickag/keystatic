@@ -2,11 +2,11 @@ import { useMemo } from 'react';
 import { Editor, Transforms } from 'slate';
 import { ReactEditor, RenderElementProps } from 'slate-react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { quoteIcon } from '@keystar/ui/icon/icons/quoteIcon';
-import { Icon } from '@keystar/ui/icon';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { quoteIcon } from '@orclickag/keystatic-ui/icon/icons/quoteIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 
 import { useToolbarState } from '../toolbar-state';
 import { isElementActive } from '../utils';

@@ -1,29 +1,33 @@
 {
-  "name": "@keystatic/create",
+  "name": "@orclickag/keystatic-create",
   "version": "0.0.7",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "bin": {
     "create-keystatic": "./bin.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkmill/keystatic/",
+    "url": "https://github.com/orClickag/keystatic/",
     "directory": "packages/create"
   },
   "scripts": {
     "dev": "node ."
   },
-  "main": "dist/keystatic-create.cjs.js",
-  "module": "dist/keystatic-create.esm.js",
+  "main": "dist/orclickag-keystatic-create.cjs.js",
+  "module": "dist/orclickag-keystatic-create.esm.js",
   "exports": {
     ".": {
       "types": {
-        "import": "./dist/keystatic-create.cjs.mjs",
-        "default": "./dist/keystatic-create.cjs.js"
+        "import": "./dist/orclickag-keystatic-create.cjs.mjs",
+        "default": "./dist/orclickag-keystatic-create.cjs.js"
       },
-      "module": "./dist/keystatic-create.esm.js",
-      "import": "./dist/keystatic-create.cjs.mjs",
-      "default": "./dist/keystatic-create.cjs.js"
+      "module": "./dist/orclickag-keystatic-create.esm.js",
+      "import": "./dist/orclickag-keystatic-create.cjs.mjs",
+      "default": "./dist/orclickag-keystatic-create.cjs.js"
     },
     "./package.json": "./package.json"
   },

@@ -1,14 +1,14 @@
 import { DOMProps } from '@react-types/shared';
 import { createContext, ReactNode, useContext } from 'react';
 
-import { TOKEN_PREFIX } from '@keystar/ui/primitives';
+import { TOKEN_PREFIX } from '@orclickag/keystatic-ui/primitives';
 import {
   BoxStyleProps,
   classNames,
   filterStyleProps,
   useStyleProps,
-} from '@keystar/ui/style';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+} from '@orclickag/keystatic-ui/style';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 const levels = ['one', 'two', 'three'];
 const MAX_LEVEL = levels.length - 1;

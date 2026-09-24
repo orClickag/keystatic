@@ -1,7 +1,7 @@
 import {
   APIRouteConfig,
   makeGenericAPIRouteHandler,
-} from '@keystatic/core/api/generic';
+} from '@orclickag/keystatic-core/api/generic';
 import type { APIContext } from 'astro';
 import { getSecret } from 'astro:env/server';
 

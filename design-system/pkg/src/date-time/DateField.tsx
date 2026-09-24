@@ -5,8 +5,8 @@ import { useDateFieldState } from 'react-stately/useDateFieldState';
 import { DateValue } from 'react-stately/useCalendarState';
 import React, { ReactElement, Ref, useRef } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { FieldPrimitive } from '@keystar/ui/field';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { FieldPrimitive } from '@orclickag/keystatic-ui/field';
 
 import { Input } from './Input';
 import { InputSegment } from './InputSegment';

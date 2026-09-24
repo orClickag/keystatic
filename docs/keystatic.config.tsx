@@ -1,13 +1,13 @@
-import { config, fields, collection, singleton } from '@keystatic/core';
+import { config, fields, collection, singleton } from '@orclickag/keystatic-core';
 import {
   block,
   cloudImage,
   repeating,
   wrapper,
-} from '@keystatic/core/content-components';
-import { Badge } from '@keystar/ui/badge';
-import { Flex } from '@keystar/ui/layout';
-import { tagIcon } from '@keystar/ui/icon/icons/tagIcon';
+} from '@orclickag/keystatic-core/content-components';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { tagIcon } from '@orclickag/keystatic-ui/icon/icons/tagIcon';
 import { isNonEmptyArray } from 'emery/guards';
 import { assert } from 'emery/assertions';
 import Markdoc, { Config, Node, ValidateError } from '@markdoc/markdoc';

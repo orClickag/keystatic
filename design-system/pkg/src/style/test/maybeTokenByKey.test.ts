@@ -1,4 +1,4 @@
-import { maybeTokenByKey } from '@keystar/ui/style';
+import { maybeTokenByKey } from '@orclickag/keystatic-ui/style';
 import { expect, describe, it } from 'vitest';
 
 describe('style/maybeTokenByKey', function () {

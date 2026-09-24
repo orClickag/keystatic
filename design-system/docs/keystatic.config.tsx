@@ -1,4 +1,4 @@
-import { collection, config, fields } from '@keystatic/core';
+import { collection, config, fields } from '@orclickag/keystatic-core';
 import { categories } from './utils/categories';
 
 export default config({

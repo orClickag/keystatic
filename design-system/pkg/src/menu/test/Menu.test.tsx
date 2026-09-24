@@ -1,7 +1,7 @@
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { Icon } from '@keystar/ui/icon';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import { act, fireEvent, firePress, KEYS, render, within } from '#test-utils';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 import {
   type MockInstance,
   expect,

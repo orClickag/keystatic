@@ -1,27 +1,41 @@
-import { config, fields, collection } from '@keystatic/core';
+import { createComponentLibraryCollections } from '@orclickag/keystatic-components';
+import {
+  createContentCollections,
+  createContentSingletons,
+} from '@orclickag/keystatic-content';
+import { config } from '@orclickag/keystatic-core';
+import {
+  componentLibraryTemplates,
+  pageBuilderTemplates,
+} from './src/components/widgets/keystatic';
 
 export default config({
   storage: {
     kind: 'local',
   },
+  locale: 'pt-BR',
+  ui: {
+    brand: { name: 'Astro Page Builder' },
+    navigation: {
+      Conteúdo: ['pages', 'blogPosts', 'catalogs', 'libraryEntries'],
+      Mídia: ['mediaLibrary'],
+      'Biblioteca de blocos': [
+        'components',
+        'feature',
+        'links',
+        'menus',
+        'footers',
+      ],
+      Configurações: ['branches'],
+    },
+  },
   collections: {
-    posts: collection({
-      label: 'Posts',
-      slugField: 'title',
-      path: 'src/content/posts/*',
-      format: { contentField: 'content' },
-      schema: {
-        title: fields.slug({ name: { label: 'Title' } }),
-        content: fields.markdoc({
-          label: 'Content',
-          options: {
-            image: {
-              directory: 'src/assets/images/posts',
-              publicPath: '../../assets/images/posts/',
-            },
-          },
-        }),
-      },
+    ...createContentCollections({
+      pageBuilder: { templates: pageBuilderTemplates },
+    }),
+    ...createComponentLibraryCollections({
+      templates: componentLibraryTemplates,
     }),
   },
+  singletons: createContentSingletons(),
 });

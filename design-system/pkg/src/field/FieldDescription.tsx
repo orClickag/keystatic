@@ -1,7 +1,7 @@
 import { DOMProps } from '@react-types/shared';
 import { PropsWithChildren } from 'react';
 
-import { Text } from '@keystar/ui/typography';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 type FieldDescriptionProps = PropsWithChildren<DOMProps>;
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Config } from '@keystatic/core';
-import { Keystatic as GenericKeystatic } from '@keystatic/core/ui';
+import { Config } from '@orclickag/keystatic-core';
+import { Keystatic as GenericKeystatic } from '@orclickag/keystatic-core/ui';
 
 const appSlug = {
   envName: 'PUBLIC_KEYSTATIC_GITHUB_APP_SLUG',

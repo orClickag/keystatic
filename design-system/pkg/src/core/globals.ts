@@ -3,17 +3,17 @@ import {
   SCHEME_AUTO,
   SCHEME_DARK,
   SCHEME_LIGHT,
-} from '@keystar/ui/primitives';
+} from '@orclickag/keystatic-ui/primitives';
 import {
   VoussoirTheme,
   css,
   injectGlobal,
   resetClassName,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { cssCustomProperties } from './cssCustomProperties';
-import { ColorScheme } from '@keystar/ui/types';
+import { ColorScheme } from '@orclickag/keystatic-ui/types';
 
 type StrictBackground = keyof VoussoirTheme['color']['background'];
 

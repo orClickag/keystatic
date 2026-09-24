@@ -2,15 +2,15 @@ import { useMemo } from 'react';
 import { Editor } from 'slate';
 import { RenderElementProps, useSelected } from 'slate-react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { tokenSchema } from '@keystar/ui/style';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Text, Kbd } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Text, Kbd } from '@orclickag/keystatic-ui/typography';
 
 import { useToolbarState } from './toolbar-state';
 import { insertNodesButReplaceIfSelectionIsAtEmptyParagraphOrHeading } from './ui-utils';
-import { Icon } from '@keystar/ui/icon';
-import { minusIcon } from '@keystar/ui/icon/icons/minusIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { minusIcon } from '@orclickag/keystatic-ui/icon/icons/minusIcon';
 
 export function insertDivider(editor: Editor) {
   insertNodesButReplaceIfSelectionIsAtEmptyParagraphOrHeading(editor, {

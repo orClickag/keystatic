@@ -1,16 +1,16 @@
 import { cloneElement } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { alignCenterVerticalIcon } from '@keystar/ui/icon/icons/alignCenterVerticalIcon';
-import { alignStartVerticalIcon } from '@keystar/ui/icon/icons/alignStartVerticalIcon';
-import { alignEndVerticalIcon } from '@keystar/ui/icon/icons/alignEndVerticalIcon';
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { boldIcon } from '@keystar/ui/icon/icons/boldIcon';
-import { italicIcon } from '@keystar/ui/icon/icons/italicIcon';
-import { action, ArgTypes } from '@keystar/ui-storybook';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Kbd, Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { alignCenterVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignCenterVerticalIcon';
+import { alignStartVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignStartVerticalIcon';
+import { alignEndVerticalIcon } from '@orclickag/keystatic-ui/icon/icons/alignEndVerticalIcon';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { boldIcon } from '@orclickag/keystatic-ui/icon/icons/boldIcon';
+import { italicIcon } from '@orclickag/keystatic-ui/icon/icons/italicIcon';
+import { action, ArgTypes } from '@orclickag/keystatic-ui-storybook';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Kbd, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Item, Menu, MenuTrigger, Section } from '../index';
 

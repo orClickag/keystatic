@@ -1,4 +1,4 @@
-import { config, collection, fields } from '@keystatic/core';
+import { config, collection, fields } from '@orclickag/keystatic-core';
 
 export const markdocConfig = fields.markdoc.createMarkdocConfig({});
 

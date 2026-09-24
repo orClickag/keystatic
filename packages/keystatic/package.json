@@ -1,103 +1,107 @@
 {
-  "name": "@keystatic/core",
+  "name": "@orclickag/keystatic-core",
   "version": "0.6.9",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkmill/keystatic/",
+    "url": "https://github.com/orClickag/keystatic/",
     "directory": "packages/keystatic"
   },
   "type": "module",
   "exports": {
     "./ui": {
-      "types": "./dist/keystatic-core-ui.js",
+      "types": "./dist/orclickag-keystatic-core-ui.js",
       "node": {
-        "react-server": "./dist/keystatic-core-ui.node.react-server.js",
-        "default": "./dist/keystatic-core-ui.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-ui.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-ui.node.js"
       },
-      "react-server": "./dist/keystatic-core-ui.react-server.js",
-      "worker": "./dist/keystatic-core-ui.worker.js",
-      "default": "./dist/keystatic-core-ui.js"
+      "react-server": "./dist/orclickag-keystatic-core-ui.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-ui.worker.js",
+      "default": "./dist/orclickag-keystatic-core-ui.js"
     },
     ".": {
-      "types": "./dist/keystatic-core.js",
+      "types": "./dist/orclickag-keystatic-core.js",
       "node": {
-        "react-server": "./dist/keystatic-core.node.react-server.js",
-        "default": "./dist/keystatic-core.node.js"
+        "react-server": "./dist/orclickag-keystatic-core.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core.node.js"
       },
-      "react-server": "./dist/keystatic-core.react-server.js",
-      "worker": "./dist/keystatic-core.worker.js",
-      "default": "./dist/keystatic-core.js"
+      "react-server": "./dist/orclickag-keystatic-core.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core.worker.js",
+      "default": "./dist/orclickag-keystatic-core.js"
     },
     "./api/utils": {
-      "types": "./dist/keystatic-core-api-utils.js",
+      "types": "./dist/orclickag-keystatic-core-api-utils.js",
       "node": {
-        "react-server": "./dist/keystatic-core-api-utils.node.react-server.js",
-        "default": "./dist/keystatic-core-api-utils.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-api-utils.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-api-utils.node.js"
       },
-      "react-server": "./dist/keystatic-core-api-utils.react-server.js",
-      "worker": "./dist/keystatic-core-api-utils.worker.js",
-      "default": "./dist/keystatic-core-api-utils.js"
+      "react-server": "./dist/orclickag-keystatic-core-api-utils.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-api-utils.worker.js",
+      "default": "./dist/orclickag-keystatic-core-api-utils.js"
     },
     "./renderer": {
-      "types": "./dist/keystatic-core-renderer.js",
+      "types": "./dist/orclickag-keystatic-core-renderer.js",
       "node": {
-        "react-server": "./dist/keystatic-core-renderer.node.react-server.js",
-        "default": "./dist/keystatic-core-renderer.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-renderer.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-renderer.node.js"
       },
-      "react-server": "./dist/keystatic-core-renderer.react-server.js",
-      "worker": "./dist/keystatic-core-renderer.worker.js",
-      "default": "./dist/keystatic-core-renderer.js"
+      "react-server": "./dist/orclickag-keystatic-core-renderer.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-renderer.worker.js",
+      "default": "./dist/orclickag-keystatic-core-renderer.js"
     },
     "./api/generic": {
-      "types": "./dist/keystatic-core-api-generic.js",
+      "types": "./dist/orclickag-keystatic-core-api-generic.js",
       "node": {
-        "react-server": "./dist/keystatic-core-api-generic.node.react-server.js",
-        "default": "./dist/keystatic-core-api-generic.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-api-generic.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-api-generic.node.js"
       },
-      "react-server": "./dist/keystatic-core-api-generic.react-server.js",
-      "worker": "./dist/keystatic-core-api-generic.worker.js",
-      "default": "./dist/keystatic-core-api-generic.js"
+      "react-server": "./dist/orclickag-keystatic-core-api-generic.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-api-generic.worker.js",
+      "default": "./dist/orclickag-keystatic-core-api-generic.js"
     },
     "./reader": {
-      "types": "./dist/keystatic-core-reader.js",
+      "types": "./dist/orclickag-keystatic-core-reader.js",
       "node": {
-        "react-server": "./dist/keystatic-core-reader.node.react-server.js",
-        "default": "./dist/keystatic-core-reader.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-reader.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-reader.node.js"
       },
-      "react-server": "./dist/keystatic-core-reader.react-server.js",
-      "worker": "./dist/keystatic-core-reader.worker.js",
-      "default": "./dist/keystatic-core-reader.js"
+      "react-server": "./dist/orclickag-keystatic-core-reader.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-reader.worker.js",
+      "default": "./dist/orclickag-keystatic-core-reader.js"
     },
     "./reader/github": {
-      "types": "./dist/keystatic-core-reader-github.js",
+      "types": "./dist/orclickag-keystatic-core-reader-github.js",
       "node": {
-        "react-server": "./dist/keystatic-core-reader-github.node.react-server.js",
-        "default": "./dist/keystatic-core-reader-github.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-reader-github.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-reader-github.node.js"
       },
-      "react-server": "./dist/keystatic-core-reader-github.react-server.js",
-      "worker": "./dist/keystatic-core-reader-github.worker.js",
-      "default": "./dist/keystatic-core-reader-github.js"
+      "react-server": "./dist/orclickag-keystatic-core-reader-github.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-reader-github.worker.js",
+      "default": "./dist/orclickag-keystatic-core-reader-github.js"
     },
     "./content-components": {
-      "types": "./dist/keystatic-core-content-components.js",
+      "types": "./dist/orclickag-keystatic-core-content-components.js",
       "node": {
-        "react-server": "./dist/keystatic-core-content-components.node.react-server.js",
-        "default": "./dist/keystatic-core-content-components.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-content-components.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-content-components.node.js"
       },
-      "react-server": "./dist/keystatic-core-content-components.react-server.js",
-      "worker": "./dist/keystatic-core-content-components.worker.js",
-      "default": "./dist/keystatic-core-content-components.js"
+      "react-server": "./dist/orclickag-keystatic-core-content-components.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-content-components.worker.js",
+      "default": "./dist/orclickag-keystatic-core-content-components.js"
     },
     "./component-blocks": {
-      "types": "./dist/keystatic-core-component-blocks.js",
+      "types": "./dist/orclickag-keystatic-core-component-blocks.js",
       "node": {
-        "react-server": "./dist/keystatic-core-component-blocks.node.react-server.js",
-        "default": "./dist/keystatic-core-component-blocks.node.js"
+        "react-server": "./dist/orclickag-keystatic-core-component-blocks.node.react-server.js",
+        "default": "./dist/orclickag-keystatic-core-component-blocks.node.js"
       },
-      "react-server": "./dist/keystatic-core-component-blocks.react-server.js",
-      "worker": "./dist/keystatic-core-component-blocks.worker.js",
-      "default": "./dist/keystatic-core-component-blocks.js"
+      "react-server": "./dist/orclickag-keystatic-core-component-blocks.react-server.js",
+      "worker": "./dist/orclickag-keystatic-core-component-blocks.worker.js",
+      "default": "./dist/orclickag-keystatic-core-component-blocks.js"
     },
     "./package.json": "./package.json"
   },
@@ -118,8 +122,8 @@
     "@internationalized/date": "^3.12.2",
     "@internationalized/number": "^3.6.7",
     "@internationalized/string": "^3.2.9",
-    "@keystar/ui": "workspace:~",
     "@markdoc/markdoc": "^0.4.0",
+    "@orclickag/keystatic-ui": "workspace:~",
     "@react-types/shared": "^3.36.0",
     "@sindresorhus/slugify": "^1.1.2",
     "@toeverything/y-indexeddb": "^0.10.0-canary.9",
@@ -202,7 +206,7 @@
     "vitest": "^4.1.10"
   },
   "peerDependencies": {
-    "@keystar/ui": "workspace:~",
+    "@orclickag/keystatic-ui": "workspace:~",
     "react": "^18.2.0 || ^19.0.0",
     "react-aria": "catalog:",
     "react-dom": "^18.2.0 || ^19.0.0",

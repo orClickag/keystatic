@@ -10,8 +10,8 @@ import {
   Validation,
 } from '@react-types/shared';
 
-import { FieldProps } from '@keystar/ui/field';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { FieldProps } from '@orclickag/keystatic-ui/field';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 type CommonProps = {
   /**

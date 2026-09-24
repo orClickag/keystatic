@@ -1,7 +1,7 @@
-import { action, ArgTypes } from '@keystar/ui-storybook';
+import { action, ArgTypes } from '@orclickag/keystatic-ui-storybook';
 
-import { Grid } from '@keystar/ui/layout';
-import { Text } from '@keystar/ui/typography';
+import { Grid } from '@orclickag/keystatic-ui/layout';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { Switch, SwitchProps } from '..';
 

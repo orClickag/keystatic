@@ -1,9 +1,9 @@
 import {
   ClientSideOnlyDocumentElement,
   KeystarProvider,
-} from '@keystar/ui/core';
-import { injectGlobal } from '@keystar/ui/style';
-import { Toaster } from '@keystar/ui/toast';
+} from '@orclickag/keystatic-ui/core';
+import { injectGlobal } from '@orclickag/keystatic-ui/style';
+import { Toaster } from '@orclickag/keystatic-ui/toast';
 import { useMemo, type JSX } from 'react';
 import {
   Provider as UrqlProvider,
@@ -195,7 +195,7 @@ export default function Provider({
       navigate(href: string, options?: { replace?: boolean }) {
         return options?.replace ? replace(href) : push(href);
       },
-      // These hooks are consumed lazily by @keystar/ui/router.
+      // These hooks are consumed lazily by @orclickag/keystatic-ui/router.
       // eslint-disable-next-line react-compiler/react-compiler
       usePathname: useKeystaticPathname,
       // eslint-disable-next-line react-compiler/react-compiler

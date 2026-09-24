@@ -7,11 +7,11 @@ import { mergeProps } from 'react-aria/mergeProps';
 import { useObjectRef } from 'react-aria/useObjectRef';
 import { ForwardedRef, forwardRef, useEffect, useMemo, useState } from 'react';
 
-import { useProviderProps } from '@keystar/ui/core';
-import { SlotProvider, useSlotProps } from '@keystar/ui/slots';
-import { FocusRing } from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+import { useProviderProps } from '@orclickag/keystatic-ui/core';
+import { SlotProvider, useSlotProps } from '@orclickag/keystatic-ui/slots';
+import { FocusRing } from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import localizedMessages from './l10n';
 import {

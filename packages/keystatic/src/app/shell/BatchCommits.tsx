@@ -1,33 +1,33 @@
 import { LoadingState, Selection } from '@react-types/shared';
 import { useEffect, useMemo, useReducer, useRef, useState } from 'react';
 
-import { Badge } from '@keystar/ui/badge';
-import { ActionButton, Button, ButtonGroup } from '@keystar/ui/button';
-import { Checkbox } from '@keystar/ui/checkbox';
+import { Badge } from '@orclickag/keystatic-ui/badge';
+import { ActionButton, Button, ButtonGroup } from '@orclickag/keystatic-ui/button';
+import { Checkbox } from '@orclickag/keystatic-ui/checkbox';
 import {
   Dialog,
   DialogContainer,
   useDialogContainer,
-} from '@keystar/ui/dialog';
-import { Icon } from '@keystar/ui/icon';
-import { gitBranchIcon } from '@keystar/ui/icon/icons/gitBranchIcon';
-import { minusSquareIcon } from '@keystar/ui/icon/icons/minusSquareIcon';
-import { plusSquareIcon } from '@keystar/ui/icon/icons/plusSquareIcon';
-import { dotSquareIcon } from '@keystar/ui/icon/icons/dotSquareIcon';
-import { undoIcon } from '@keystar/ui/icon/icons/undoIcon';
-import { HStack, VStack } from '@keystar/ui/layout';
-import { TextLink } from '@keystar/ui/link';
-import { ListView, Item } from '@keystar/ui/list-view';
-import { Content, Header } from '@keystar/ui/slots';
+} from '@orclickag/keystatic-ui/dialog';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { gitBranchIcon } from '@orclickag/keystatic-ui/icon/icons/gitBranchIcon';
+import { minusSquareIcon } from '@orclickag/keystatic-ui/icon/icons/minusSquareIcon';
+import { plusSquareIcon } from '@orclickag/keystatic-ui/icon/icons/plusSquareIcon';
+import { dotSquareIcon } from '@orclickag/keystatic-ui/icon/icons/dotSquareIcon';
+import { undoIcon } from '@orclickag/keystatic-ui/icon/icons/undoIcon';
+import { HStack, VStack } from '@orclickag/keystatic-ui/layout';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { ListView, Item } from '@orclickag/keystatic-ui/list-view';
+import { Content, Header } from '@orclickag/keystatic-ui/slots';
 import {
   breakpointQueries,
   css,
   tokenSchema,
   useMediaQuery,
-} from '@keystar/ui/style';
-import { Tooltip, TooltipTrigger } from '@keystar/ui/tooltip';
-import { Heading, Text } from '@keystar/ui/typography';
-import { usePrevious } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Tooltip, TooltipTrigger } from '@orclickag/keystatic-ui/tooltip';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
+import { usePrevious } from '@orclickag/keystatic-ui/utils';
 
 import { Config } from '../../config';
 

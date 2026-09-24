@@ -8,24 +8,24 @@ import React, {
   useState,
 } from 'react';
 
-import { ActionButton, Button } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { alertCircleIcon } from '@keystar/ui/icon/icons/alertCircleIcon';
-import { listXIcon } from '@keystar/ui/icon/icons/listXIcon';
-import { searchIcon } from '@keystar/ui/icon/icons/searchIcon';
-import { searchXIcon } from '@keystar/ui/icon/icons/searchXIcon';
-import { diffIcon } from '@keystar/ui/icon/icons/diffIcon';
-import { plusSquareIcon } from '@keystar/ui/icon/icons/plusSquareIcon';
-import { dotSquareIcon } from '@keystar/ui/icon/icons/dotSquareIcon';
-import { TextLink } from '@keystar/ui/link';
-import { ProgressCircle } from '@keystar/ui/progress';
-import { SearchField } from '@keystar/ui/search-field';
+import { ActionButton, Button } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { alertCircleIcon } from '@orclickag/keystatic-ui/icon/icons/alertCircleIcon';
+import { listXIcon } from '@orclickag/keystatic-ui/icon/icons/listXIcon';
+import { searchIcon } from '@orclickag/keystatic-ui/icon/icons/searchIcon';
+import { searchXIcon } from '@orclickag/keystatic-ui/icon/icons/searchXIcon';
+import { diffIcon } from '@orclickag/keystatic-ui/icon/icons/diffIcon';
+import { plusSquareIcon } from '@orclickag/keystatic-ui/icon/icons/plusSquareIcon';
+import { dotSquareIcon } from '@orclickag/keystatic-ui/icon/icons/dotSquareIcon';
+import { TextLink } from '@orclickag/keystatic-ui/link';
+import { ProgressCircle } from '@orclickag/keystatic-ui/progress';
+import { SearchField } from '@orclickag/keystatic-ui/search-field';
 import {
   breakpointQueries,
   css,
   tokenSchema,
   useMediaQuery,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import {
   TableView,
   TableBody,
@@ -34,8 +34,8 @@ import {
   Cell,
   Row,
   SortDescriptor,
-} from '@keystar/ui/table';
-import { Heading, Text } from '@keystar/ui/typography';
+} from '@orclickag/keystatic-ui/table';
+import { Heading, Text } from '@orclickag/keystatic-ui/typography';
 
 import { Config } from '../config';
 import { sortBy } from './collection-sort';

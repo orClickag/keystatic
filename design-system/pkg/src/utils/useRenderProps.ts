@@ -1,4 +1,4 @@
-import { WithRenderProps } from '@keystar/ui/types';
+import { WithRenderProps } from '@orclickag/keystatic-ui/types';
 import { useMemo } from 'react';
 
 /**

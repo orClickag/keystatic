@@ -1,10 +1,10 @@
-import { action } from '@keystar/ui-storybook';
+import { action } from '@orclickag/keystatic-ui-storybook';
 import { useListData } from 'react-stately/useListData';
 import { ItemDropTarget, Key } from '@react-types/shared';
 
 import React from 'react';
 
-import { useDragAndDrop } from '@keystar/ui/drag-and-drop';
+import { useDragAndDrop } from '@orclickag/keystatic-ui/drag-and-drop';
 
 import { Cell, Column, Row, TableBody, TableHeader, TableView } from '../index';
 

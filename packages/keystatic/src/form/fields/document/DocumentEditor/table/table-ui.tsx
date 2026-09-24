@@ -13,17 +13,17 @@ import {
   useSlateStatic,
 } from 'slate-react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { chevronDownIcon } from '@keystar/ui/icon/icons/chevronDownIcon';
-import { sheetIcon } from '@keystar/ui/icon/icons/sheetIcon';
-import { tableIcon } from '@keystar/ui/icon/icons/tableIcon';
-import { trash2Icon } from '@keystar/ui/icon/icons/trash2Icon';
-import { Flex } from '@keystar/ui/layout';
-import { Item, Menu, MenuTrigger } from '@keystar/ui/menu';
-import { css, toDataAttributes, tokenSchema } from '@keystar/ui/style';
-import { TooltipTrigger, Tooltip } from '@keystar/ui/tooltip';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { chevronDownIcon } from '@orclickag/keystatic-ui/icon/icons/chevronDownIcon';
+import { sheetIcon } from '@orclickag/keystatic-ui/icon/icons/sheetIcon';
+import { tableIcon } from '@orclickag/keystatic-ui/icon/icons/tableIcon';
+import { trash2Icon } from '@orclickag/keystatic-ui/icon/icons/trash2Icon';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { Item, Menu, MenuTrigger } from '@orclickag/keystatic-ui/menu';
+import { css, toDataAttributes, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { TooltipTrigger, Tooltip } from '@orclickag/keystatic-ui/tooltip';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import {
   BlockPopover,

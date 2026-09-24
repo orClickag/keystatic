@@ -11,9 +11,9 @@ import {
 } from 'vitest';
 import userEvent from '@testing-library/user-event';
 
-import { globeIcon } from '@keystar/ui/icon/icons/globeIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Text } from '@keystar/ui/typography';
+import { globeIcon } from '@orclickag/keystatic-ui/icon/icons/globeIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import {
   act,
   fireEvent,

@@ -1,4 +1,4 @@
-import { MaybeArray, ReactText } from '@keystar/ui/types';
+import { MaybeArray, ReactText } from '@orclickag/keystatic-ui/types';
 
 /**
  * Checks if an unknown value is valid React text (string | number)?[]. This is

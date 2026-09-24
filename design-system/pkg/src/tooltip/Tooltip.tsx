@@ -13,8 +13,8 @@ import {
   useRef,
 } from 'react';
 
-import { Axis, DirectionIndicator } from '@keystar/ui/overlays';
-import { SlotProvider } from '@keystar/ui/slots';
+import { Axis, DirectionIndicator } from '@orclickag/keystatic-ui/overlays';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
 import {
   classNames,
   css,
@@ -22,9 +22,9 @@ import {
   tokenSchema,
   transition,
   useStyleProps,
-} from '@keystar/ui/style';
-import { Text } from '@keystar/ui/typography';
-import { isReactText } from '@keystar/ui/utils';
+} from '@orclickag/keystatic-ui/style';
+import { Text } from '@orclickag/keystatic-ui/typography';
+import { isReactText } from '@orclickag/keystatic-ui/utils';
 
 import { TooltipContext } from './context';
 import { TooltipProps } from './types';

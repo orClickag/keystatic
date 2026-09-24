@@ -9,8 +9,8 @@ import {
 } from 'react-stately/useTableState';
 import { Key, ReactElement, ReactNode, type JSX } from 'react';
 
-import { DragAndDropHooks } from '@keystar/ui/drag-and-drop';
-import { BaseStyleProps } from '@keystar/ui/style';
+import { DragAndDropHooks } from '@orclickag/keystatic-ui/drag-and-drop';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 type ColumnElement<T> = ReactElement<ColumnProps<T>>;
 type ColumnRenderer<T> = (item: T) => ColumnElement<T>;

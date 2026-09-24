@@ -14,9 +14,9 @@ import {
 import { useObjectRef } from 'react-aria/useObjectRef';
 import { AriaLabelingProps, DOMProps } from '@react-types/shared';
 
-import { Flex } from '@keystar/ui/layout';
-import { SlotProvider } from '@keystar/ui/slots';
-import { BaseStyleProps, css, useStyleProps } from '@keystar/ui/style';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { SlotProvider } from '@orclickag/keystatic-ui/slots';
+import { BaseStyleProps, css, useStyleProps } from '@orclickag/keystatic-ui/style';
 
 import {
   itemContentGutter,

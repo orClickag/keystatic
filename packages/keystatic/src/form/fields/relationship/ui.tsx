@@ -1,5 +1,5 @@
 import { Item } from 'react-stately/Item';
-import { Combobox } from '@keystar/ui/combobox';
+import { Combobox } from '@orclickag/keystatic-ui/combobox';
 import { useReducer, useMemo, useState, useEffect } from 'react';
 import { useSlugsInCollection } from '../../../app/useSlugsInCollection';
 import { FormFieldInputProps } from '../../api';

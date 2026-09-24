@@ -2,8 +2,8 @@ import {
   SplitView,
   SplitPanePrimary,
   SplitPaneSecondary,
-} from '@keystar/ui/split-view';
-import { breakpointQueries, useMediaQuery } from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/split-view';
+import { breakpointQueries, useMediaQuery } from '@orclickag/keystatic-ui/style';
 import { ReactNode, useRef } from 'react';
 
 import { ContentPanelProvider, useContentPanelState } from './context';

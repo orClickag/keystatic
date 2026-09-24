@@ -1,14 +1,14 @@
 import { EditorView } from 'prosemirror-view';
 import { EditorState } from 'prosemirror-state';
 import { Ref, forwardRef, useId, useMemo, useState } from 'react';
-import { Box } from '@keystar/ui/layout';
-import { useProseStyleProps } from '@keystar/ui/typography';
+import { Box } from '@orclickag/keystatic-ui/layout';
+import { useProseStyleProps } from '@orclickag/keystatic-ui/typography';
 import {
   breakpointQueries,
   css,
   toDataAttributes,
   tokenSchema,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 import { Toolbar } from './Toolbar';
 import { prosemirrorStyles } from './utils';

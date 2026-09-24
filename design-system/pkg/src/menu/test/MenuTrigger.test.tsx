@@ -16,7 +16,7 @@ import {
   MenuTriggerProps,
   Section,
 } from '..';
-import { Button, ButtonProps } from '@keystar/ui/button';
+import { Button, ButtonProps } from '@orclickag/keystatic-ui/button';
 import { createRef } from 'react';
 import {
   RenderResult,

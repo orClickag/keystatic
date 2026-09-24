@@ -29,7 +29,7 @@ import {
   css,
   tokenSchema,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 export type EditorPopoverProps = {
   /**

@@ -1,10 +1,10 @@
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { refreshCwIcon } from '@keystar/ui/icon/icons/refreshCwIcon';
-import { Flex, Box } from '@keystar/ui/layout';
-import { containerQueries, css } from '@keystar/ui/style';
-import { TextField } from '@keystar/ui/text-field';
-import { Text } from '@keystar/ui/typography';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { refreshCwIcon } from '@orclickag/keystatic-ui/icon/icons/refreshCwIcon';
+import { Flex, Box } from '@orclickag/keystatic-ui/layout';
+import { containerQueries, css } from '@orclickag/keystatic-ui/style';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
+import { Text } from '@orclickag/keystatic-ui/typography';
 import { useContext, useState } from 'react';
 
 import { FormFieldInputProps } from '../../api';

@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import {
   APIRouteConfig,
   makeGenericAPIRouteHandler,
-} from '@keystatic/core/api/generic';
+} from '@orclickag/keystatic-core/api/generic';
 import { createWatcher } from './watch';
 import { getReaderKey, getResolvedDirectories } from './utils';
 

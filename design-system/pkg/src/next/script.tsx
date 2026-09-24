@@ -1,4 +1,4 @@
-import { SCHEME_AUTO, SCHEME_DARK, SCHEME_LIGHT } from '@keystar/ui/primitives';
+import { SCHEME_AUTO, SCHEME_DARK, SCHEME_LIGHT } from '@orclickag/keystatic-ui/primitives';
 
 const script = `
 let classList = document.documentElement.classList;

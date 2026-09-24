@@ -1,9 +1,9 @@
-import { bookIcon } from '@keystar/ui/icon/icons/bookIcon';
-import { githubIcon } from '@keystar/ui/icon/icons/githubIcon';
-import { Icon } from '@keystar/ui/icon';
-import { Divider } from '@keystar/ui/layout';
-import { NavGroup, NavItem, NavList } from '@keystar/ui/nav-list';
-import { Text } from '@keystar/ui/typography';
+import { bookIcon } from '@orclickag/keystatic-ui/icon/icons/bookIcon';
+import { githubIcon } from '@orclickag/keystatic-ui/icon/icons/githubIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { Divider } from '@orclickag/keystatic-ui/layout';
+import { NavGroup, NavItem, NavList } from '@orclickag/keystatic-ui/nav-list';
+import { Text } from '@orclickag/keystatic-ui/typography';
 
 import { SidebarItem } from './types';
 import { usePathname } from 'next/navigation';

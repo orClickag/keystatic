@@ -7,7 +7,7 @@ import {
 } from '@react-types/shared';
 import { RefObject } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 // deviate from react-stately's types
 type ControlledSelection = {

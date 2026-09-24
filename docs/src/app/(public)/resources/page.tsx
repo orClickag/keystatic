@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowRightIcon } from '../../../components/icons/arrow-right';
 import { reader } from '../../../utils/reader';
 import Button from '../../../components/button';
-import { Entry } from '@keystatic/core/reader';
+import { Entry } from '@orclickag/keystatic-core/reader';
 import keystaticConfig from '../../../../keystatic.config';
 import { CloudImage } from '../../../components/cloud-image';
 import { ComponentProps, ReactNode } from 'react';

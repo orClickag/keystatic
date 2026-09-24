@@ -1,4 +1,4 @@
-import { tokenSchema } from '@keystar/ui/style';
+import { tokenSchema } from '@orclickag/keystatic-ui/style';
 
 export const gapVar = tokenSchema.size.space.regular;
 export const heightVar = tokenSchema.size.element.small;

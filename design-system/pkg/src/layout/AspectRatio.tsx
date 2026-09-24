@@ -9,7 +9,7 @@ import {
   Responsive,
   useResponsiveValue,
   useStyleProps,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 
 type RatioType = `${number}` | `${number}/${number}`;
 

@@ -1,7 +1,7 @@
-import { ButtonGroup, ActionButton, Button } from '@keystar/ui/button';
-import { FieldDescription, FieldLabel, FieldMessage } from '@keystar/ui/field';
-import { Flex } from '@keystar/ui/layout';
-import { TextField } from '@keystar/ui/text-field';
+import { ButtonGroup, ActionButton, Button } from '@orclickag/keystatic-ui/button';
+import { FieldDescription, FieldLabel, FieldMessage } from '@orclickag/keystatic-ui/field';
+import { Flex } from '@orclickag/keystatic-ui/layout';
+import { TextField } from '@orclickag/keystatic-ui/text-field';
 
 import { useIsInDocumentEditor } from '../document/DocumentEditor';
 import { useId, useReducer } from 'react';

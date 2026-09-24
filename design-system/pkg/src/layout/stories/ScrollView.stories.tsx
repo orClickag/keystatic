@@ -1,4 +1,4 @@
-import { ArgTypes } from '@keystar/ui-storybook';
+import { ArgTypes } from '@orclickag/keystatic-ui-storybook';
 import { Box, ScrollView } from '../index';
 
 export default {

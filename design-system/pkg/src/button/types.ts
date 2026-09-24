@@ -9,8 +9,8 @@ import {
 } from '@react-types/shared';
 import { ReactNode } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
-import { AnchorDOMProps } from '@keystar/ui/types';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
+import { AnchorDOMProps } from '@orclickag/keystatic-ui/types';
 
 export type ButtonProminence = 'default' | 'high' | 'low';
 export type ButtonTone = 'neutral' | 'accent' | 'critical';

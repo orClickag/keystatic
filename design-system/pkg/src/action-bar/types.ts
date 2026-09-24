@@ -1,4 +1,4 @@
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 import { DOMProps, ItemProps, Key } from '@react-types/shared';
 import { ReactElement, ReactNode } from 'react';
 

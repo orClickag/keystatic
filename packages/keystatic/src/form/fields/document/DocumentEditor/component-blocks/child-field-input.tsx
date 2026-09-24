@@ -1,4 +1,4 @@
-import { Field } from '@keystar/ui/field';
+import { Field } from '@orclickag/keystatic-ui/field';
 import { GenericPreviewProps } from '../../../../api';
 import { getChildFieldData } from '../../../../preview-props';
 import { ChildField } from '../../../child';

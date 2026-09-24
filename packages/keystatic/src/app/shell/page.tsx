@@ -1,14 +1,14 @@
 import { useLocale } from 'react-aria/I18nProvider';
 import { createContext, PropsWithChildren, useContext, useRef } from 'react';
 
-import { ActionButton } from '@keystar/ui/button';
-import { Icon } from '@keystar/ui/icon';
-import { panelLeftOpenIcon } from '@keystar/ui/icon/icons/panelLeftOpenIcon';
-import { panelLeftCloseIcon } from '@keystar/ui/icon/icons/panelLeftCloseIcon';
-import { panelRightOpenIcon } from '@keystar/ui/icon/icons/panelRightOpenIcon';
-import { panelRightCloseIcon } from '@keystar/ui/icon/icons/panelRightCloseIcon';
-import { Box, BoxProps, Flex } from '@keystar/ui/layout';
-import { css, tokenSchema, VoussoirTheme } from '@keystar/ui/style';
+import { ActionButton } from '@orclickag/keystatic-ui/button';
+import { Icon } from '@orclickag/keystatic-ui/icon';
+import { panelLeftOpenIcon } from '@orclickag/keystatic-ui/icon/icons/panelLeftOpenIcon';
+import { panelLeftCloseIcon } from '@orclickag/keystatic-ui/icon/icons/panelLeftCloseIcon';
+import { panelRightOpenIcon } from '@orclickag/keystatic-ui/icon/icons/panelRightOpenIcon';
+import { panelRightCloseIcon } from '@orclickag/keystatic-ui/icon/icons/panelRightCloseIcon';
+import { Box, BoxProps, Flex } from '@orclickag/keystatic-ui/layout';
+import { css, tokenSchema, VoussoirTheme } from '@orclickag/keystatic-ui/style';
 
 import { MAIN_PANEL_ID } from './constants';
 import { ScrollView } from './primitives';

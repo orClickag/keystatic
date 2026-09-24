@@ -1,5 +1,5 @@
 import { type JSX, ReactNode } from 'react';
-import { KeystarProvider } from '@keystar/ui/core';
+import { KeystarProvider } from '@orclickag/keystatic-ui/core';
 
 export function FieldDemoFrame({
   children,

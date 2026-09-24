@@ -4,8 +4,8 @@ import { DatePickerState } from 'react-stately/useDatePickerState';
 import { DateRangePickerState } from 'react-stately/useDateRangePickerState';
 import { ReactNode, RefObject, useRef } from 'react';
 
-import { Popover, Tray } from '@keystar/ui/overlays';
-import { css, tokenSchema, useIsMobileDevice } from '@keystar/ui/style';
+import { Popover, Tray } from '@orclickag/keystatic-ui/overlays';
+import { css, tokenSchema, useIsMobileDevice } from '@orclickag/keystatic-ui/style';
 
 export function DatePickerPopover({
   state,

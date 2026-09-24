@@ -1,9 +1,9 @@
 import { useLocalizedStringFormatter } from 'react-aria/useLocalizedStringFormatter';
 import { AllHTMLAttributes } from 'react';
 
-import { css, tokenSchema } from '@keystar/ui/style';
-import { useTextStyles } from '@keystar/ui/typography';
-import { forwardRefWithAs } from '@keystar/ui/utils/ts';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
+import { useTextStyles } from '@orclickag/keystatic-ui/typography';
+import { forwardRefWithAs } from '@orclickag/keystatic-ui/utils/ts';
 
 import localizedMessages from './l10n';
 

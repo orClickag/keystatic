@@ -1,7 +1,7 @@
 import { AriaActionGroupProps } from 'react-aria/private/actiongroup/useActionGroup';
 import { ReactElement } from 'react';
 
-import { BaseStyleProps } from '@keystar/ui/style';
+import { BaseStyleProps } from '@orclickag/keystatic-ui/style';
 
 export type ActionGroupProps<T> = AriaActionGroupProps<T> & {
   /**

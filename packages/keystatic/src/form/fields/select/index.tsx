@@ -8,11 +8,15 @@ export function select<const Option extends { label: string; value: string }>({
   options,
   defaultValue,
   description,
+  width = 'auto',
+  validation,
 }: {
   label: string;
   options: readonly Option[];
   defaultValue: Option['value'];
   description?: string;
+  width?: 'auto' | 'full';
+  validation?: { isRequired?: boolean };
 }): BasicFormField<Option['value']> & {
   options: readonly Option[];
 } {
@@ -31,6 +35,8 @@ export function select<const Option extends { label: string; value: string }>({
             label={label}
             options={options}
             description={description}
+            width={width}
+            isRequired={validation?.isRequired}
             {...props}
           />
         );

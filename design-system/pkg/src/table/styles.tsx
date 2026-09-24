@@ -1,12 +1,12 @@
-import { arrowUpIcon } from '@keystar/ui/icon/icons/arrowUpIcon';
-import { Icon } from '@keystar/ui/icon';
+import { arrowUpIcon } from '@orclickag/keystatic-ui/icon/icons/arrowUpIcon';
+import { Icon } from '@orclickag/keystatic-ui/icon';
 import {
   ClassList,
   classNames,
   css,
   tokenSchema,
   transition,
-} from '@keystar/ui/style';
+} from '@orclickag/keystatic-ui/style';
 import { HTMLAttributes } from 'react';
 
 export const tableViewClassList = new ClassList('TableView', [

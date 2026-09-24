@@ -5,9 +5,9 @@ import {
   fields,
   component,
   NotEditable,
-} from '@keystatic/core';
-import { block, inline, mark } from '@keystatic/core/content-components';
-import { highlighterIcon } from '@keystar/ui/icon/icons/highlighterIcon';
+} from '@orclickag/keystatic-core';
+import { block, inline, mark } from '@orclickag/keystatic-core/content-components';
+import { highlighterIcon } from '@orclickag/keystatic-ui/icon/icons/highlighterIcon';
 import { NoteToolbar, Note } from './note';
 
 const description = 'Some description';

@@ -1,4 +1,4 @@
-import { css, tokenSchema } from '@keystar/ui/style';
+import { css, tokenSchema } from '@orclickag/keystatic-ui/style';
 import { ReactNode, useState } from 'react';
 import { RenderLeafProps } from 'slate-react';
 
